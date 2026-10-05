@@ -1,0 +1,850 @@
+{
+  "name": "AgentForge Run 5c1e8a2f-93b4-4d17-ae55-6f0c2b9d8e41 — Assess whether there is demand for a subscription meal-pl...",
+  "nodes": [
+    {
+      "parameters": {
+        "httpMethod": "POST",
+        "path": "agentforge-run-5c1e8a2f-93b4-4d17-ae55-6f0c2b9d8e41",
+        "responseMode": "onReceived",
+        "options": {}
+      },
+      "id": "fe602577-89e7-549b-aa4d-147a1c9dd034",
+      "name": "Webhook Trigger",
+      "type": "n8n-nodes-base.webhook",
+      "typeVersion": 2,
+      "position": [
+        0,
+        0
+      ],
+      "webhookId": "2de987d2-4b77-525d-8cce-30620001a659"
+    },
+    {
+      "parameters": {
+        "mode": "manual",
+        "duplicateItem": false,
+        "assignments": {
+          "assignments": [
+            {
+              "id": "196c7435-8731-5cc5-8769-9da34ada04d6",
+              "name": "run_id",
+              "value": "={{ $json.body && $json.body.run_id ? $json.body.run_id : '5c1e8a2f-93b4-4d17-ae55-6f0c2b9d8e41' }}",
+              "type": "string"
+            },
+            {
+              "id": "b05efed1-f619-56ac-befd-58de1b4add85",
+              "name": "mission_id",
+              "value": "={{ $json.body && $json.body.mission_id ? $json.body.mission_id : 'm-7d3f2a01-5c6b-4e29-9a18-0b7c4d5e6f70' }}",
+              "type": "string"
+            },
+            {
+              "id": "3e5481c0-d178-5718-a183-135c3ecec58e",
+              "name": "goal",
+              "value": "={{ $json.body && $json.body.goal ? $json.body.goal : 'Assess whether there is demand for a subscription meal-planning app in mid-size US cities and recommend a launch position.' }}",
+              "type": "string"
+            },
+            {
+              "id": "ef008f32-c07d-554b-9e86-deca7cd95a0d",
+              "name": "template_id",
+              "value": "={{ $json.body && $json.body.template_id ? $json.body.template_id : 'market_research_team' }}",
+              "type": "string"
+            },
+            {
+              "id": "222d227d-5f10-5b4d-b25a-89fc91b453be",
+              "name": "api_url",
+              "value": "={{ $env.AGENTFORGE_API_URL || 'http://agentforge-backend:8000' }}",
+              "type": "string"
+            }
+          ]
+        },
+        "includeOtherFields": false,
+        "options": {}
+      },
+      "id": "5baf46a3-d936-5c84-bc04-7654d93098ca",
+      "name": "Mission Context",
+      "type": "n8n-nodes-base.set",
+      "typeVersion": 3.4,
+      "position": [
+        220,
+        0
+      ]
+    },
+    {
+      "parameters": {
+        "mode": "manual",
+        "duplicateItem": false,
+        "assignments": {
+          "assignments": [
+            {
+              "id": "1347ebc6-b136-5eb5-9ce2-970500f66c8d",
+              "name": "subtask_id",
+              "value": "st1",
+              "type": "string"
+            },
+            {
+              "id": "140983b0-c7c4-5e6b-96c2-54a89e3177ef",
+              "name": "subtask_title",
+              "value": "Frame the research questions and plan",
+              "type": "string"
+            },
+            {
+              "id": "9ee50ab7-77b2-58e5-98c8-9bd6374031de",
+              "name": "agent",
+              "value": "planner",
+              "type": "string"
+            },
+            {
+              "id": "4c498e7c-4451-5263-a7bc-d7f28ac2be74",
+              "name": "depends_on",
+              "value": "[]",
+              "type": "string"
+            },
+            {
+              "id": "b355e5fe-3ec3-5bba-9680-ae99d4f91241",
+              "name": "run_id",
+              "value": "={{ $('Mission Context').first().json.run_id }}",
+              "type": "string"
+            },
+            {
+              "id": "c2fff3f7-21b5-58c5-bd8f-7fa7d3ef3ce1",
+              "name": "mission_id",
+              "value": "={{ $('Mission Context').first().json.mission_id }}",
+              "type": "string"
+            },
+            {
+              "id": "441f5e7c-b418-5a62-9474-adb5fe65a549",
+              "name": "goal",
+              "value": "={{ $('Mission Context').first().json.goal }}",
+              "type": "string"
+            },
+            {
+              "id": "9910d47b-5b86-52d2-a895-5b165bebfbcb",
+              "name": "api_url",
+              "value": "={{ $('Mission Context').first().json.api_url }}",
+              "type": "string"
+            },
+            {
+              "id": "8f94f056-cc07-55d4-9886-cae1a038703f",
+              "name": "upstream_outputs",
+              "value": "={{ $input.all().map(function (item) { return item.json; }) }}",
+              "type": "array"
+            }
+          ]
+        },
+        "includeOtherFields": false,
+        "options": {}
+      },
+      "id": "24db0247-3fc8-5c48-bfcc-d3fdc1c8ba81",
+      "name": "Context [planner]: Frame the research questions and plan",
+      "type": "n8n-nodes-base.set",
+      "typeVersion": 3.4,
+      "position": [
+        460,
+        0
+      ]
+    },
+    {
+      "parameters": {
+        "method": "POST",
+        "url": "={{ $json.api_url }}/api/runs/{{ $json.run_id }}/steps/{{ $json.subtask_id }}",
+        "sendBody": true,
+        "contentType": "application/json",
+        "specifyBody": "json",
+        "jsonBody": "={{ $json }}",
+        "sendHeaders": true,
+        "headerParameters": {
+          "parameters": [
+            {
+              "name": "X-AgentForge-Subtask",
+              "value": "st1"
+            },
+            {
+              "name": "X-AgentForge-Agent",
+              "value": "planner"
+            }
+          ]
+        },
+        "options": {}
+      },
+      "id": "64c99440-47d7-5470-bafd-4a6d483ba460",
+      "name": "Run Step [planner]: Frame the research questions and plan",
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.2,
+      "position": [
+        680,
+        0
+      ]
+    },
+    {
+      "parameters": {
+        "mode": "manual",
+        "duplicateItem": false,
+        "assignments": {
+          "assignments": [
+            {
+              "id": "f26f7a1b-e8cf-5661-92d6-e362ecb700b1",
+              "name": "subtask_id",
+              "value": "st2",
+              "type": "string"
+            },
+            {
+              "id": "3c44e351-5bdf-5109-8d34-b0535038a96b",
+              "name": "subtask_title",
+              "value": "Gather market and competitor context",
+              "type": "string"
+            },
+            {
+              "id": "3bcc5e91-3918-54ba-b087-049d32d34119",
+              "name": "agent",
+              "value": "researcher",
+              "type": "string"
+            },
+            {
+              "id": "58ea6990-cfc9-5999-9438-8ff9bb4405bb",
+              "name": "depends_on",
+              "value": "['st1']",
+              "type": "string"
+            },
+            {
+              "id": "82b44d0a-4445-58dc-b507-00239238beed",
+              "name": "run_id",
+              "value": "={{ $('Mission Context').first().json.run_id }}",
+              "type": "string"
+            },
+            {
+              "id": "b1f39943-eacb-5c58-8b3d-dcf9798dc304",
+              "name": "mission_id",
+              "value": "={{ $('Mission Context').first().json.mission_id }}",
+              "type": "string"
+            },
+            {
+              "id": "5eba40d1-0f8b-5ef5-8478-315a4dc23272",
+              "name": "goal",
+              "value": "={{ $('Mission Context').first().json.goal }}",
+              "type": "string"
+            },
+            {
+              "id": "f1d2f797-64e0-53ad-b740-75f27a5e9e11",
+              "name": "api_url",
+              "value": "={{ $('Mission Context').first().json.api_url }}",
+              "type": "string"
+            },
+            {
+              "id": "1784f46c-c2a6-57cd-badc-84c72f3c0b84",
+              "name": "upstream_outputs",
+              "value": "={{ $input.all().map(function (item) { return item.json; }) }}",
+              "type": "array"
+            }
+          ]
+        },
+        "includeOtherFields": false,
+        "options": {}
+      },
+      "id": "8be45466-0bb2-50b9-93f8-42b868d6e0ea",
+      "name": "Context [researcher]: Gather market and competitor context",
+      "type": "n8n-nodes-base.set",
+      "typeVersion": 3.4,
+      "position": [
+        900,
+        -110
+      ]
+    },
+    {
+      "parameters": {
+        "method": "POST",
+        "url": "={{ $json.api_url }}/api/runs/{{ $json.run_id }}/steps/{{ $json.subtask_id }}",
+        "sendBody": true,
+        "contentType": "application/json",
+        "specifyBody": "json",
+        "jsonBody": "={{ $json }}",
+        "sendHeaders": true,
+        "headerParameters": {
+          "parameters": [
+            {
+              "name": "X-AgentForge-Subtask",
+              "value": "st2"
+            },
+            {
+              "name": "X-AgentForge-Agent",
+              "value": "researcher"
+            }
+          ]
+        },
+        "options": {}
+      },
+      "id": "942080ba-8de2-53ba-b35d-32517fea2b89",
+      "name": "Run Step [researcher]: Gather market and competitor context",
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.2,
+      "position": [
+        1120,
+        -110
+      ]
+    },
+    {
+      "parameters": {
+        "mode": "manual",
+        "duplicateItem": false,
+        "assignments": {
+          "assignments": [
+            {
+              "id": "6365e6eb-6959-5114-80cf-e6747248e1a6",
+              "name": "subtask_id",
+              "value": "st3",
+              "type": "string"
+            },
+            {
+              "id": "026a9d0e-219e-51b6-bd60-3ce784b6fccf",
+              "name": "subtask_title",
+              "value": "Profile the dataset and extract trends",
+              "type": "string"
+            },
+            {
+              "id": "ebb662b0-cf6c-52f1-ab24-ce33042c60f5",
+              "name": "agent",
+              "value": "analyst",
+              "type": "string"
+            },
+            {
+              "id": "569e0ac7-5ba5-5d1d-9681-1ae4c916a161",
+              "name": "depends_on",
+              "value": "['st1']",
+              "type": "string"
+            },
+            {
+              "id": "19618d10-d8e9-53b3-9351-6b0dc34c39a6",
+              "name": "run_id",
+              "value": "={{ $('Mission Context').first().json.run_id }}",
+              "type": "string"
+            },
+            {
+              "id": "8e02f195-a742-506c-ad00-fa8090af2b1f",
+              "name": "mission_id",
+              "value": "={{ $('Mission Context').first().json.mission_id }}",
+              "type": "string"
+            },
+            {
+              "id": "a0998ccb-4885-5812-9c2c-a444e87c8bff",
+              "name": "goal",
+              "value": "={{ $('Mission Context').first().json.goal }}",
+              "type": "string"
+            },
+            {
+              "id": "ae02143f-6d40-5ba8-9101-21434e54ec94",
+              "name": "api_url",
+              "value": "={{ $('Mission Context').first().json.api_url }}",
+              "type": "string"
+            },
+            {
+              "id": "19afdcec-fdbc-5773-8016-aeaafc6d21ad",
+              "name": "upstream_outputs",
+              "value": "={{ $input.all().map(function (item) { return item.json; }) }}",
+              "type": "array"
+            }
+          ]
+        },
+        "includeOtherFields": false,
+        "options": {}
+      },
+      "id": "a027716d-72f5-5e21-96d5-cbd20327ad6c",
+      "name": "Context [analyst]: Profile the dataset and extract trends",
+      "type": "n8n-nodes-base.set",
+      "typeVersion": 3.4,
+      "position": [
+        900,
+        110
+      ]
+    },
+    {
+      "parameters": {
+        "method": "POST",
+        "url": "={{ $json.api_url }}/api/runs/{{ $json.run_id }}/steps/{{ $json.subtask_id }}",
+        "sendBody": true,
+        "contentType": "application/json",
+        "specifyBody": "json",
+        "jsonBody": "={{ $json }}",
+        "sendHeaders": true,
+        "headerParameters": {
+          "parameters": [
+            {
+              "name": "X-AgentForge-Subtask",
+              "value": "st3"
+            },
+            {
+              "name": "X-AgentForge-Agent",
+              "value": "analyst"
+            }
+          ]
+        },
+        "options": {}
+      },
+      "id": "bbdad0ce-f1ae-5848-bf22-f834e91805d3",
+      "name": "Run Step [analyst]: Profile the dataset and extract trends",
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.2,
+      "position": [
+        1120,
+        110
+      ]
+    },
+    {
+      "parameters": {
+        "mode": "manual",
+        "duplicateItem": false,
+        "assignments": {
+          "assignments": [
+            {
+              "id": "e40fc322-0fa3-55b1-9941-cffe3b450567",
+              "name": "subtask_id",
+              "value": "st4",
+              "type": "string"
+            },
+            {
+              "id": "49c4fd45-1d7b-5b6d-ae2c-8c324c50f015",
+              "name": "subtask_title",
+              "value": "Project demand trend for the next period",
+              "type": "string"
+            },
+            {
+              "id": "8684bf63-a3ea-5602-ab2e-09c39f620101",
+              "name": "agent",
+              "value": "forecaster",
+              "type": "string"
+            },
+            {
+              "id": "cf3d0512-580f-576a-84cc-94d26788862e",
+              "name": "depends_on",
+              "value": "['st3']",
+              "type": "string"
+            },
+            {
+              "id": "6f6da77f-cb1c-5247-8a93-c70c9b76d23a",
+              "name": "run_id",
+              "value": "={{ $('Mission Context').first().json.run_id }}",
+              "type": "string"
+            },
+            {
+              "id": "1059b6aa-0d80-53ab-a6a1-0c20ca5413ce",
+              "name": "mission_id",
+              "value": "={{ $('Mission Context').first().json.mission_id }}",
+              "type": "string"
+            },
+            {
+              "id": "eb5e9040-35bd-52ce-84dd-a1504462544f",
+              "name": "goal",
+              "value": "={{ $('Mission Context').first().json.goal }}",
+              "type": "string"
+            },
+            {
+              "id": "7989e300-2859-5cb1-8d98-7e37579ef4d4",
+              "name": "api_url",
+              "value": "={{ $('Mission Context').first().json.api_url }}",
+              "type": "string"
+            },
+            {
+              "id": "168bd1ea-0eb9-59b8-b4c1-c47ad22603c3",
+              "name": "upstream_outputs",
+              "value": "={{ $input.all().map(function (item) { return item.json; }) }}",
+              "type": "array"
+            }
+          ]
+        },
+        "includeOtherFields": false,
+        "options": {}
+      },
+      "id": "81c65d38-0499-53a1-9191-8ba15574f727",
+      "name": "Context [forecaster]: Project demand trend for the next period",
+      "type": "n8n-nodes-base.set",
+      "typeVersion": 3.4,
+      "position": [
+        1340,
+        0
+      ]
+    },
+    {
+      "parameters": {
+        "method": "POST",
+        "url": "={{ $json.api_url }}/api/runs/{{ $json.run_id }}/steps/{{ $json.subtask_id }}",
+        "sendBody": true,
+        "contentType": "application/json",
+        "specifyBody": "json",
+        "jsonBody": "={{ $json }}",
+        "sendHeaders": true,
+        "headerParameters": {
+          "parameters": [
+            {
+              "name": "X-AgentForge-Subtask",
+              "value": "st4"
+            },
+            {
+              "name": "X-AgentForge-Agent",
+              "value": "forecaster"
+            }
+          ]
+        },
+        "options": {}
+      },
+      "id": "e6805918-bd56-5b80-beb6-39d7f3206933",
+      "name": "Run Step [forecaster]: Project demand trend for the next period",
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.2,
+      "position": [
+        1560,
+        0
+      ]
+    },
+    {
+      "parameters": {},
+      "id": "5aa9fb3b-b1e6-5962-978b-ce5dbceab418",
+      "name": "Join: Stress-test claims and rank recommendations",
+      "type": "n8n-nodes-base.noOp",
+      "typeVersion": 1,
+      "position": [
+        1640,
+        0
+      ]
+    },
+    {
+      "parameters": {
+        "mode": "manual",
+        "duplicateItem": false,
+        "assignments": {
+          "assignments": [
+            {
+              "id": "73f58183-fd01-55bd-972a-07797f5eb59b",
+              "name": "subtask_id",
+              "value": "st5",
+              "type": "string"
+            },
+            {
+              "id": "51350287-4f56-5c4b-9da0-8e91491f75d3",
+              "name": "subtask_title",
+              "value": "Stress-test claims and rank recommendations",
+              "type": "string"
+            },
+            {
+              "id": "a4eb7672-03a0-5c22-89c2-4980f07e46e0",
+              "name": "agent",
+              "value": "critic",
+              "type": "string"
+            },
+            {
+              "id": "40c874ff-1d9c-5740-8fa5-970459f95e13",
+              "name": "depends_on",
+              "value": "['st2', 'st3', 'st4']",
+              "type": "string"
+            },
+            {
+              "id": "2f9db00c-5242-5ce6-a13b-e20b00940e0e",
+              "name": "run_id",
+              "value": "={{ $('Mission Context').first().json.run_id }}",
+              "type": "string"
+            },
+            {
+              "id": "8a12eaa7-045e-52da-b980-21366e16acb4",
+              "name": "mission_id",
+              "value": "={{ $('Mission Context').first().json.mission_id }}",
+              "type": "string"
+            },
+            {
+              "id": "7489132f-5c83-5139-891b-25cb7a486036",
+              "name": "goal",
+              "value": "={{ $('Mission Context').first().json.goal }}",
+              "type": "string"
+            },
+            {
+              "id": "bef8baf1-7827-5f7e-b353-4b4d5c195c8b",
+              "name": "api_url",
+              "value": "={{ $('Mission Context').first().json.api_url }}",
+              "type": "string"
+            },
+            {
+              "id": "2fc8be56-1fc2-5edc-88e8-392e257b939e",
+              "name": "upstream_outputs",
+              "value": "={{ $input.all().map(function (item) { return item.json; }) }}",
+              "type": "array"
+            }
+          ]
+        },
+        "includeOtherFields": false,
+        "options": {}
+      },
+      "id": "7a9354ac-bb17-5534-93e3-39d5773baf7e",
+      "name": "Context [critic]: Stress-test claims and rank recommendations",
+      "type": "n8n-nodes-base.set",
+      "typeVersion": 3.4,
+      "position": [
+        1780,
+        0
+      ]
+    },
+    {
+      "parameters": {
+        "method": "POST",
+        "url": "={{ $json.api_url }}/api/runs/{{ $json.run_id }}/steps/{{ $json.subtask_id }}",
+        "sendBody": true,
+        "contentType": "application/json",
+        "specifyBody": "json",
+        "jsonBody": "={{ $json }}",
+        "sendHeaders": true,
+        "headerParameters": {
+          "parameters": [
+            {
+              "name": "X-AgentForge-Subtask",
+              "value": "st5"
+            },
+            {
+              "name": "X-AgentForge-Agent",
+              "value": "critic"
+            }
+          ]
+        },
+        "options": {}
+      },
+      "id": "32e4f005-acca-5ee3-8345-d118d59ce859",
+      "name": "Run Step [critic]: Stress-test claims and rank recommendations",
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.2,
+      "position": [
+        2000,
+        0
+      ]
+    },
+    {
+      "parameters": {
+        "conditions": {
+          "options": {
+            "caseSensitive": true,
+            "leftValue": "",
+            "typeValidation": "loose"
+          },
+          "conditions": [
+            {
+              "id": "8e538114-a86b-5064-a5d4-6bf1c95daf25",
+              "leftValue": "={{ $json.approved !== false }}",
+              "rightValue": "",
+              "operator": {
+                "type": "boolean",
+                "operation": "true",
+                "singleValue": true
+              }
+            }
+          ],
+          "combinator": "and"
+        },
+        "options": {}
+      },
+      "id": "1107a164-c0be-513a-8996-d2e577c39832",
+      "name": "Critic Verdict",
+      "type": "n8n-nodes-base.if",
+      "typeVersion": 2.2,
+      "position": [
+        2440,
+        0
+      ]
+    },
+    {
+      "parameters": {},
+      "id": "b242b373-9954-5673-8fbe-a574382ce8c9",
+      "name": "Flagged for Rework",
+      "type": "n8n-nodes-base.noOp",
+      "typeVersion": 1,
+      "position": [
+        2660,
+        220
+      ]
+    },
+    {
+      "parameters": {
+        "mode": "runOnceForAllItems",
+        "jsCode": "// Assemble the AgentForge report payload from the completed step outputs.\n// Each entry in step_node_names is an AgentForge step HTTP node; its response\n// holds that subtask's result from the AgentForge backend.\nvar step_node_names = [\n  'Run Step [planner]: Frame the research questions and plan',\n  'Run Step [researcher]: Gather market and competitor context',\n  'Run Step [analyst]: Profile the dataset and extract trends',\n  'Run Step [forecaster]: Project demand trend for the next period',\n  'Run Step [critic]: Stress-test claims and rank recommendations'\n];\nvar mission = $('Mission Context').first().json;\nvar steps = [];\nfor (var i = 0; i < step_node_names.length; i++) {\n  var node_name = step_node_names[i];\n  var output = null;\n  try {\n    output = $(node_name).first().json;\n  } catch (error) {\n    output = { error: 'no output from ' + node_name };\n  }\n  steps.push({ node: node_name, data: output });\n}\nvar report = {\n  run_id: mission.run_id,\n  mission_id: mission.mission_id,\n  goal: mission.goal,\n  template_id: mission.template_id || null,\n  step_count: steps.length,\n  steps: steps,\n  api_url: mission.api_url,\n  source: 'agentforge-n8n-export'\n};\nreturn [{ json: report }];\n"
+      },
+      "id": "4a47087e-97e6-5265-8682-5113fc26ecd9",
+      "name": "Assemble Report",
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [
+        2660,
+        0
+      ]
+    },
+    {
+      "parameters": {
+        "method": "POST",
+        "url": "={{ $json.api_url }}/api/runs/{{ $json.run_id }}/report",
+        "sendBody": true,
+        "contentType": "application/json",
+        "specifyBody": "json",
+        "jsonBody": "={{ $json }}",
+        "sendHeaders": true,
+        "headerParameters": {
+          "parameters": [
+            {
+              "name": "X-AgentForge-Kind",
+              "value": "report"
+            },
+            {
+              "name": "X-AgentForge-Source",
+              "value": "n8n-export"
+            }
+          ]
+        },
+        "options": {}
+      },
+      "id": "1d7ca448-1d07-51bc-b67b-86a23ad45a02",
+      "name": "Deliver Report",
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.2,
+      "position": [
+        2880,
+        0
+      ]
+    }
+  ],
+  "connections": {
+    "Webhook Trigger": {
+      "main": [
+        [
+          {
+            "node": "Mission Context",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Mission Context": {
+      "main": [
+        [
+          {
+            "node": "Context [planner]: Frame the research questions and plan",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Run Step [planner]: Frame the research questions and plan": {
+      "main": [
+        [
+          {
+            "node": "Context [researcher]: Gather market and competitor context",
+            "type": "main",
+            "index": 0
+          },
+          {
+            "node": "Context [analyst]: Profile the dataset and extract trends",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Run Step [analyst]: Profile the dataset and extract trends": {
+      "main": [
+        [
+          {
+            "node": "Context [forecaster]: Project demand trend for the next period",
+            "type": "main",
+            "index": 0
+          },
+          {
+            "node": "Join: Stress-test claims and rank recommendations",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Run Step [researcher]: Gather market and competitor context": {
+      "main": [
+        [
+          {
+            "node": "Join: Stress-test claims and rank recommendations",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Run Step [forecaster]: Project demand trend for the next period": {
+      "main": [
+        [
+          {
+            "node": "Join: Stress-test claims and rank recommendations",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Join: Stress-test claims and rank recommendations": {
+      "main": [
+        [
+          {
+            "node": "Context [critic]: Stress-test claims and rank recommendations",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Run Step [critic]: Stress-test claims and rank recommendations": {
+      "main": [
+        [
+          {
+            "node": "Critic Verdict",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Critic Verdict": {
+      "main": [
+        [
+          {
+            "node": "Assemble Report",
+            "type": "main",
+            "index": 0
+          }
+        ],
+        [
+          {
+            "node": "Flagged for Rework",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Assemble Report": {
+      "main": [
+        [
+          {
+            "node": "Deliver Report",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    }
+  },
+  "settings": {
+    "executionOrder": "v1"
+  },
+  "meta": {
+    "source": "agentforge",
+    "exporter": "agentforge.integrations.n8n_export",
+    "exporter_version": "1.0.0",
+    "agentforge_run_id": "5c1e8a2f-93b4-4d17-ae55-6f0c2b9d8e41",
+    "agentforge_mission_id": "m-7d3f2a01-5c6b-4e29-9a18-0b7c4d5e6f70",
+    "agentforge_template_id": "market_research_team",
+    "plan_source": "plan_created",
+    "plan_note": null,
+    "subtask_count": 5,
+    "node_count": 17,
+    "edge_count": 13,
+    "api_url_expression": "={{ $env.AGENTFORGE_API_URL || 'http://agentforge-backend:8000' }}",
+    "honesty_note": "All HTTP nodes target the AgentForge backend via $env.AGENTFORGE_API_URL. No third-party APIs and no credentials are embedded."
+  }
+}

@@ -1,0 +1,744 @@
+{
+  "run": {
+    "id": "b9a4f7d2-2c58-4e93-8f61-3a7d5c0e9b12",
+    "mission_id": "m-2e8b4c90-1d7a-4f35-b642-9c0e5a1d3f84",
+    "status": "succeeded",
+    "created_at": "2026-10-05T14:00:00Z",
+    "finished_at": "2026-10-05T14:06:12Z",
+    "mode": "demo",
+    "template_id": "sales_insights_team",
+    "error": null,
+    "error_stage": null
+  },
+  "mission": {
+    "id": "m-2e8b4c90-1d7a-4f35-b642-9c0e5a1d3f84",
+    "goal": "Analyze last quarter's sales CSV to find which regions and products drove the miss, and recommend 3 fixes for next quarter.",
+    "template_id": "sales_insights_team",
+    "dataset_id": "ds-sample-01",
+    "created_at": "2026-10-05T13:58:41Z"
+  },
+  "events": [
+    {
+      "type": "run_started",
+      "run_id": "b9a4f7d2-2c58-4e93-8f61-3a7d5c0e9b12",
+      "seq": 1,
+      "ts": "2026-10-05T14:00:01Z",
+      "agent": null,
+      "payload": {
+        "mode": "demo",
+        "template_id": "sales_insights_team"
+      }
+    },
+    {
+      "type": "plan_created",
+      "run_id": "b9a4f7d2-2c58-4e93-8f61-3a7d5c0e9b12",
+      "seq": 2,
+      "ts": "2026-10-05T14:00:02Z",
+      "agent": "planner",
+      "payload": {
+        "subtasks": [
+          {
+            "id": "st1",
+            "title": "Frame the sales questions and plan",
+            "agent": "planner",
+            "depends_on": [],
+            "status": "completed"
+          },
+          {
+            "id": "st2",
+            "title": "Collect KPI and seasonality context",
+            "agent": "researcher",
+            "depends_on": [
+              "st1"
+            ],
+            "status": "completed"
+          },
+          {
+            "id": "st3",
+            "title": "Profile sales data and find drivers",
+            "agent": "analyst",
+            "depends_on": [
+              "st1"
+            ],
+            "status": "completed"
+          },
+          {
+            "id": "st4",
+            "title": "Forecast next-period revenue",
+            "agent": "forecaster",
+            "depends_on": [
+              "st3"
+            ],
+            "status": "completed"
+          },
+          {
+            "id": "st5",
+            "title": "Validate findings and rank fixes",
+            "agent": "critic",
+            "depends_on": [
+              "st2",
+              "st3",
+              "st4"
+            ],
+            "status": "completed"
+          }
+        ]
+      }
+    },
+    {
+      "type": "token_update",
+      "run_id": "b9a4f7d2-2c58-4e93-8f61-3a7d5c0e9b12",
+      "seq": 3,
+      "ts": "2026-10-05T14:00:03Z",
+      "agent": "planner",
+      "payload": {
+        "agent": "planner",
+        "input_tokens": 910,
+        "output_tokens": 240,
+        "cost_usd": 0.0001265,
+        "run_total_usd": 0.0001265
+      }
+    },
+    {
+      "type": "agent_started",
+      "run_id": "b9a4f7d2-2c58-4e93-8f61-3a7d5c0e9b12",
+      "seq": 4,
+      "ts": "2026-10-05T14:00:04Z",
+      "agent": "planner",
+      "payload": {
+        "subtask_id": "st1",
+        "title": "Frame the sales questions and plan"
+      }
+    },
+    {
+      "type": "thought_summary",
+      "run_id": "b9a4f7d2-2c58-4e93-8f61-3a7d5c0e9b12",
+      "seq": 5,
+      "ts": "2026-10-05T14:00:05Z",
+      "agent": "planner",
+      "payload": {
+        "subtask_id": "st1",
+        "summary": "Working on: frame the sales questions and plan — staying within the dataset and verified sources."
+      }
+    },
+    {
+      "type": "tool_call",
+      "run_id": "b9a4f7d2-2c58-4e93-8f61-3a7d5c0e9b12",
+      "seq": 6,
+      "ts": "2026-10-05T14:00:06Z",
+      "agent": "planner",
+      "payload": {
+        "subtask_id": "st1",
+        "tool": "llm_complete",
+        "args_summary": "summarize context",
+        "ok": true
+      }
+    },
+    {
+      "type": "tool_result",
+      "run_id": "b9a4f7d2-2c58-4e93-8f61-3a7d5c0e9b12",
+      "seq": 7,
+      "ts": "2026-10-05T14:00:07Z",
+      "agent": "planner",
+      "payload": {
+        "subtask_id": "st1",
+        "tool": "llm_complete",
+        "args_summary": "ok",
+        "ok": true
+      }
+    },
+    {
+      "type": "token_update",
+      "run_id": "b9a4f7d2-2c58-4e93-8f61-3a7d5c0e9b12",
+      "seq": 8,
+      "ts": "2026-10-05T14:00:08Z",
+      "agent": "planner",
+      "payload": {
+        "agent": "planner",
+        "input_tokens": 1240,
+        "output_tokens": 380,
+        "cost_usd": 0.0001782,
+        "run_total_usd": 0.0003047
+      }
+    },
+    {
+      "type": "step_completed",
+      "run_id": "b9a4f7d2-2c58-4e93-8f61-3a7d5c0e9b12",
+      "seq": 9,
+      "ts": "2026-10-05T14:00:09Z",
+      "agent": "planner",
+      "payload": {
+        "subtask_id": "st1"
+      }
+    },
+    {
+      "type": "agent_finished",
+      "run_id": "b9a4f7d2-2c58-4e93-8f61-3a7d5c0e9b12",
+      "seq": 10,
+      "ts": "2026-10-05T14:00:10Z",
+      "agent": "planner",
+      "payload": {
+        "subtask_id": "st1"
+      }
+    },
+    {
+      "type": "agent_started",
+      "run_id": "b9a4f7d2-2c58-4e93-8f61-3a7d5c0e9b12",
+      "seq": 11,
+      "ts": "2026-10-05T14:00:11Z",
+      "agent": "researcher",
+      "payload": {
+        "subtask_id": "st2",
+        "title": "Collect KPI and seasonality context"
+      }
+    },
+    {
+      "type": "thought_summary",
+      "run_id": "b9a4f7d2-2c58-4e93-8f61-3a7d5c0e9b12",
+      "seq": 12,
+      "ts": "2026-10-05T14:00:12Z",
+      "agent": "researcher",
+      "payload": {
+        "subtask_id": "st2",
+        "summary": "Working on: collect kpi and seasonality context — staying within the dataset and verified sources."
+      }
+    },
+    {
+      "type": "tool_call",
+      "run_id": "b9a4f7d2-2c58-4e93-8f61-3a7d5c0e9b12",
+      "seq": 13,
+      "ts": "2026-10-05T14:00:13Z",
+      "agent": "researcher",
+      "payload": {
+        "subtask_id": "st2",
+        "tool": "llm_complete",
+        "args_summary": "summarize context",
+        "ok": true
+      }
+    },
+    {
+      "type": "tool_result",
+      "run_id": "b9a4f7d2-2c58-4e93-8f61-3a7d5c0e9b12",
+      "seq": 14,
+      "ts": "2026-10-05T14:00:14Z",
+      "agent": "researcher",
+      "payload": {
+        "subtask_id": "st2",
+        "tool": "llm_complete",
+        "args_summary": "ok",
+        "ok": true
+      }
+    },
+    {
+      "type": "token_update",
+      "run_id": "b9a4f7d2-2c58-4e93-8f61-3a7d5c0e9b12",
+      "seq": 15,
+      "ts": "2026-10-05T14:00:15Z",
+      "agent": "researcher",
+      "payload": {
+        "agent": "researcher",
+        "input_tokens": 1240,
+        "output_tokens": 380,
+        "cost_usd": 0.0001782,
+        "run_total_usd": 0.0004829
+      }
+    },
+    {
+      "type": "step_completed",
+      "run_id": "b9a4f7d2-2c58-4e93-8f61-3a7d5c0e9b12",
+      "seq": 16,
+      "ts": "2026-10-05T14:00:16Z",
+      "agent": "researcher",
+      "payload": {
+        "subtask_id": "st2"
+      }
+    },
+    {
+      "type": "agent_finished",
+      "run_id": "b9a4f7d2-2c58-4e93-8f61-3a7d5c0e9b12",
+      "seq": 17,
+      "ts": "2026-10-05T14:00:17Z",
+      "agent": "researcher",
+      "payload": {
+        "subtask_id": "st2"
+      }
+    },
+    {
+      "type": "agent_started",
+      "run_id": "b9a4f7d2-2c58-4e93-8f61-3a7d5c0e9b12",
+      "seq": 18,
+      "ts": "2026-10-05T14:00:18Z",
+      "agent": "analyst",
+      "payload": {
+        "subtask_id": "st3",
+        "title": "Profile sales data and find drivers"
+      }
+    },
+    {
+      "type": "thought_summary",
+      "run_id": "b9a4f7d2-2c58-4e93-8f61-3a7d5c0e9b12",
+      "seq": 19,
+      "ts": "2026-10-05T14:00:19Z",
+      "agent": "analyst",
+      "payload": {
+        "subtask_id": "st3",
+        "summary": "Working on: profile sales data and find drivers — staying within the dataset and verified sources."
+      }
+    },
+    {
+      "type": "tool_call",
+      "run_id": "b9a4f7d2-2c58-4e93-8f61-3a7d5c0e9b12",
+      "seq": 20,
+      "ts": "2026-10-05T14:00:20Z",
+      "agent": "analyst",
+      "payload": {
+        "subtask_id": "st3",
+        "tool": "csv_analyzer",
+        "args_summary": "profile columns, dtypes, trends",
+        "ok": true
+      }
+    },
+    {
+      "type": "tool_result",
+      "run_id": "b9a4f7d2-2c58-4e93-8f61-3a7d5c0e9b12",
+      "seq": 21,
+      "ts": "2026-10-05T14:00:21Z",
+      "agent": "analyst",
+      "payload": {
+        "subtask_id": "st3",
+        "tool": "csv_analyzer",
+        "args_summary": "ok",
+        "ok": true
+      }
+    },
+    {
+      "type": "artifact_created",
+      "run_id": "b9a4f7d2-2c58-4e93-8f61-3a7d5c0e9b12",
+      "seq": 22,
+      "ts": "2026-10-05T14:00:22Z",
+      "agent": "analyst",
+      "payload": {
+        "subtask_id": "st3",
+        "artifact_id": "art-sales-1",
+        "kind": "table",
+        "name": "revenue_by_region",
+        "summary": "Revenue and variance vs target by region"
+      }
+    },
+    {
+      "type": "artifact_created",
+      "run_id": "b9a4f7d2-2c58-4e93-8f61-3a7d5c0e9b12",
+      "seq": 23,
+      "ts": "2026-10-05T14:00:23Z",
+      "agent": "analyst",
+      "payload": {
+        "subtask_id": "st3",
+        "artifact_id": "art-sales-2",
+        "kind": "chart",
+        "name": "revenue_trend_weekly",
+        "summary": "Line chart: weekly revenue with 4-week moving average"
+      }
+    },
+    {
+      "type": "token_update",
+      "run_id": "b9a4f7d2-2c58-4e93-8f61-3a7d5c0e9b12",
+      "seq": 24,
+      "ts": "2026-10-05T14:00:24Z",
+      "agent": "analyst",
+      "payload": {
+        "agent": "analyst",
+        "input_tokens": 1240,
+        "output_tokens": 380,
+        "cost_usd": 0.0001782,
+        "run_total_usd": 0.0006611
+      }
+    },
+    {
+      "type": "step_completed",
+      "run_id": "b9a4f7d2-2c58-4e93-8f61-3a7d5c0e9b12",
+      "seq": 25,
+      "ts": "2026-10-05T14:00:25Z",
+      "agent": "analyst",
+      "payload": {
+        "subtask_id": "st3"
+      }
+    },
+    {
+      "type": "agent_finished",
+      "run_id": "b9a4f7d2-2c58-4e93-8f61-3a7d5c0e9b12",
+      "seq": 26,
+      "ts": "2026-10-05T14:00:26Z",
+      "agent": "analyst",
+      "payload": {
+        "subtask_id": "st3"
+      }
+    },
+    {
+      "type": "agent_started",
+      "run_id": "b9a4f7d2-2c58-4e93-8f61-3a7d5c0e9b12",
+      "seq": 27,
+      "ts": "2026-10-05T14:00:27Z",
+      "agent": "forecaster",
+      "payload": {
+        "subtask_id": "st4",
+        "title": "Forecast next-period revenue"
+      }
+    },
+    {
+      "type": "thought_summary",
+      "run_id": "b9a4f7d2-2c58-4e93-8f61-3a7d5c0e9b12",
+      "seq": 28,
+      "ts": "2026-10-05T14:00:28Z",
+      "agent": "forecaster",
+      "payload": {
+        "subtask_id": "st4",
+        "summary": "Working on: forecast next-period revenue — staying within the dataset and verified sources."
+      }
+    },
+    {
+      "type": "tool_call",
+      "run_id": "b9a4f7d2-2c58-4e93-8f61-3a7d5c0e9b12",
+      "seq": 29,
+      "ts": "2026-10-05T14:00:29Z",
+      "agent": "forecaster",
+      "payload": {
+        "subtask_id": "st4",
+        "tool": "llm_complete",
+        "args_summary": "summarize context",
+        "ok": true
+      }
+    },
+    {
+      "type": "tool_result",
+      "run_id": "b9a4f7d2-2c58-4e93-8f61-3a7d5c0e9b12",
+      "seq": 30,
+      "ts": "2026-10-05T14:00:30Z",
+      "agent": "forecaster",
+      "payload": {
+        "subtask_id": "st4",
+        "tool": "llm_complete",
+        "args_summary": "ok",
+        "ok": true
+      }
+    },
+    {
+      "type": "artifact_created",
+      "run_id": "b9a4f7d2-2c58-4e93-8f61-3a7d5c0e9b12",
+      "seq": 31,
+      "ts": "2026-10-05T14:00:31Z",
+      "agent": "forecaster",
+      "payload": {
+        "subtask_id": "st4",
+        "artifact_id": "art-sales-3",
+        "kind": "prediction",
+        "name": "next_period_revenue",
+        "summary": "Next-period revenue projection from 12-week trend (confidence 0.58)"
+      }
+    },
+    {
+      "type": "token_update",
+      "run_id": "b9a4f7d2-2c58-4e93-8f61-3a7d5c0e9b12",
+      "seq": 32,
+      "ts": "2026-10-05T14:00:32Z",
+      "agent": "forecaster",
+      "payload": {
+        "agent": "forecaster",
+        "input_tokens": 1240,
+        "output_tokens": 380,
+        "cost_usd": 0.0001782,
+        "run_total_usd": 0.0008393
+      }
+    },
+    {
+      "type": "step_completed",
+      "run_id": "b9a4f7d2-2c58-4e93-8f61-3a7d5c0e9b12",
+      "seq": 33,
+      "ts": "2026-10-05T14:00:33Z",
+      "agent": "forecaster",
+      "payload": {
+        "subtask_id": "st4"
+      }
+    },
+    {
+      "type": "agent_finished",
+      "run_id": "b9a4f7d2-2c58-4e93-8f61-3a7d5c0e9b12",
+      "seq": 34,
+      "ts": "2026-10-05T14:00:34Z",
+      "agent": "forecaster",
+      "payload": {
+        "subtask_id": "st4"
+      }
+    },
+    {
+      "type": "agent_started",
+      "run_id": "b9a4f7d2-2c58-4e93-8f61-3a7d5c0e9b12",
+      "seq": 35,
+      "ts": "2026-10-05T14:00:35Z",
+      "agent": "critic",
+      "payload": {
+        "subtask_id": "st5",
+        "title": "Validate findings and rank fixes"
+      }
+    },
+    {
+      "type": "thought_summary",
+      "run_id": "b9a4f7d2-2c58-4e93-8f61-3a7d5c0e9b12",
+      "seq": 36,
+      "ts": "2026-10-05T14:00:36Z",
+      "agent": "critic",
+      "payload": {
+        "subtask_id": "st5",
+        "summary": "Working on: validate findings and rank fixes — staying within the dataset and verified sources."
+      }
+    },
+    {
+      "type": "tool_call",
+      "run_id": "b9a4f7d2-2c58-4e93-8f61-3a7d5c0e9b12",
+      "seq": 37,
+      "ts": "2026-10-05T14:00:37Z",
+      "agent": "critic",
+      "payload": {
+        "subtask_id": "st5",
+        "tool": "llm_complete",
+        "args_summary": "summarize context",
+        "ok": true
+      }
+    },
+    {
+      "type": "tool_result",
+      "run_id": "b9a4f7d2-2c58-4e93-8f61-3a7d5c0e9b12",
+      "seq": 38,
+      "ts": "2026-10-05T14:00:38Z",
+      "agent": "critic",
+      "payload": {
+        "subtask_id": "st5",
+        "tool": "llm_complete",
+        "args_summary": "ok",
+        "ok": true
+      }
+    },
+    {
+      "type": "token_update",
+      "run_id": "b9a4f7d2-2c58-4e93-8f61-3a7d5c0e9b12",
+      "seq": 39,
+      "ts": "2026-10-05T14:00:39Z",
+      "agent": "critic",
+      "payload": {
+        "agent": "critic",
+        "input_tokens": 1240,
+        "output_tokens": 380,
+        "cost_usd": 0.0001782,
+        "run_total_usd": 0.0010175
+      }
+    },
+    {
+      "type": "step_completed",
+      "run_id": "b9a4f7d2-2c58-4e93-8f61-3a7d5c0e9b12",
+      "seq": 40,
+      "ts": "2026-10-05T14:00:40Z",
+      "agent": "critic",
+      "payload": {
+        "subtask_id": "st5"
+      }
+    },
+    {
+      "type": "agent_finished",
+      "run_id": "b9a4f7d2-2c58-4e93-8f61-3a7d5c0e9b12",
+      "seq": 41,
+      "ts": "2026-10-05T14:00:41Z",
+      "agent": "critic",
+      "payload": {
+        "subtask_id": "st5"
+      }
+    },
+    {
+      "type": "run_finished",
+      "run_id": "b9a4f7d2-2c58-4e93-8f61-3a7d5c0e9b12",
+      "seq": 42,
+      "ts": "2026-10-05T14:00:42Z",
+      "agent": null,
+      "payload": {
+        "report_ready": true
+      }
+    }
+  ],
+  "artifacts": [
+    {
+      "id": "art-sales-1",
+      "run_id": "b9a4f7d2-2c58-4e93-8f61-3a7d5c0e9b12",
+      "subtask_id": "st3",
+      "kind": "table",
+      "name": "revenue_by_region",
+      "summary": "Revenue and variance vs target by region",
+      "path": null,
+      "payload": {
+        "columns": [
+          "region",
+          "revenue",
+          "vs_target_pct"
+        ]
+      },
+      "created_at": "2026-10-05T15:02:30Z"
+    },
+    {
+      "id": "art-sales-2",
+      "run_id": "b9a4f7d2-2c58-4e93-8f61-3a7d5c0e9b12",
+      "subtask_id": "st3",
+      "kind": "chart",
+      "name": "revenue_trend_weekly",
+      "summary": "Line chart: weekly revenue with 4-week moving average",
+      "path": null,
+      "payload": {
+        "chart": {
+          "id": "chart_1",
+          "kind": "line",
+          "title": "Weekly revenue trend"
+        }
+      },
+      "created_at": "2026-10-05T15:03:02Z"
+    },
+    {
+      "id": "art-sales-3",
+      "run_id": "b9a4f7d2-2c58-4e93-8f61-3a7d5c0e9b12",
+      "subtask_id": "st4",
+      "kind": "prediction",
+      "name": "next_period_revenue",
+      "summary": "Next-period revenue projection from 12-week trend (confidence 0.58)",
+      "path": null,
+      "payload": {
+        "confidence": 0.58
+      },
+      "created_at": "2026-10-05T15:04:19Z"
+    }
+  ],
+  "token_usage": {
+    "per_agent": {
+      "planner": {
+        "input_tokens": 910,
+        "output_tokens": 240,
+        "cost_usd": 0.0001265
+      },
+      "researcher": {
+        "input_tokens": 1240,
+        "output_tokens": 380,
+        "cost_usd": 0.0001782
+      },
+      "analyst": {
+        "input_tokens": 1610,
+        "output_tokens": 520,
+        "cost_usd": 0.0002343
+      },
+      "forecaster": {
+        "input_tokens": 1180,
+        "output_tokens": 310,
+        "cost_usd": 0.0001639
+      },
+      "critic": {
+        "input_tokens": 1520,
+        "output_tokens": 460,
+        "cost_usd": 0.0002178
+      }
+    },
+    "totals": {
+      "input_tokens": 6460,
+      "output_tokens": 1910,
+      "cost_usd": 0.0009207
+    }
+  },
+  "report": {
+    "title": "Q3 Sales Miss — Drivers and Recommended Fixes",
+    "mission": "Analyze last quarter's sales CSV to find which regions and products drove the miss, and recommend 3 fixes for next quarter.",
+    "style": "sales_insights",
+    "executive_summary": "The sample-quarter miss concentrates in two regions and one product line, with the weekly trend flattening in the back half of the quarter. The projected next-period recovery is modest; the ranked fixes target pipeline coverage and the weakest product line.",
+    "insights": [
+      {
+        "title": "Two regions account for most of the miss",
+        "detail": "Regional variance table shows those regions furthest below target.",
+        "evidence": [
+          "revenue_by_region table"
+        ],
+        "strength": "high"
+      },
+      {
+        "title": "One product line drags the average",
+        "detail": "Product-level breakdown flags the lowest-margin line as the largest negative contributor.",
+        "evidence": [
+          "revenue_by_region table",
+          "analyst summary"
+        ],
+        "strength": "medium"
+      },
+      {
+        "title": "Weekly trend flattened in the back half",
+        "detail": "4-week moving average turns flat after week 8 of the sample.",
+        "evidence": [
+          "revenue_trend_weekly chart"
+        ],
+        "strength": "medium"
+      }
+    ],
+    "charts": [
+      {
+        "id": "chart_1",
+        "kind": "line",
+        "title": "Weekly revenue trend",
+        "x_label": "Week",
+        "y_label": "Revenue",
+        "data": [
+          {
+            "label": "w1",
+            "x": 1,
+            "y": 118
+          },
+          {
+            "label": "w2",
+            "x": 2,
+            "y": 124
+          },
+          {
+            "label": "w3",
+            "x": 3,
+            "y": 109
+          },
+          {
+            "label": "w4",
+            "x": 4,
+            "y": 96
+          }
+        ],
+        "notes": "Sample data; illustrative."
+      }
+    ],
+    "predictions": [
+      {
+        "claim": "Next-period revenue recovers only partially without intervention",
+        "confidence": 0.58,
+        "basis": "12-week linear trend on sample data"
+      }
+    ],
+    "recommendations": [
+      {
+        "title": "Rebuild pipeline coverage in the two lagging regions",
+        "action": "Add coverage and review deal-stage conversion weekly for those regions.",
+        "expected_impact": "Closes the largest share of the gap",
+        "effort": "M",
+        "priority": 1
+      },
+      {
+        "title": "Sunset or reprice the weakest product line",
+        "action": "Evaluate repricing vs retirement for the flagged line.",
+        "expected_impact": "Stops the largest negative contributor",
+        "effort": "M",
+        "priority": 2
+      },
+      {
+        "title": "Instrument weekly trend alerts",
+        "action": "Alert on flat 4-week moving average so the next miss is caught mid-quarter.",
+        "expected_impact": "Earlier detection, smaller misses",
+        "effort": "S",
+        "priority": 3
+      }
+    ],
+    "appendix": "Generated in demo mode with deterministic sample data (LLM_MODE=mock)."
+  }
+}

@@ -1,0 +1,33 @@
+AgentForge launch video — voiceover lines only (v1.0, final)
+For TTS or recording. Runtime target 3:00. First person, student-builder tone.
+
+1. Every business already has the data to answer its most important questions. The problem is, those answers get stuck — buried in dashboards nobody has time to explore, or waiting weeks in a consultant's queue. What if you could just ask, and a whole team got to work?
+
+2. This is AgentForge. I type the mission in plain language: analyze why our churn spiked, and recommend three fixes. Then I attach our customer CSV — two thousand rows of plans, usage, and churn flags. I pick a team, hit launch, and AgentForge staffs the job: a planner, a researcher, an analyst, a forecaster, and a critic.
+
+3. The planner goes first, breaking the mission into a DAG of subtasks and assigning each to a specialist.
+
+4. The researcher pulls outside context — churn benchmarks and industry reports — and summarizes what it finds.
+
+5. Meanwhile the analyst opens my CSV, profiles the columns, and runs pandas — landing real tables and charts in the feed.
+
+6. The forecaster projects what's next; every prediction carries its own confidence and its basis.
+
+7. Then the critic. It just flagged a claim that was too strong, downgraded it, and forced another ranking pass — nothing unreviewed reaches the report.
+
+8. That meter tracks every token per agent with running cost — no black box. And this run is demo mode: deterministic simulated agents, so it plays the same offline; live mode swaps in the real model.
+
+9. Thirty-five seconds after launch, the report is ready. It opens with an executive summary, then the insights, ranked by evidence strength. The top one: basic-plan customers churn at thirty-seven point four percent — almost three times the company average of just under twenty-five.
+
+10. Here's the driver: churned customers had a median of thirteen logins last month; active ones, forty-two. The forecaster scores who's at risk next. Then my three fixes, ranked by impact versus effort: save offers when usage drops, an onboarding push early, and annual plans for basic customers.
+
+11. No need to rebuild this by hand. The template marketplace ships three ready teams — market research, sales insights, support triage. And any finished run exports in one click as an n8n workflow — import it into n8n Cloud and wire it into your stack.
+
+12. That's AgentForge — hired with one sentence. Next I'd build step-level retries from n8n and a hosted live-mode deployment. Thanks for watching.
+
+---
+TIMING INDEX (line → start time; scene map in video-script.md)
+1 → 0:00 | 2 → 0:20 | 3 → 0:50 | 4 → 0:58 | 5 → 1:06 | 6 → 1:16
+7 → 1:24 | 8 → 1:36 | 9 → 1:50 | 10 → 2:12 | 11 → 2:30 | 12 → 2:50
+Total: ~400 words ≈ 3:00 with natural pauses. If TTS is used, re-check each
+line still lands within its scene budget and stretch pauses, not words.

@@ -1,0 +1,53 @@
+# AgentForge — full local stack.
+#   docker compose up --build
+# Backend: http://localhost:8000  (API docs at /docs)
+# Frontend: http://localhost:3000
+#
+# Defaults run in demo mode (simulated agents, no LLM key needed).
+# For live agent runs: create a .env next to this file with RUN_MODE=live,
+# LLM_API_KEY=<your key>, LLM_BASE_URL / LLM_MODEL (see .env.example).
+services:
+  backend:
+    build:
+      context: .
+      dockerfile: backend/Dockerfile
+    ports:
+      - "8000:8000"
+    environment:
+      RUN_MODE: ${RUN_MODE:-demo}
+      DEMO_RUN_SPEED: ${DEMO_RUN_SPEED:-1.0}
+      LLM_MODE: ${LLM_MODE:-mock}
+      LLM_BASE_URL: ${LLM_BASE_URL:-https://open.bigmodel.cn/api/paas/v4}
+      LLM_API_KEY: ${LLM_API_KEY:-}
+      LLM_MODEL: ${LLM_MODEL:-glm-4-flash}
+      LLM_FALLBACK_MODEL: ${LLM_FALLBACK_MODEL:-glm-4-flash}
+      API_KEY: ${API_KEY:-}
+      DATABASE_URL: sqlite:////data/agentforge.db
+      UPLOAD_DIR: /data/uploads
+      REPORT_DIR: /data/reports
+      COST_PER_1M_INPUT_TOKENS: ${COST_PER_1M_INPUT_TOKENS:-0.11}
+      COST_PER_1M_OUTPUT_TOKENS: ${COST_PER_1M_OUTPUT_TOKENS:-0.11}
+      BRAVE_API_KEY: ${BRAVE_API_KEY:-}
+      CORS_ORIGINS: ${CORS_ORIGINS:-http://localhost:3000}
+    volumes:
+      - agentforge-data:/data
+    restart: unless-stopped
+
+  frontend:
+    build:
+      context: .
+      dockerfile: frontend/Dockerfile
+      args:
+        # 0 = talk to the real backend (below); 1 = fully offline mock UI.
+        NEXT_PUBLIC_DEMO_MODE: ${NEXT_PUBLIC_DEMO_MODE:-0}
+    environment:
+      NEXT_PUBLIC_API_BASE_URL: http://localhost:8000
+      NEXT_PUBLIC_API_WS_URL: ws://localhost:8000
+    ports:
+      - "3000:3000"
+    depends_on:
+      - backend
+    restart: unless-stopped
+
+volumes:
+  agentforge-data:

@@ -1,0 +1,850 @@
+{
+  "name": "AgentForge Run b9a4f7d2-2c58-4e93-8f61-3a7d5c0e9b12 — Analyze last quarter's sales CSV to find which regions an...",
+  "nodes": [
+    {
+      "parameters": {
+        "httpMethod": "POST",
+        "path": "agentforge-run-b9a4f7d2-2c58-4e93-8f61-3a7d5c0e9b12",
+        "responseMode": "onReceived",
+        "options": {}
+      },
+      "id": "78f600c9-a647-5b5f-87b4-d2d1fc33c66d",
+      "name": "Webhook Trigger",
+      "type": "n8n-nodes-base.webhook",
+      "typeVersion": 2,
+      "position": [
+        0,
+        0
+      ],
+      "webhookId": "1893c4cd-5821-5847-8ce2-64c3f73304c9"
+    },
+    {
+      "parameters": {
+        "mode": "manual",
+        "duplicateItem": false,
+        "assignments": {
+          "assignments": [
+            {
+              "id": "7730ea72-fa73-5432-a57e-8aa5ff20ea96",
+              "name": "run_id",
+              "value": "={{ $json.body && $json.body.run_id ? $json.body.run_id : 'b9a4f7d2-2c58-4e93-8f61-3a7d5c0e9b12' }}",
+              "type": "string"
+            },
+            {
+              "id": "3e4e1f75-7bc0-5165-bbab-05f9aaaf681d",
+              "name": "mission_id",
+              "value": "={{ $json.body && $json.body.mission_id ? $json.body.mission_id : 'm-2e8b4c90-1d7a-4f35-b642-9c0e5a1d3f84' }}",
+              "type": "string"
+            },
+            {
+              "id": "64b32eda-b099-5287-8d85-9be2a0f60368",
+              "name": "goal",
+              "value": "={{ $json.body && $json.body.goal ? $json.body.goal : 'Analyze last quarter\\'s sales CSV to find which regions and products drove the miss, and recommend 3 fixes for next quarter.' }}",
+              "type": "string"
+            },
+            {
+              "id": "d9fb3750-1eab-54ca-ab3c-351fadd52bbf",
+              "name": "template_id",
+              "value": "={{ $json.body && $json.body.template_id ? $json.body.template_id : 'sales_insights_team' }}",
+              "type": "string"
+            },
+            {
+              "id": "20815c0b-8031-5e2c-9f72-ac390d21fd40",
+              "name": "api_url",
+              "value": "={{ $env.AGENTFORGE_API_URL || 'http://agentforge-backend:8000' }}",
+              "type": "string"
+            }
+          ]
+        },
+        "includeOtherFields": false,
+        "options": {}
+      },
+      "id": "0c5ca129-1336-5ead-8d7a-5efc31c341eb",
+      "name": "Mission Context",
+      "type": "n8n-nodes-base.set",
+      "typeVersion": 3.4,
+      "position": [
+        220,
+        0
+      ]
+    },
+    {
+      "parameters": {
+        "mode": "manual",
+        "duplicateItem": false,
+        "assignments": {
+          "assignments": [
+            {
+              "id": "29a0c8aa-6987-5dc8-b80d-09bb931f39f1",
+              "name": "subtask_id",
+              "value": "st1",
+              "type": "string"
+            },
+            {
+              "id": "c3dd7f1d-184c-58f3-be0f-eead6c5e9e24",
+              "name": "subtask_title",
+              "value": "Frame the sales questions and plan",
+              "type": "string"
+            },
+            {
+              "id": "238b3bec-c318-5dcf-8cb4-5bd3d41bca3b",
+              "name": "agent",
+              "value": "planner",
+              "type": "string"
+            },
+            {
+              "id": "18b6fbe1-b05d-50a9-b245-b69df33b9fac",
+              "name": "depends_on",
+              "value": "[]",
+              "type": "string"
+            },
+            {
+              "id": "48cb7b45-396b-51ad-864e-5de550c02ffb",
+              "name": "run_id",
+              "value": "={{ $('Mission Context').first().json.run_id }}",
+              "type": "string"
+            },
+            {
+              "id": "35334e89-0b19-55ff-ad4f-6b3f0f5254dd",
+              "name": "mission_id",
+              "value": "={{ $('Mission Context').first().json.mission_id }}",
+              "type": "string"
+            },
+            {
+              "id": "7ab39b4a-3675-5dbb-8d9a-e9b8c7fb07a9",
+              "name": "goal",
+              "value": "={{ $('Mission Context').first().json.goal }}",
+              "type": "string"
+            },
+            {
+              "id": "a96b588b-e6a9-55b5-a9e2-21463530a0e1",
+              "name": "api_url",
+              "value": "={{ $('Mission Context').first().json.api_url }}",
+              "type": "string"
+            },
+            {
+              "id": "96c93f83-fa34-5484-bbaa-db8f001f5d1a",
+              "name": "upstream_outputs",
+              "value": "={{ $input.all().map(function (item) { return item.json; }) }}",
+              "type": "array"
+            }
+          ]
+        },
+        "includeOtherFields": false,
+        "options": {}
+      },
+      "id": "9a49afe5-92e3-55e0-9d23-eb2c7788344c",
+      "name": "Context [planner]: Frame the sales questions and plan",
+      "type": "n8n-nodes-base.set",
+      "typeVersion": 3.4,
+      "position": [
+        460,
+        0
+      ]
+    },
+    {
+      "parameters": {
+        "method": "POST",
+        "url": "={{ $json.api_url }}/api/runs/{{ $json.run_id }}/steps/{{ $json.subtask_id }}",
+        "sendBody": true,
+        "contentType": "application/json",
+        "specifyBody": "json",
+        "jsonBody": "={{ $json }}",
+        "sendHeaders": true,
+        "headerParameters": {
+          "parameters": [
+            {
+              "name": "X-AgentForge-Subtask",
+              "value": "st1"
+            },
+            {
+              "name": "X-AgentForge-Agent",
+              "value": "planner"
+            }
+          ]
+        },
+        "options": {}
+      },
+      "id": "e4e6eceb-7684-503e-a32e-584bf355a296",
+      "name": "Run Step [planner]: Frame the sales questions and plan",
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.2,
+      "position": [
+        680,
+        0
+      ]
+    },
+    {
+      "parameters": {
+        "mode": "manual",
+        "duplicateItem": false,
+        "assignments": {
+          "assignments": [
+            {
+              "id": "82c6e2f4-a1a4-5c5f-9201-d78afa0abfbd",
+              "name": "subtask_id",
+              "value": "st2",
+              "type": "string"
+            },
+            {
+              "id": "61668b62-a42e-5c5f-8b43-b94d8f90da9a",
+              "name": "subtask_title",
+              "value": "Collect KPI and seasonality context",
+              "type": "string"
+            },
+            {
+              "id": "14de98c3-e71a-5553-a8ee-936054a0c099",
+              "name": "agent",
+              "value": "researcher",
+              "type": "string"
+            },
+            {
+              "id": "e31c47b5-9722-5d54-a157-4fdab0e98bfb",
+              "name": "depends_on",
+              "value": "['st1']",
+              "type": "string"
+            },
+            {
+              "id": "9b4b8d12-9402-5d90-a7b3-f367c4c7edbe",
+              "name": "run_id",
+              "value": "={{ $('Mission Context').first().json.run_id }}",
+              "type": "string"
+            },
+            {
+              "id": "92c62e6b-b590-516d-b2ea-2ae5a9429c4a",
+              "name": "mission_id",
+              "value": "={{ $('Mission Context').first().json.mission_id }}",
+              "type": "string"
+            },
+            {
+              "id": "99cb745a-ae49-5e21-a0a6-a90204abb903",
+              "name": "goal",
+              "value": "={{ $('Mission Context').first().json.goal }}",
+              "type": "string"
+            },
+            {
+              "id": "7fda8b35-3091-53ad-b42f-83d3ffab8e2e",
+              "name": "api_url",
+              "value": "={{ $('Mission Context').first().json.api_url }}",
+              "type": "string"
+            },
+            {
+              "id": "d38ca446-7a91-57d7-b3c9-8c18040cd741",
+              "name": "upstream_outputs",
+              "value": "={{ $input.all().map(function (item) { return item.json; }) }}",
+              "type": "array"
+            }
+          ]
+        },
+        "includeOtherFields": false,
+        "options": {}
+      },
+      "id": "674f9db5-7c0b-5356-a9c3-0f2f94753f9e",
+      "name": "Context [researcher]: Collect KPI and seasonality context",
+      "type": "n8n-nodes-base.set",
+      "typeVersion": 3.4,
+      "position": [
+        900,
+        -110
+      ]
+    },
+    {
+      "parameters": {
+        "method": "POST",
+        "url": "={{ $json.api_url }}/api/runs/{{ $json.run_id }}/steps/{{ $json.subtask_id }}",
+        "sendBody": true,
+        "contentType": "application/json",
+        "specifyBody": "json",
+        "jsonBody": "={{ $json }}",
+        "sendHeaders": true,
+        "headerParameters": {
+          "parameters": [
+            {
+              "name": "X-AgentForge-Subtask",
+              "value": "st2"
+            },
+            {
+              "name": "X-AgentForge-Agent",
+              "value": "researcher"
+            }
+          ]
+        },
+        "options": {}
+      },
+      "id": "2c30d7b7-6d39-57fd-a2d1-bdd6e2d1932a",
+      "name": "Run Step [researcher]: Collect KPI and seasonality context",
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.2,
+      "position": [
+        1120,
+        -110
+      ]
+    },
+    {
+      "parameters": {
+        "mode": "manual",
+        "duplicateItem": false,
+        "assignments": {
+          "assignments": [
+            {
+              "id": "f0b6dbda-f911-5c9d-82ea-27ffe8bf8c1a",
+              "name": "subtask_id",
+              "value": "st3",
+              "type": "string"
+            },
+            {
+              "id": "c962c375-9b99-54c1-a898-1f5fee834e58",
+              "name": "subtask_title",
+              "value": "Profile sales data and find drivers",
+              "type": "string"
+            },
+            {
+              "id": "1f5293f6-7e24-5771-b490-5db59422cce1",
+              "name": "agent",
+              "value": "analyst",
+              "type": "string"
+            },
+            {
+              "id": "edefc303-dd67-5a62-8c84-0294ee2158a9",
+              "name": "depends_on",
+              "value": "['st1']",
+              "type": "string"
+            },
+            {
+              "id": "e1eddf13-197f-5035-800c-4292445794f2",
+              "name": "run_id",
+              "value": "={{ $('Mission Context').first().json.run_id }}",
+              "type": "string"
+            },
+            {
+              "id": "6bfb1cda-fb52-54c4-acb5-a134f2fb76bd",
+              "name": "mission_id",
+              "value": "={{ $('Mission Context').first().json.mission_id }}",
+              "type": "string"
+            },
+            {
+              "id": "f2b5771c-7fe8-568e-a88f-7eec54de14bf",
+              "name": "goal",
+              "value": "={{ $('Mission Context').first().json.goal }}",
+              "type": "string"
+            },
+            {
+              "id": "09c51c1b-4439-53d5-9944-b8a5aeb901e1",
+              "name": "api_url",
+              "value": "={{ $('Mission Context').first().json.api_url }}",
+              "type": "string"
+            },
+            {
+              "id": "c7f7ab7d-6b02-5901-8ea0-c3675a24767a",
+              "name": "upstream_outputs",
+              "value": "={{ $input.all().map(function (item) { return item.json; }) }}",
+              "type": "array"
+            }
+          ]
+        },
+        "includeOtherFields": false,
+        "options": {}
+      },
+      "id": "40c779bc-4a3c-5fc6-b526-8ee67425221c",
+      "name": "Context [analyst]: Profile sales data and find drivers",
+      "type": "n8n-nodes-base.set",
+      "typeVersion": 3.4,
+      "position": [
+        900,
+        110
+      ]
+    },
+    {
+      "parameters": {
+        "method": "POST",
+        "url": "={{ $json.api_url }}/api/runs/{{ $json.run_id }}/steps/{{ $json.subtask_id }}",
+        "sendBody": true,
+        "contentType": "application/json",
+        "specifyBody": "json",
+        "jsonBody": "={{ $json }}",
+        "sendHeaders": true,
+        "headerParameters": {
+          "parameters": [
+            {
+              "name": "X-AgentForge-Subtask",
+              "value": "st3"
+            },
+            {
+              "name": "X-AgentForge-Agent",
+              "value": "analyst"
+            }
+          ]
+        },
+        "options": {}
+      },
+      "id": "c892bc8b-b76b-532e-8aa7-daff3a16498f",
+      "name": "Run Step [analyst]: Profile sales data and find drivers",
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.2,
+      "position": [
+        1120,
+        110
+      ]
+    },
+    {
+      "parameters": {
+        "mode": "manual",
+        "duplicateItem": false,
+        "assignments": {
+          "assignments": [
+            {
+              "id": "bcae6020-c374-509c-a8c4-16a356513b76",
+              "name": "subtask_id",
+              "value": "st4",
+              "type": "string"
+            },
+            {
+              "id": "b635f2a4-f8fd-54a6-9b8c-0ef8c8c3f8cf",
+              "name": "subtask_title",
+              "value": "Forecast next-period revenue",
+              "type": "string"
+            },
+            {
+              "id": "348bd3fe-c894-55c2-abf4-51f256cdf17d",
+              "name": "agent",
+              "value": "forecaster",
+              "type": "string"
+            },
+            {
+              "id": "7eee6c79-ab0c-54e0-ae65-590e690905ea",
+              "name": "depends_on",
+              "value": "['st3']",
+              "type": "string"
+            },
+            {
+              "id": "3b91ef14-1997-5c0a-8d46-15cc5b99028f",
+              "name": "run_id",
+              "value": "={{ $('Mission Context').first().json.run_id }}",
+              "type": "string"
+            },
+            {
+              "id": "b2ed04a0-5b0a-5ec4-907e-45f41ff79e4b",
+              "name": "mission_id",
+              "value": "={{ $('Mission Context').first().json.mission_id }}",
+              "type": "string"
+            },
+            {
+              "id": "4ba3bedb-a126-5fb2-a93f-14fa55c47c95",
+              "name": "goal",
+              "value": "={{ $('Mission Context').first().json.goal }}",
+              "type": "string"
+            },
+            {
+              "id": "802ac599-96c1-5bd8-9286-58d432a320dc",
+              "name": "api_url",
+              "value": "={{ $('Mission Context').first().json.api_url }}",
+              "type": "string"
+            },
+            {
+              "id": "62c12a84-905a-5e10-b032-d98eceba71a4",
+              "name": "upstream_outputs",
+              "value": "={{ $input.all().map(function (item) { return item.json; }) }}",
+              "type": "array"
+            }
+          ]
+        },
+        "includeOtherFields": false,
+        "options": {}
+      },
+      "id": "22babf15-23c3-56d4-9e16-34672bc1ab79",
+      "name": "Context [forecaster]: Forecast next-period revenue",
+      "type": "n8n-nodes-base.set",
+      "typeVersion": 3.4,
+      "position": [
+        1340,
+        0
+      ]
+    },
+    {
+      "parameters": {
+        "method": "POST",
+        "url": "={{ $json.api_url }}/api/runs/{{ $json.run_id }}/steps/{{ $json.subtask_id }}",
+        "sendBody": true,
+        "contentType": "application/json",
+        "specifyBody": "json",
+        "jsonBody": "={{ $json }}",
+        "sendHeaders": true,
+        "headerParameters": {
+          "parameters": [
+            {
+              "name": "X-AgentForge-Subtask",
+              "value": "st4"
+            },
+            {
+              "name": "X-AgentForge-Agent",
+              "value": "forecaster"
+            }
+          ]
+        },
+        "options": {}
+      },
+      "id": "aade445a-efd7-5c00-83c3-11dd0a2bcff4",
+      "name": "Run Step [forecaster]: Forecast next-period revenue",
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.2,
+      "position": [
+        1560,
+        0
+      ]
+    },
+    {
+      "parameters": {},
+      "id": "faebaf6d-8aa5-5ff6-99e8-34410dfb0a53",
+      "name": "Join: Validate findings and rank fixes",
+      "type": "n8n-nodes-base.noOp",
+      "typeVersion": 1,
+      "position": [
+        1640,
+        0
+      ]
+    },
+    {
+      "parameters": {
+        "mode": "manual",
+        "duplicateItem": false,
+        "assignments": {
+          "assignments": [
+            {
+              "id": "d3fc6d50-acf8-53c5-9aa4-5715085735d6",
+              "name": "subtask_id",
+              "value": "st5",
+              "type": "string"
+            },
+            {
+              "id": "07845fbe-f8dc-587c-acf6-78884cf50308",
+              "name": "subtask_title",
+              "value": "Validate findings and rank fixes",
+              "type": "string"
+            },
+            {
+              "id": "76d95c31-f822-5157-a8f2-7e9fb1b57a74",
+              "name": "agent",
+              "value": "critic",
+              "type": "string"
+            },
+            {
+              "id": "93d97d1a-6f02-526d-8582-f4e9a7a4c42d",
+              "name": "depends_on",
+              "value": "['st2', 'st3', 'st4']",
+              "type": "string"
+            },
+            {
+              "id": "f6cd18d3-a30e-5759-abf6-539ee0b15453",
+              "name": "run_id",
+              "value": "={{ $('Mission Context').first().json.run_id }}",
+              "type": "string"
+            },
+            {
+              "id": "e8967bc7-eb4f-5a56-b216-747a19178981",
+              "name": "mission_id",
+              "value": "={{ $('Mission Context').first().json.mission_id }}",
+              "type": "string"
+            },
+            {
+              "id": "ea79fe77-80c1-51f5-804d-3ca1b27c6670",
+              "name": "goal",
+              "value": "={{ $('Mission Context').first().json.goal }}",
+              "type": "string"
+            },
+            {
+              "id": "a04857ca-4283-51c7-b978-deabdc3608ac",
+              "name": "api_url",
+              "value": "={{ $('Mission Context').first().json.api_url }}",
+              "type": "string"
+            },
+            {
+              "id": "c4035d5f-0c71-5f85-bc65-f3cefac94fc0",
+              "name": "upstream_outputs",
+              "value": "={{ $input.all().map(function (item) { return item.json; }) }}",
+              "type": "array"
+            }
+          ]
+        },
+        "includeOtherFields": false,
+        "options": {}
+      },
+      "id": "1cecb766-9213-5614-b7c4-565201f47b10",
+      "name": "Context [critic]: Validate findings and rank fixes",
+      "type": "n8n-nodes-base.set",
+      "typeVersion": 3.4,
+      "position": [
+        1780,
+        0
+      ]
+    },
+    {
+      "parameters": {
+        "method": "POST",
+        "url": "={{ $json.api_url }}/api/runs/{{ $json.run_id }}/steps/{{ $json.subtask_id }}",
+        "sendBody": true,
+        "contentType": "application/json",
+        "specifyBody": "json",
+        "jsonBody": "={{ $json }}",
+        "sendHeaders": true,
+        "headerParameters": {
+          "parameters": [
+            {
+              "name": "X-AgentForge-Subtask",
+              "value": "st5"
+            },
+            {
+              "name": "X-AgentForge-Agent",
+              "value": "critic"
+            }
+          ]
+        },
+        "options": {}
+      },
+      "id": "3b814f30-6b11-5c35-9bfd-8e83549e7d8d",
+      "name": "Run Step [critic]: Validate findings and rank fixes",
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.2,
+      "position": [
+        2000,
+        0
+      ]
+    },
+    {
+      "parameters": {
+        "conditions": {
+          "options": {
+            "caseSensitive": true,
+            "leftValue": "",
+            "typeValidation": "loose"
+          },
+          "conditions": [
+            {
+              "id": "b98f37ce-9ab8-5fdd-9557-431f2d09a1fe",
+              "leftValue": "={{ $json.approved !== false }}",
+              "rightValue": "",
+              "operator": {
+                "type": "boolean",
+                "operation": "true",
+                "singleValue": true
+              }
+            }
+          ],
+          "combinator": "and"
+        },
+        "options": {}
+      },
+      "id": "064f4688-eed3-53d6-9463-53397a9011cc",
+      "name": "Critic Verdict",
+      "type": "n8n-nodes-base.if",
+      "typeVersion": 2.2,
+      "position": [
+        2440,
+        0
+      ]
+    },
+    {
+      "parameters": {},
+      "id": "c08917f1-17fb-5559-b372-68afc40d7d72",
+      "name": "Flagged for Rework",
+      "type": "n8n-nodes-base.noOp",
+      "typeVersion": 1,
+      "position": [
+        2660,
+        220
+      ]
+    },
+    {
+      "parameters": {
+        "mode": "runOnceForAllItems",
+        "jsCode": "// Assemble the AgentForge report payload from the completed step outputs.\n// Each entry in step_node_names is an AgentForge step HTTP node; its response\n// holds that subtask's result from the AgentForge backend.\nvar step_node_names = [\n  'Run Step [planner]: Frame the sales questions and plan',\n  'Run Step [researcher]: Collect KPI and seasonality context',\n  'Run Step [analyst]: Profile sales data and find drivers',\n  'Run Step [forecaster]: Forecast next-period revenue',\n  'Run Step [critic]: Validate findings and rank fixes'\n];\nvar mission = $('Mission Context').first().json;\nvar steps = [];\nfor (var i = 0; i < step_node_names.length; i++) {\n  var node_name = step_node_names[i];\n  var output = null;\n  try {\n    output = $(node_name).first().json;\n  } catch (error) {\n    output = { error: 'no output from ' + node_name };\n  }\n  steps.push({ node: node_name, data: output });\n}\nvar report = {\n  run_id: mission.run_id,\n  mission_id: mission.mission_id,\n  goal: mission.goal,\n  template_id: mission.template_id || null,\n  step_count: steps.length,\n  steps: steps,\n  api_url: mission.api_url,\n  source: 'agentforge-n8n-export'\n};\nreturn [{ json: report }];\n"
+      },
+      "id": "394fff72-ab04-5453-8fe2-c772b64b5b81",
+      "name": "Assemble Report",
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [
+        2660,
+        0
+      ]
+    },
+    {
+      "parameters": {
+        "method": "POST",
+        "url": "={{ $json.api_url }}/api/runs/{{ $json.run_id }}/report",
+        "sendBody": true,
+        "contentType": "application/json",
+        "specifyBody": "json",
+        "jsonBody": "={{ $json }}",
+        "sendHeaders": true,
+        "headerParameters": {
+          "parameters": [
+            {
+              "name": "X-AgentForge-Kind",
+              "value": "report"
+            },
+            {
+              "name": "X-AgentForge-Source",
+              "value": "n8n-export"
+            }
+          ]
+        },
+        "options": {}
+      },
+      "id": "9680e596-c23e-5b39-ab5a-b815059c54fb",
+      "name": "Deliver Report",
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.2,
+      "position": [
+        2880,
+        0
+      ]
+    }
+  ],
+  "connections": {
+    "Webhook Trigger": {
+      "main": [
+        [
+          {
+            "node": "Mission Context",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Mission Context": {
+      "main": [
+        [
+          {
+            "node": "Context [planner]: Frame the sales questions and plan",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Run Step [planner]: Frame the sales questions and plan": {
+      "main": [
+        [
+          {
+            "node": "Context [researcher]: Collect KPI and seasonality context",
+            "type": "main",
+            "index": 0
+          },
+          {
+            "node": "Context [analyst]: Profile sales data and find drivers",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Run Step [analyst]: Profile sales data and find drivers": {
+      "main": [
+        [
+          {
+            "node": "Context [forecaster]: Forecast next-period revenue",
+            "type": "main",
+            "index": 0
+          },
+          {
+            "node": "Join: Validate findings and rank fixes",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Run Step [researcher]: Collect KPI and seasonality context": {
+      "main": [
+        [
+          {
+            "node": "Join: Validate findings and rank fixes",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Run Step [forecaster]: Forecast next-period revenue": {
+      "main": [
+        [
+          {
+            "node": "Join: Validate findings and rank fixes",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Join: Validate findings and rank fixes": {
+      "main": [
+        [
+          {
+            "node": "Context [critic]: Validate findings and rank fixes",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Run Step [critic]: Validate findings and rank fixes": {
+      "main": [
+        [
+          {
+            "node": "Critic Verdict",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Critic Verdict": {
+      "main": [
+        [
+          {
+            "node": "Assemble Report",
+            "type": "main",
+            "index": 0
+          }
+        ],
+        [
+          {
+            "node": "Flagged for Rework",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Assemble Report": {
+      "main": [
+        [
+          {
+            "node": "Deliver Report",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    }
+  },
+  "settings": {
+    "executionOrder": "v1"
+  },
+  "meta": {
+    "source": "agentforge",
+    "exporter": "agentforge.integrations.n8n_export",
+    "exporter_version": "1.0.0",
+    "agentforge_run_id": "b9a4f7d2-2c58-4e93-8f61-3a7d5c0e9b12",
+    "agentforge_mission_id": "m-2e8b4c90-1d7a-4f35-b642-9c0e5a1d3f84",
+    "agentforge_template_id": "sales_insights_team",
+    "plan_source": "plan_created",
+    "plan_note": null,
+    "subtask_count": 5,
+    "node_count": 17,
+    "edge_count": 13,
+    "api_url_expression": "={{ $env.AGENTFORGE_API_URL || 'http://agentforge-backend:8000' }}",
+    "honesty_note": "All HTTP nodes target the AgentForge backend via $env.AGENTFORGE_API_URL. No third-party APIs and no credentials are embedded."
+  }
+}

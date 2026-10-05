@@ -1,0 +1,45 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+dist/
+build/
+*.db
+*.sqlite3
+
+# Node
+node_modules/
+.next/
+out/
+*.tsbuildinfo
+.turbo/
+
+# Env & secrets
+.env
+.env.local
+.env*.local
+
+# Data & uploads (keep samples, keep generator)
+backend/data/uploads/*
+!backend/data/uploads/.gitkeep
+
+# OS / editor
+.DS_Store
+Thumbs.db
+desktop.ini
+.idea/
+.vscode/
+
+# Coverage
+.coverage
+htmlcov/
+
+# App runtime artifacts
+backend/artifacts/
+*.pdf
+!docs/**/*.pdf

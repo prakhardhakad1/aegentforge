@@ -1,0 +1,1501 @@
+ticket_id,created_date,category,priority,subject,first_response_hours,resolution_hours,is_resolved,csat
+TKT-00165,2025-10-01,billing,high,Pricing tier discrepancy on renewal,1.2,6.8,1,4
+TKT-01022,2025-10-01,login_bug,medium,403 error on login from new device,4.7,17.4,1,4
+TKT-01265,2025-10-01,feature_request,medium,Webhook signing secret rotation UI,12.8,59.9,0,
+TKT-01457,2025-10-01,feature_request,low,Audit log retention longer than 90 days,23.2,71.9,0,
+TKT-01464,2025-10-02,how_to,medium,Set up two-factor authentication,6.5,4.2,1,5
+TKT-00123,2025-10-03,billing,high,Failed payment — card declined but subscription active,1.3,8.4,1,3
+TKT-00892,2025-10-03,billing,medium,Charged after cancellation on 2025-10-04,9.7,7.0,1,4
+TKT-00953,2025-10-03,integration,low,OAuth token refresh fails silently,13.5,47.2,1,3
+TKT-00001,2025-10-04,feature_request,medium,Custom fields in reports,5.8,35.4,0,
+TKT-00128,2025-10-04,feature_request,medium,Custom fields in reports,3.1,24.5,1,5
+TKT-00394,2025-10-04,how_to,low,How to set up usage alerts?,18.5,3.6,1,5
+TKT-00419,2025-10-04,integration,urgent,OAuth token refresh fails silently,0.5,25.9,1,3
+TKT-00650,2025-10-04,feature_request,low,Add CSV export for dashboards,15.6,65.0,1,3
+TKT-01132,2025-10-05,login_bug,urgent,Session expires every few minutes,0.8,3.3,1,2
+TKT-01424,2025-10-05,how_to,low,Where can I find audit logs?,11.6,5.2,1,5
+TKT-00080,2025-10-06,billing,high,Charged after cancellation on 2026-03-15,2.3,9.2,1,3
+TKT-00186,2025-10-06,login_bug,low,Two-factor codes rejected on mobile,6.6,21.9,1,4
+TKT-00802,2025-10-06,feature_request,low,Custom fields in reports,27.1,55.3,1,3
+TKT-00863,2025-10-06,how_to,high,Reset dashboard filters to default,2.6,1.6,1,5
+TKT-01065,2025-10-06,billing,high,Refund for order #95338 not received,2.3,8.4,1,4
+TKT-01356,2025-10-06,billing,low,Double charged on invoice #11346,19.6,15.7,1,4
+TKT-01448,2025-10-06,billing,medium,Pricing tier discrepancy on renewal,6.3,14.0,1,5
+TKT-01350,2025-10-07,integration,low,Jira two-way sync has stalled,31.7,52.8,1,3
+TKT-00007,2025-10-08,billing,low,Invoice VAT number is incorrect,35.3,12.1,1,5
+TKT-00496,2025-10-08,login_bug,urgent,Cannot reset password — email never arrives,1.2,3.0,1,3
+TKT-00712,2025-10-08,login_bug,medium,Password reset link expires immediately,3.4,32.4,1,4
+TKT-00098,2025-10-09,billing,medium,Unexpected overage charges this month,6.4,15.4,1,4
+TKT-00771,2025-10-09,login_bug,urgent,Google sign-in fails with 500 error,0.3,6.7,1,3
+TKT-00931,2025-10-09,billing,high,Pricing tier discrepancy on renewal,1.3,6.6,1,4
+TKT-01009,2025-10-09,feature_request,high,Audit log retention longer than 90 days,1.5,48.9,1,4
+TKT-00006,2025-10-10,how_to,medium,Export data to Excel,3.8,6.4,1,4
+TKT-00483,2025-10-10,feature_request,low,Custom fields in reports,23.7,42.3,1,4
+TKT-00711,2025-10-10,billing,high,Unexpected overage charges this month,1.4,11.7,1,4
+TKT-01144,2025-10-10,login_bug,medium,Cannot log in after workspace merge,6.9,16.3,1,4
+TKT-01404,2025-10-10,how_to,low,How to archive old projects?,36.4,8.3,1,4
+TKT-00334,2025-10-11,feature_request,medium,Webhook signing secret rotation UI,9.5,49.2,1,3
+TKT-00662,2025-10-11,login_bug,medium,Cannot reset password — email never arrives,3.1,19.6,1,4
+TKT-00191,2025-10-12,login_bug,medium,403 error on login from new device,9.8,13.7,1,4
+TKT-00237,2025-10-12,feature_request,medium,API rate limit increase request,4.3,53.4,0,
+TKT-00635,2025-10-13,billing,low,Downgrade not applied to my bill,17.5,13.9,1,4
+TKT-01280,2025-10-13,billing,high,Invoice VAT number is incorrect,1.4,6.5,1,4
+TKT-00258,2025-10-14,login_bug,urgent,Google sign-in fails with 500 error,0.5,8.0,1,2
+TKT-01402,2025-10-16,login_bug,urgent,Password reset link expires immediately,0.5,3.5,1,4
+TKT-00979,2025-10-17,billing,high,Charged after cancellation on 2026-02-23,2.1,15.2,1,3
+TKT-01454,2025-10-17,how_to,medium,How to change the account email?,5.8,3.3,1,5
+TKT-01348,2025-10-18,billing,medium,Requesting annual plan discount,8.0,14.8,1,3
+TKT-00314,2025-10-19,billing,low,Invoice VAT number is incorrect,24.2,21.0,1,4
+TKT-00529,2025-10-19,how_to,low,Where do I manage API keys?,14.7,6.2,1,5
+TKT-00055,2025-10-20,integration,low,Zapier webhook returns 401,13.7,65.8,1,3
+TKT-00318,2025-10-20,billing,medium,Downgrade not applied to my bill,6.6,7.3,1,4
+TKT-00758,2025-10-20,login_bug,high,Login page infinite loading spinner,2.7,6.7,1,4
+TKT-01216,2025-10-21,how_to,medium,Where can I find audit logs?,4.1,7.6,1,5
+TKT-00279,2025-10-22,integration,urgent,Slack integration not posting alerts,0.3,18.9,1,3
+TKT-01002,2025-10-22,integration,urgent,Slack integration not posting alerts,0.7,17.0,1,5
+TKT-01331,2025-10-22,integration,medium,HubSpot mapping ignores custom fields,7.2,63.3,1,3
+TKT-01453,2025-10-22,billing,high,Update credit card details fails,1.1,6.7,1,4
+TKT-00126,2025-10-23,billing,medium,Update credit card details fails,8.1,7.8,1,4
+TKT-00340,2025-10-23,billing,medium,Unexpected overage charges this month,7.8,5.9,1,3
+TKT-00359,2025-10-23,how_to,medium,Where can I find audit logs?,5.1,1.5,0,
+TKT-01159,2025-10-23,login_bug,high,Cannot reset password — email never arrives,1.4,25.5,1,4
+TKT-00467,2025-10-24,billing,medium,Refund for order #37323 not received,7.6,11.0,1,3
+TKT-00713,2025-10-24,billing,low,Refund for order #19370 not received,31.5,22.6,1,3
+TKT-01314,2025-10-24,billing,low,Invoice PDF download broken,34.8,15.3,1,4
+TKT-00201,2025-10-25,feature_request,medium,Slack notifications for failed jobs,4.8,48.4,1,3
+TKT-00295,2025-10-25,billing,high,Update credit card details fails,1.1,5.9,1,4
+TKT-00655,2025-10-25,login_bug,low,Account locked after 2FA attempts,20.8,26.4,0,
+TKT-00671,2025-10-25,feature_request,low,Calendar sync for deadlines,37.8,79.4,1,5
+TKT-01057,2025-10-25,login_bug,high,Magic link opens a blank page,1.7,6.3,1,4
+TKT-01114,2025-10-25,login_bug,urgent,Google sign-in fails with 500 error,0.3,11.9,1,3
+TKT-01363,2025-10-25,billing,low,Downgrade not applied to my bill,18.7,14.5,1,3
+TKT-00493,2025-10-26,login_bug,high,Two-factor codes rejected on mobile,0.8,12.5,1,4
+TKT-00622,2025-10-26,how_to,medium,How to set up usage alerts?,7.8,2.3,1,4
+TKT-01281,2025-10-26,billing,low,Failed payment — card declined but subscription active,23.5,9.5,1,4
+TKT-01012,2025-10-28,billing,low,Failed payment — card declined but subscription active,22.8,24.8,1,3
+TKT-01213,2025-10-28,how_to,low,How to archive old projects?,27.7,7.6,1,5
+TKT-01275,2025-10-28,login_bug,medium,Cannot log in after workspace merge,3.0,11.8,1,3
+TKT-01360,2025-10-28,billing,low,Unexpected overage charges this month,22.4,12.6,0,
+TKT-00052,2025-10-29,feature_request,high,Dark mode support,1.5,52.3,1,3
+TKT-01197,2025-10-29,feature_request,low,Dark mode support,13.6,53.4,1,4
+TKT-01431,2025-10-29,billing,medium,Update credit card details fails,6.4,14.8,1,3
+TKT-01267,2025-10-30,how_to,low,Where do I manage API keys?,23.9,5.1,1,4
+TKT-00075,2025-10-31,integration,high,Zapier webhook returns 401,1.6,41.9,1,4
+TKT-00272,2025-10-31,feature_request,medium,API rate limit increase request,14.1,41.4,1,4
+TKT-00502,2025-10-31,login_bug,medium,403 error on login from new device,5.7,13.7,1,4
+TKT-00627,2025-10-31,billing,medium,Failed payment — card declined but subscription active,14.2,13.3,1,3
+TKT-00991,2025-10-31,integration,high,Webhook retries create duplicate events,1.2,18.3,1,4
+TKT-01034,2025-10-31,login_bug,medium,Password reset link expires immediately,7.2,17.3,1,3
+TKT-01375,2025-10-31,billing,high,Downgrade not applied to my bill,5.4,4.5,0,
+TKT-00271,2025-11-01,integration,low,API returns CORS errors from dashboard,20.9,72.1,1,2
+TKT-00509,2025-11-01,billing,urgent,Double charged on invoice #50823,0.9,2.7,1,2
+TKT-00832,2025-11-01,login_bug,medium,Two-factor codes rejected on mobile,6.9,24.2,1,4
+TKT-00981,2025-11-01,how_to,low,Where can I find audit logs?,6.5,5.2,0,
+TKT-01311,2025-11-01,billing,medium,Refund for order #2035 not received,5.2,9.2,1,4
+TKT-00304,2025-11-02,feature_request,low,Custom fields in reports,19.1,75.4,1,4
+TKT-00432,2025-11-02,login_bug,medium,SSO redirect loop after password change,7.6,8.9,1,4
+TKT-00490,2025-11-02,feature_request,low,Add CSV export for dashboards,15.8,65.0,1,3
+TKT-00444,2025-11-03,billing,medium,Refund for order #79824 not received,9.7,10.0,1,4
+TKT-00105,2025-11-04,login_bug,medium,403 error on login from new device,11.6,23.6,1,4
+TKT-01014,2025-11-04,feature_request,low,API rate limit increase request,30.2,58.3,1,4
+TKT-01262,2025-11-04,billing,medium,Invoice PDF download broken,4.4,10.6,1,4
+TKT-01035,2025-11-05,login_bug,low,SSO redirect loop after password change,8.0,47.3,1,3
+TKT-01335,2025-11-05,login_bug,high,SSO redirect loop after password change,1.5,17.7,1,3
+TKT-01470,2025-11-05,feature_request,low,Calendar sync for deadlines,27.3,85.1,0,
+TKT-00108,2025-11-06,feature_request,high,Webhook signing secret rotation UI,1.1,22.0,1,4
+TKT-01149,2025-11-06,login_bug,urgent,Account locked after 2FA attempts,0.8,4.5,1,4
+TKT-00103,2025-11-07,how_to,medium,How to change the account email?,6.1,2.2,1,4
+TKT-00553,2025-11-07,billing,medium,Update credit card details fails,5.9,6.7,1,3
+TKT-00648,2025-11-07,login_bug,medium,Google sign-in fails with 500 error,9.4,19.2,1,3
+TKT-00692,2025-11-07,feature_request,low,Slack notifications for failed jobs,19.2,85.7,0,
+TKT-00782,2025-11-07,login_bug,high,Two-factor codes rejected on mobile,2.9,4.8,1,4
+TKT-00104,2025-11-08,login_bug,low,Cannot reset password — email never arrives,20.3,16.4,1,3
+TKT-00143,2025-11-08,feature_request,low,Bulk edit for user roles,23.3,39.5,1,4
+TKT-00317,2025-11-08,billing,low,Requesting annual plan discount,27.4,25.1,1,2
+TKT-01139,2025-11-08,how_to,urgent,How to change the account email?,0.6,2.0,1,5
+TKT-01313,2025-11-08,feature_request,medium,Add CSV export for dashboards,6.2,49.5,0,
+TKT-00011,2025-11-09,feature_request,urgent,Add CSV export for dashboards,1.0,12.3,1,4
+TKT-00042,2025-11-09,login_bug,medium,Login page infinite loading spinner,5.6,12.0,1,3
+TKT-00657,2025-11-09,integration,high,API returns CORS errors from dashboard,2.5,16.5,1,4
+TKT-00821,2025-11-09,login_bug,high,Session expires every few minutes,0.4,9.8,1,3
+TKT-01393,2025-11-09,feature_request,medium,Bulk edit for user roles,3.5,24.1,1,4
+TKT-00179,2025-11-10,billing,urgent,Refund for order #82153 not received,0.8,4.0,1,3
+TKT-00235,2025-11-10,how_to,low,Set up two-factor authentication,11.5,3.6,1,4
+TKT-00538,2025-11-10,billing,medium,Pricing tier discrepancy on renewal,5.1,11.0,1,4
+TKT-00964,2025-11-10,billing,medium,Double charged on invoice #65888,9.1,7.4,1,3
+TKT-01297,2025-11-10,billing,high,Cancel subscription and refund prorated amount,0.5,4.1,1,5
+TKT-00511,2025-11-11,feature_request,medium,Custom fields in reports,9.1,21.7,0,
+TKT-00968,2025-11-11,login_bug,urgent,Magic link opens a blank page,0.8,9.0,1,4
+TKT-01019,2025-11-11,login_bug,high,Google sign-in fails with 500 error,1.1,4.7,1,5
+TKT-01077,2025-11-11,integration,high,Shopify order import fails nightly,1.4,81.9,1,4
+TKT-01242,2025-11-11,integration,high,Webhook retries create duplicate events,1.4,56.4,1,3
+TKT-00726,2025-11-12,login_bug,low,Login page infinite loading spinner,34.7,39.3,1,3
+TKT-01365,2025-11-12,billing,low,Cancel subscription and refund prorated amount,30.1,6.4,1,4
+TKT-01403,2025-11-12,login_bug,medium,Cannot reset password — email never arrives,3.0,13.3,0,
+TKT-00374,2025-11-13,billing,medium,Pricing tier discrepancy on renewal,3.8,7.3,1,4
+TKT-01204,2025-11-13,billing,medium,Invoice PDF download broken,5.4,18.7,1,5
+TKT-01154,2025-11-14,billing,medium,Update credit card details fails,4.2,20.4,1,3
+TKT-00227,2025-11-15,billing,medium,Charged after cancellation on 2026-04-30,11.3,7.0,1,4
+TKT-00253,2025-11-15,login_bug,medium,Account locked after 2FA attempts,10.5,9.7,1,4
+TKT-00377,2025-11-15,how_to,medium,How do usage-based charges work?,4.1,2.9,1,4
+TKT-00402,2025-11-15,feature_request,medium,Calendar sync for deadlines,3.0,43.2,0,
+TKT-00428,2025-11-15,login_bug,high,Cannot reset password — email never arrives,1.5,8.0,1,4
+TKT-00478,2025-11-15,billing,medium,Double charged on invoice #94985,8.7,4.4,1,4
+TKT-00500,2025-11-15,how_to,low,Set up two-factor authentication,18.8,6.2,1,4
+TKT-00886,2025-11-15,how_to,medium,Where do I manage API keys?,3.8,2.0,1,5
+TKT-00038,2025-11-16,login_bug,high,Login page infinite loading spinner,0.7,13.3,1,4
+TKT-00069,2025-11-16,billing,urgent,Unexpected overage charges this month,0.3,8.9,1,4
+TKT-00846,2025-11-16,billing,low,Double charged on invoice #79612,17.6,20.2,1,4
+TKT-00946,2025-11-16,billing,low,Downgrade not applied to my bill,42.5,21.1,1,3
+TKT-01279,2025-11-16,how_to,urgent,How do usage-based charges work?,0.5,3.4,1,4
+TKT-00327,2025-11-17,billing,high,Downgrade not applied to my bill,1.2,5.3,1,5
+TKT-00353,2025-11-17,how_to,low,Where can I find audit logs?,21.8,4.1,1,5
+TKT-00767,2025-11-17,billing,high,Charged after cancellation on 2026-04-09,0.6,6.6,1,4
+TKT-01040,2025-11-17,billing,low,Refund for order #76191 not received,19.9,19.5,1,3
+TKT-01106,2025-11-17,login_bug,urgent,Two-factor codes rejected on mobile,0.4,6.3,1,3
+TKT-01422,2025-11-17,login_bug,high,Cannot reset password — email never arrives,3.3,21.9,1,4
+TKT-00183,2025-11-18,billing,high,Downgrade not applied to my bill,1.3,5.7,1,3
+TKT-00254,2025-11-18,feature_request,medium,SAML support for enterprise plan,4.0,28.3,0,
+TKT-00365,2025-11-18,billing,medium,Update credit card details fails,5.4,12.3,1,3
+TKT-00680,2025-11-18,how_to,low,How do usage-based charges work?,16.0,4.0,0,
+TKT-01364,2025-11-18,how_to,low,How to set up usage alerts?,31.5,9.1,1,5
+TKT-00451,2025-11-19,billing,medium,Downgrade not applied to my bill,6.3,10.5,1,4
+TKT-00523,2025-11-19,billing,high,Update credit card details fails,2.0,6.1,1,4
+TKT-00858,2025-11-19,billing,high,Invoice PDF download broken,2.6,9.6,1,3
+TKT-01113,2025-11-19,integration,urgent,Stripe webhook signature mismatch,0.9,14.7,1,4
+TKT-00138,2025-11-21,integration,medium,Slack integration not posting alerts,4.2,67.2,1,3
+TKT-00475,2025-11-21,login_bug,high,Session expires every few minutes,0.8,12.2,1,5
+TKT-00503,2025-11-21,login_bug,high,Cannot log in after workspace merge,0.9,11.9,1,3
+TKT-00551,2025-11-21,how_to,low,Where do I manage API keys?,35.3,7.2,1,3
+TKT-01133,2025-11-21,feature_request,low,Webhook signing secret rotation UI,27.4,59.1,1,3
+TKT-01407,2025-11-21,feature_request,low,Custom fields in reports,16.6,33.5,0,
+TKT-00333,2025-11-22,integration,high,Zapier webhook returns 401,2.2,31.2,1,4
+TKT-00791,2025-11-22,feature_request,low,API rate limit increase request,15.7,53.2,1,3
+TKT-00036,2025-11-23,how_to,low,Set up two-factor authentication,8.8,3.1,1,5
+TKT-00100,2025-11-23,billing,low,Failed payment — card declined but subscription active,17.4,10.1,1,2
+TKT-00587,2025-11-23,how_to,medium,Where do I manage API keys?,9.3,4.5,1,4
+TKT-00666,2025-11-23,how_to,medium,Where do I manage API keys?,3.7,3.8,1,5
+TKT-00929,2025-11-23,billing,medium,Cancel subscription and refund prorated amount,6.9,7.8,1,4
+TKT-00937,2025-11-23,billing,medium,Invoice PDF download broken,9.5,18.4,1,3
+TKT-01246,2025-11-23,login_bug,urgent,403 error on login from new device,0.4,3.9,1,4
+TKT-01271,2025-11-23,login_bug,low,Account locked after 2FA attempts,18.5,22.5,1,3
+TKT-01283,2025-11-23,billing,medium,Unexpected overage charges this month,5.7,12.1,0,
+TKT-00157,2025-11-24,billing,medium,Failed payment — card declined but subscription active,4.4,9.8,1,3
+TKT-00184,2025-11-24,integration,high,Webhook retries create duplicate events,2.0,32.5,1,4
+TKT-00476,2025-11-24,how_to,medium,Set up two-factor authentication,7.5,2.0,1,5
+TKT-00738,2025-11-24,how_to,medium,Where can I find audit logs?,5.3,3.0,1,4
+TKT-00994,2025-11-24,feature_request,high,Add CSV export for dashboards,0.9,26.9,0,
+TKT-01045,2025-11-24,billing,urgent,Double charged on invoice #63144,0.5,4.0,1,4
+TKT-00068,2025-11-25,billing,medium,Invoice VAT number is incorrect,6.9,11.8,1,3
+TKT-00446,2025-11-25,billing,medium,Double charged on invoice #3597,8.9,10.7,1,4
+TKT-00653,2025-11-25,integration,urgent,API returns CORS errors from dashboard,0.5,24.9,1,3
+TKT-00776,2025-11-25,billing,urgent,Charged after cancellation on 2026-04-30,0.4,2.9,1,3
+TKT-00145,2025-11-26,billing,urgent,Invoice VAT number is incorrect,0.4,6.5,1,3
+TKT-00242,2025-11-26,how_to,high,Where can I find audit logs?,0.5,3.1,1,4
+TKT-00240,2025-11-27,how_to,medium,Set up two-factor authentication,10.4,4.8,1,4
+TKT-00674,2025-11-27,billing,medium,Pricing tier discrepancy on renewal,3.8,6.4,1,3
+TKT-01382,2025-11-27,integration,high,Salesforce sync drops contact records,1.3,22.8,1,3
+TKT-01474,2025-11-27,feature_request,low,SAML support for enterprise plan,25.7,51.8,0,
+TKT-01500,2025-11-27,how_to,low,Where can I find audit logs?,26.2,3.6,1,5
+TKT-00092,2025-11-28,feature_request,low,Calendar sync for deadlines,16.9,44.6,1,3
+TKT-00169,2025-11-28,login_bug,medium,Cannot reset password — email never arrives,7.1,33.2,1,4
+TKT-00506,2025-11-28,billing,low,Failed payment — card declined but subscription active,63.0,9.7,0,
+TKT-00751,2025-11-28,login_bug,urgent,Login page infinite loading spinner,1.8,3.7,1,4
+TKT-01437,2025-11-28,login_bug,high,Password reset link expires immediately,1.9,8.7,1,4
+TKT-00532,2025-11-29,how_to,urgent,How to archive old projects?,0.3,2.5,1,4
+TKT-00788,2025-11-29,integration,high,Shopify order import fails nightly,1.0,39.0,1,4
+TKT-01277,2025-11-29,feature_request,low,Dark mode support,15.1,50.3,0,
+TKT-00039,2025-11-30,integration,urgent,HubSpot mapping ignores custom fields,0.3,17.7,1,4
+TKT-00637,2025-11-30,billing,high,Invoice VAT number is incorrect,1.1,6.0,1,4
+TKT-00814,2025-11-30,feature_request,high,Bulk edit for user roles,3.7,29.3,0,
+TKT-01085,2025-11-30,integration,high,HubSpot mapping ignores custom fields,1.7,22.9,1,5
+TKT-01130,2025-11-30,billing,low,Invoice VAT number is incorrect,57.2,17.1,1,5
+TKT-01289,2025-11-30,feature_request,high,Webhook signing secret rotation UI,1.1,42.6,1,3
+TKT-00248,2025-12-01,feature_request,high,API rate limit increase request,1.9,28.7,1,4
+TKT-00710,2025-12-01,how_to,low,How to set up usage alerts?,17.8,7.5,0,
+TKT-00411,2025-12-02,how_to,medium,Reset dashboard filters to default,2.8,6.4,1,5
+TKT-00521,2025-12-02,feature_request,low,Dark mode support,11.3,58.6,1,3
+TKT-00021,2025-12-03,how_to,medium,Export data to Excel,7.2,4.7,1,5
+TKT-00306,2025-12-03,login_bug,high,Cannot reset password — email never arrives,0.7,7.9,1,5
+TKT-00783,2025-12-03,billing,medium,Cancel subscription and refund prorated amount,6.9,7.3,1,4
+TKT-00593,2025-12-04,login_bug,urgent,Password reset link expires immediately,0.4,8.0,1,3
+TKT-01195,2025-12-04,billing,high,Requesting annual plan discount,1.2,4.4,1,4
+TKT-00504,2025-12-05,login_bug,urgent,403 error on login from new device,0.4,7.5,1,5
+TKT-00581,2025-12-05,login_bug,urgent,Cannot log in after workspace merge,0.2,5.6,0,
+TKT-00923,2025-12-05,billing,urgent,Cancel subscription and refund prorated amount,0.8,7.1,1,3
+TKT-00974,2025-12-05,billing,medium,Failed payment — card declined but subscription active,6.3,8.8,1,4
+TKT-01263,2025-12-05,billing,high,Charged after cancellation on 2026-09-16,1.0,6.2,0,
+TKT-00436,2025-12-06,login_bug,high,Google sign-in fails with 500 error,0.7,6.5,1,4
+TKT-00936,2025-12-06,login_bug,medium,Two-factor codes rejected on mobile,9.3,22.2,1,4
+TKT-01150,2025-12-06,feature_request,low,API rate limit increase request,20.4,94.1,1,3
+TKT-00338,2025-12-07,feature_request,high,Calendar sync for deadlines,3.4,48.2,0,
+TKT-00516,2025-12-07,billing,medium,Refund for order #29467 not received,9.0,24.5,1,3
+TKT-00698,2025-12-07,billing,urgent,Double charged on invoice #74474,0.7,4.3,1,4
+TKT-00917,2025-12-07,billing,medium,Refund for order #93493 not received,5.7,9.9,1,3
+TKT-01182,2025-12-07,login_bug,medium,Login page infinite loading spinner,3.1,11.7,1,4
+TKT-00383,2025-12-08,feature_request,low,Custom fields in reports,32.3,81.8,1,4
+TKT-00699,2025-12-08,feature_request,low,Bulk edit for user roles,24.1,64.5,0,
+TKT-00996,2025-12-08,how_to,medium,Where do I manage API keys?,15.7,3.1,1,5
+TKT-00690,2025-12-09,billing,medium,Refund for order #94298 not received,9.1,5.6,1,5
+TKT-00717,2025-12-09,login_bug,urgent,Account locked after 2FA attempts,0.3,11.2,1,4
+TKT-00824,2025-12-09,billing,high,Charged after cancellation on 2026-08-09,0.9,3.5,1,4
+TKT-00841,2025-12-09,feature_request,high,SAML support for enterprise plan,1.2,40.0,1,4
+TKT-00983,2025-12-09,feature_request,high,Bulk edit for user roles,2.8,20.9,1,4
+TKT-01387,2025-12-09,integration,medium,Slack integration not posting alerts,10.1,32.2,1,4
+TKT-01452,2025-12-09,login_bug,high,SSO redirect loop after password change,2.5,14.9,1,4
+TKT-00781,2025-12-10,billing,high,Refund for order #29452 not received,0.9,7.0,1,4
+TKT-00094,2025-12-11,how_to,medium,Reset dashboard filters to default,6.4,2.9,1,4
+TKT-00893,2025-12-11,how_to,low,How do I invite teammates?,25.5,6.6,0,
+TKT-01442,2025-12-11,how_to,medium,Where do I manage API keys?,10.6,4.0,1,5
+TKT-00135,2025-12-12,login_bug,medium,Google sign-in fails with 500 error,3.1,17.4,1,4
+TKT-00341,2025-12-12,login_bug,high,Google sign-in fails with 500 error,2.2,15.9,1,4
+TKT-00667,2025-12-12,how_to,high,Where can I find audit logs?,0.7,2.4,1,4
+TKT-01004,2025-12-12,feature_request,high,Slack notifications for failed jobs,2.0,37.9,1,4
+TKT-01284,2025-12-12,feature_request,high,API rate limit increase request,1.3,72.1,1,3
+TKT-01468,2025-12-12,how_to,medium,Where can I find audit logs?,6.3,3.0,1,5
+TKT-00427,2025-12-13,integration,high,OAuth token refresh fails silently,2.0,17.4,1,4
+TKT-00833,2025-12-13,billing,medium,Invoice VAT number is incorrect,20.1,6.5,1,4
+TKT-01362,2025-12-13,how_to,low,How to archive old projects?,38.7,3.8,0,
+TKT-01391,2025-12-13,login_bug,medium,Magic link opens a blank page,4.2,13.0,1,4
+TKT-00146,2025-12-14,login_bug,high,Cannot reset password — email never arrives,1.4,15.3,1,3
+TKT-01064,2025-12-14,billing,medium,Pricing tier discrepancy on renewal,6.6,7.6,0,
+TKT-00017,2025-12-16,billing,medium,Charged after cancellation on 2026-05-15,5.1,4.9,1,3
+TKT-01425,2025-12-16,billing,medium,Invoice VAT number is incorrect,6.9,26.3,1,4
+TKT-01499,2025-12-16,login_bug,low,Two-factor codes rejected on mobile,16.7,20.8,1,3
+TKT-00203,2025-12-17,login_bug,high,403 error on login from new device,1.9,12.2,1,3
+TKT-00845,2025-12-17,integration,urgent,OAuth token refresh fails silently,0.4,19.8,1,4
+TKT-00661,2025-12-18,login_bug,medium,Cannot reset password — email never arrives,4.0,12.3,1,4
+TKT-00702,2025-12-19,how_to,medium,Set up two-factor authentication,10.6,4.4,1,5
+TKT-00097,2025-12-20,billing,high,Pricing tier discrepancy on renewal,1.9,13.0,1,4
+TKT-00439,2025-12-20,billing,high,Downgrade not applied to my bill,4.8,5.4,1,4
+TKT-00497,2025-12-20,billing,urgent,Failed payment — card declined but subscription active,0.4,4.7,1,3
+TKT-00818,2025-12-20,billing,medium,Invoice PDF download broken,7.0,13.1,1,4
+TKT-01145,2025-12-20,billing,medium,Double charged on invoice #7706,6.2,18.2,1,4
+TKT-01412,2025-12-20,billing,medium,Refund for order #86251 not received,4.6,12.2,1,4
+TKT-00425,2025-12-21,integration,urgent,Stripe webhook signature mismatch,0.7,21.7,1,3
+TKT-01052,2025-12-21,feature_request,low,Add CSV export for dashboards,23.3,51.2,0,
+TKT-01140,2025-12-21,how_to,high,How do usage-based charges work?,1.1,1.7,1,4
+TKT-01245,2025-12-21,feature_request,medium,Bulk edit for user roles,4.4,33.3,1,3
+TKT-00559,2025-12-22,login_bug,high,Session expires every few minutes,2.2,11.6,1,4
+TKT-01272,2025-12-22,how_to,low,How to change the account email?,21.9,4.2,1,4
+TKT-00064,2025-12-23,billing,urgent,Charged after cancellation on 2026-08-13,0.5,4.8,1,3
+TKT-00357,2025-12-23,how_to,low,Where can I find audit logs?,22.7,2.9,1,5
+TKT-00861,2025-12-23,login_bug,high,Google sign-in fails with 500 error,2.9,15.5,1,4
+TKT-01047,2025-12-23,login_bug,high,Google sign-in fails with 500 error,1.4,12.0,1,4
+TKT-01227,2025-12-23,integration,low,Jira two-way sync has stalled,30.5,76.9,1,5
+TKT-01498,2025-12-23,feature_request,medium,Audit log retention longer than 90 days,6.2,37.7,1,4
+TKT-00202,2025-12-24,billing,medium,Downgrade not applied to my bill,8.9,8.7,1,4
+TKT-00243,2025-12-24,how_to,medium,Set up two-factor authentication,6.9,4.8,1,4
+TKT-00414,2025-12-24,login_bug,high,403 error on login from new device,1.2,10.2,1,4
+TKT-01175,2025-12-24,feature_request,low,Slack notifications for failed jobs,22.1,43.0,0,
+TKT-01466,2025-12-24,how_to,medium,How to set up usage alerts?,8.4,6.5,1,4
+TKT-00477,2025-12-25,billing,medium,Downgrade not applied to my bill,4.3,11.1,1,3
+TKT-00561,2025-12-25,login_bug,high,Account locked after 2FA attempts,1.2,10.6,1,4
+TKT-00636,2025-12-25,login_bug,urgent,Two-factor codes rejected on mobile,0.7,3.7,1,3
+TKT-00673,2025-12-25,billing,low,Downgrade not applied to my bill,16.1,13.6,1,4
+TKT-00868,2025-12-25,how_to,low,How to set up usage alerts?,28.9,2.7,1,5
+TKT-00978,2025-12-25,billing,medium,Pricing tier discrepancy on renewal,3.3,12.3,1,4
+TKT-01151,2025-12-25,billing,medium,Update credit card details fails,8.0,12.1,1,3
+TKT-01302,2025-12-25,billing,low,Refund for order #65482 not received,19.3,14.1,1,3
+TKT-00025,2025-12-27,integration,high,Zapier webhook returns 401,2.2,36.1,1,4
+TKT-00440,2025-12-27,billing,high,Update credit card details fails,2.0,6.5,1,4
+TKT-00823,2025-12-27,how_to,medium,Where can I find audit logs?,8.1,3.6,1,5
+TKT-01165,2025-12-27,login_bug,medium,Magic link opens a blank page,7.0,18.1,1,4
+TKT-00085,2025-12-28,how_to,urgent,Export data to Excel,0.6,1.7,1,5
+TKT-00151,2025-12-28,integration,urgent,Jira two-way sync has stalled,0.4,22.5,1,3
+TKT-00535,2025-12-29,how_to,low,How to change the account email?,21.1,2.2,1,5
+TKT-00899,2025-12-29,feature_request,high,Custom fields in reports,2.2,18.6,1,5
+TKT-00922,2025-12-29,how_to,medium,Export data to Excel,8.4,3.0,1,5
+TKT-00930,2025-12-29,login_bug,medium,Google sign-in fails with 500 error,11.3,7.3,1,5
+TKT-00308,2025-12-30,integration,high,Shopify order import fails nightly,1.5,37.1,1,4
+TKT-00460,2025-12-30,billing,medium,Requesting annual plan discount,7.8,5.8,1,4
+TKT-00609,2025-12-30,feature_request,medium,Audit log retention longer than 90 days,4.5,47.5,1,4
+TKT-00887,2025-12-30,integration,medium,Webhook retries create duplicate events,6.0,42.9,1,4
+TKT-00015,2025-12-31,how_to,low,Export data to Excel,28.4,2.6,1,5
+TKT-00057,2025-12-31,billing,high,Charged after cancellation on 2026-05-10,1.8,4.4,1,4
+TKT-00177,2025-12-31,how_to,low,How to archive old projects?,17.2,7.4,1,5
+TKT-00189,2025-12-31,how_to,medium,How do I invite teammates?,3.4,3.5,1,5
+TKT-00756,2025-12-31,login_bug,high,SSO redirect loop after password change,1.0,8.7,1,5
+TKT-01127,2025-12-31,login_bug,high,Google sign-in fails with 500 error,1.4,8.3,1,4
+TKT-00239,2026-01-01,billing,low,Unexpected overage charges this month,8.2,28.6,1,3
+TKT-00269,2026-01-01,how_to,low,How do usage-based charges work?,17.6,8.4,1,5
+TKT-00348,2026-01-01,login_bug,low,Password reset link expires immediately,44.1,18.4,1,5
+TKT-00672,2026-01-01,billing,high,Update credit card details fails,1.0,13.3,1,4
+TKT-01301,2026-01-01,feature_request,medium,Bulk edit for user roles,4.0,52.2,1,3
+TKT-01481,2026-01-01,billing,medium,Requesting annual plan discount,4.7,13.8,1,3
+TKT-00190,2026-01-02,billing,low,Pricing tier discrepancy on renewal,18.5,6.9,1,4
+TKT-00590,2026-01-02,feature_request,medium,API rate limit increase request,9.7,121.7,1,3
+TKT-00735,2026-01-02,login_bug,urgent,Session expires every few minutes,0.6,5.0,1,4
+TKT-00739,2026-01-02,feature_request,high,Add CSV export for dashboards,1.0,37.2,1,3
+TKT-00229,2026-01-03,feature_request,medium,Webhook signing secret rotation UI,3.9,47.8,1,2
+TKT-00362,2026-01-03,feature_request,medium,Audit log retention longer than 90 days,6.3,34.3,1,3
+TKT-00387,2026-01-03,integration,high,OAuth token refresh fails silently,1.8,37.0,1,4
+TKT-00959,2026-01-03,how_to,low,Export data to Excel,13.6,4.8,1,4
+TKT-01072,2026-01-03,integration,urgent,Slack integration not posting alerts,0.5,15.0,1,2
+TKT-01473,2026-01-03,billing,medium,Downgrade not applied to my bill,7.4,14.4,1,3
+TKT-00040,2026-01-04,login_bug,medium,Two-factor codes rejected on mobile,6.1,20.2,1,4
+TKT-00634,2026-01-04,integration,medium,HubSpot mapping ignores custom fields,7.1,67.2,1,3
+TKT-01069,2026-01-04,how_to,urgent,Where do I manage API keys?,0.5,1.9,1,4
+TKT-01285,2026-01-04,login_bug,high,Login page infinite loading spinner,4.2,10.1,1,3
+TKT-01292,2026-01-04,feature_request,high,Add CSV export for dashboards,1.2,38.9,0,
+TKT-00291,2026-01-05,integration,urgent,Zapier webhook returns 401,0.6,22.0,1,3
+TKT-00459,2026-01-05,billing,high,Downgrade not applied to my bill,1.1,5.4,1,4
+TKT-00530,2026-01-05,how_to,medium,How do I invite teammates?,7.7,3.1,1,3
+TKT-01294,2026-01-05,login_bug,medium,Two-factor codes rejected on mobile,8.4,14.5,1,5
+TKT-01459,2026-01-05,feature_request,medium,API rate limit increase request,8.0,25.8,1,3
+TKT-01472,2026-01-05,integration,medium,Slack integration not posting alerts,8.7,38.5,1,4
+TKT-00211,2026-01-06,billing,low,Charged after cancellation on 2025-12-09,41.2,8.6,0,
+TKT-00373,2026-01-06,feature_request,medium,Bulk edit for user roles,4.2,48.2,0,
+TKT-00468,2026-01-06,billing,urgent,Charged after cancellation on 2026-09-15,0.6,5.9,1,4
+TKT-01042,2026-01-06,login_bug,medium,Magic link opens a blank page,9.0,15.1,1,4
+TKT-01436,2026-01-06,feature_request,low,SAML support for enterprise plan,13.4,64.7,0,
+TKT-00155,2026-01-07,integration,low,Jira two-way sync has stalled,31.2,106.8,0,
+TKT-00197,2026-01-07,billing,medium,Refund for order #50189 not received,6.1,7.0,1,5
+TKT-00392,2026-01-07,login_bug,high,Magic link opens a blank page,1.4,5.3,1,3
+TKT-00602,2026-01-07,how_to,low,Where do I manage API keys?,27.0,4.1,1,5
+TKT-00679,2026-01-07,integration,medium,Shopify order import fails nightly,8.9,40.5,1,4
+TKT-00704,2026-01-07,login_bug,medium,SSO redirect loop after password change,5.0,11.7,1,4
+TKT-00926,2026-01-07,how_to,low,How to change the account email?,25.0,4.0,1,4
+TKT-01126,2026-01-08,billing,urgent,Unexpected overage charges this month,0.5,6.9,0,
+TKT-01305,2026-01-08,billing,low,Cancel subscription and refund prorated amount,39.9,17.8,1,4
+TKT-00118,2026-01-09,integration,urgent,Zapier webhook returns 401,0.6,28.0,1,4
+TKT-00999,2026-01-09,billing,medium,Cancel subscription and refund prorated amount,9.3,7.4,1,4
+TKT-00292,2026-01-10,feature_request,medium,Webhook signing secret rotation UI,4.1,15.0,1,4
+TKT-00754,2026-01-10,integration,medium,Slack integration not posting alerts,5.2,27.0,1,3
+TKT-01017,2026-01-10,how_to,low,Export data to Excel,43.0,6.6,1,5
+TKT-01274,2026-01-10,integration,low,Slack integration not posting alerts,17.0,69.0,0,
+TKT-01346,2026-01-10,billing,high,Requesting annual plan discount,1.4,3.6,1,3
+TKT-00150,2026-01-11,login_bug,low,SSO redirect loop after password change,13.6,22.1,1,3
+TKT-00564,2026-01-11,billing,low,Cancel subscription and refund prorated amount,21.6,16.1,1,4
+TKT-00804,2026-01-11,how_to,medium,How do I invite teammates?,6.0,6.4,1,5
+TKT-00898,2026-01-11,how_to,medium,Where can I find audit logs?,7.2,2.5,1,5
+TKT-00916,2026-01-11,how_to,medium,How to archive old projects?,4.5,2.4,1,3
+TKT-00224,2026-01-12,login_bug,medium,Account locked after 2FA attempts,5.0,6.8,1,4
+TKT-00773,2026-01-12,integration,high,OAuth token refresh fails silently,2.8,42.6,1,4
+TKT-00961,2026-01-12,login_bug,high,Password reset link expires immediately,1.3,10.1,1,4
+TKT-00071,2026-01-13,feature_request,low,Custom fields in reports,34.5,76.0,1,4
+TKT-00466,2026-01-13,billing,medium,Unexpected overage charges this month,6.5,13.6,1,5
+TKT-00604,2026-01-13,how_to,low,How to change the account email?,27.6,5.6,1,4
+TKT-00682,2026-01-13,integration,medium,Jira two-way sync has stalled,7.5,58.5,1,2
+TKT-01020,2026-01-13,login_bug,low,Password reset link expires immediately,20.3,24.4,1,4
+TKT-01241,2026-01-14,how_to,medium,Set up two-factor authentication,16.4,4.1,1,4
+TKT-01323,2026-01-14,integration,urgent,OAuth token refresh fails silently,1.0,21.2,1,3
+TKT-01486,2026-01-14,feature_request,low,Slack notifications for failed jobs,26.0,82.9,1,3
+TKT-00585,2026-01-15,billing,low,Cancel subscription and refund prorated amount,31.8,9.1,1,3
+TKT-01320,2026-01-15,integration,medium,HubSpot mapping ignores custom fields,7.0,44.8,1,3
+TKT-00114,2026-01-16,feature_request,low,Slack notifications for failed jobs,26.0,46.2,1,4
+TKT-00569,2026-01-16,integration,urgent,Stripe webhook signature mismatch,0.5,20.6,1,4
+TKT-00728,2026-01-16,billing,medium,Charged after cancellation on 2026-01-01,9.9,7.5,1,4
+TKT-01205,2026-01-16,feature_request,low,SAML support for enterprise plan,45.2,60.4,0,
+TKT-00395,2026-01-17,how_to,high,Where can I find audit logs?,2.6,4.4,1,5
+TKT-00448,2026-01-17,login_bug,high,Session expires every few minutes,3.2,14.4,1,4
+TKT-00518,2026-01-17,how_to,medium,How to change the account email?,7.3,6.0,1,5
+TKT-00803,2026-01-17,feature_request,high,Dark mode support,1.6,23.0,1,5
+TKT-01104,2026-01-17,billing,high,Cancel subscription and refund prorated amount,2.0,7.0,1,5
+TKT-00386,2026-01-18,login_bug,medium,Login page infinite loading spinner,9.3,12.6,1,4
+TKT-00508,2026-01-18,billing,urgent,Charged after cancellation on 2026-05-25,0.7,6.3,1,4
+TKT-00681,2026-01-18,integration,urgent,OAuth token refresh fails silently,1.0,14.6,1,4
+TKT-00816,2026-01-18,integration,high,HubSpot mapping ignores custom fields,1.0,54.3,1,4
+TKT-00568,2026-01-19,login_bug,high,Password reset link expires immediately,1.7,9.3,1,4
+TKT-00623,2026-01-21,login_bug,high,403 error on login from new device,3.5,7.0,1,3
+TKT-01254,2026-01-21,integration,high,Webhook retries create duplicate events,2.2,44.3,1,4
+TKT-00482,2026-01-22,billing,high,Pricing tier discrepancy on renewal,4.6,5.2,1,4
+TKT-01458,2026-01-22,integration,high,Jira two-way sync has stalled,1.3,36.3,1,4
+TKT-00066,2026-01-23,how_to,low,Reset dashboard filters to default,14.2,5.3,0,
+TKT-00070,2026-01-23,login_bug,urgent,Password reset link expires immediately,0.7,6.3,1,4
+TKT-00606,2026-01-23,how_to,medium,How to archive old projects?,8.1,2.0,1,4
+TKT-00628,2026-01-23,billing,medium,Invoice VAT number is incorrect,6.2,11.1,1,3
+TKT-00342,2026-01-24,billing,medium,Failed payment — card declined but subscription active,7.9,9.1,1,4
+TKT-00620,2026-01-24,billing,urgent,Downgrade not applied to my bill,0.4,6.1,1,3
+TKT-01336,2026-01-24,billing,medium,Refund for order #8388 not received,14.4,12.2,1,4
+TKT-00106,2026-01-25,login_bug,medium,Google sign-in fails with 500 error,7.0,12.6,1,3
+TKT-00914,2026-01-25,billing,medium,Pricing tier discrepancy on renewal,9.1,15.4,1,3
+TKT-00299,2026-01-26,login_bug,medium,Account locked after 2FA attempts,3.8,23.6,1,4
+TKT-00654,2026-01-26,billing,medium,Invoice VAT number is incorrect,5.7,10.4,1,3
+TKT-01450,2026-01-26,integration,high,Stripe webhook signature mismatch,1.5,38.7,1,5
+TKT-00874,2026-01-27,integration,high,Slack integration not posting alerts,2.2,29.1,1,5
+TKT-01315,2026-01-27,how_to,medium,How do I invite teammates?,8.7,3.2,1,5
+TKT-00894,2026-01-28,billing,high,Failed payment — card declined but subscription active,1.5,9.2,1,4
+TKT-01421,2026-01-28,login_bug,urgent,Two-factor codes rejected on mobile,0.3,2.5,0,
+TKT-00115,2026-01-29,login_bug,urgent,403 error on login from new device,0.9,14.9,1,3
+TKT-00204,2026-01-29,how_to,low,Export data to Excel,40.8,4.7,1,4
+TKT-00621,2026-01-29,feature_request,low,API rate limit increase request,24.6,101.8,1,3
+TKT-01103,2026-01-29,login_bug,urgent,Cannot log in after workspace merge,0.4,4.4,0,
+TKT-00461,2026-01-30,billing,medium,Pricing tier discrepancy on renewal,9.0,10.7,1,4
+TKT-01050,2026-01-30,login_bug,high,Cannot reset password — email never arrives,1.8,8.8,0,
+TKT-01188,2026-01-30,login_bug,high,403 error on login from new device,2.0,20.0,1,4
+TKT-00399,2026-01-31,billing,low,Requesting annual plan discount,30.7,12.0,0,
+TKT-01169,2026-01-31,integration,urgent,Slack integration not posting alerts,0.7,23.1,1,4
+TKT-00095,2026-02-01,login_bug,medium,Login page infinite loading spinner,4.5,21.2,1,3
+TKT-00305,2026-02-01,login_bug,urgent,Password reset link expires immediately,0.7,6.5,1,4
+TKT-00799,2026-02-01,billing,medium,Downgrade not applied to my bill,6.5,8.0,1,4
+TKT-01399,2026-02-01,integration,medium,Zapier webhook returns 401,5.5,24.6,1,4
+TKT-01390,2026-02-02,feature_request,medium,Webhook signing secret rotation UI,5.3,45.6,1,3
+TKT-01440,2026-02-02,login_bug,urgent,403 error on login from new device,0.9,7.0,1,4
+TKT-00102,2026-02-03,billing,medium,Cancel subscription and refund prorated amount,15.1,21.0,1,4
+TKT-00249,2026-02-03,billing,high,Downgrade not applied to my bill,1.5,11.9,1,3
+TKT-00339,2026-02-03,how_to,low,Where can I find audit logs?,39.8,9.1,1,5
+TKT-00405,2026-02-03,feature_request,low,Add CSV export for dashboards,65.2,36.8,0,
+TKT-00867,2026-02-03,feature_request,low,Add CSV export for dashboards,17.7,80.8,0,
+TKT-01189,2026-02-03,billing,urgent,Downgrade not applied to my bill,0.6,6.6,1,3
+TKT-01293,2026-02-03,login_bug,medium,SSO redirect loop after password change,7.0,14.7,1,2
+TKT-00061,2026-02-04,feature_request,medium,API rate limit increase request,7.4,50.3,0,
+TKT-00300,2026-02-04,feature_request,low,Dark mode support,26.6,122.3,1,3
+TKT-00345,2026-02-04,billing,medium,Cancel subscription and refund prorated amount,7.1,10.3,1,3
+TKT-00435,2026-02-04,billing,high,Pricing tier discrepancy on renewal,2.4,9.4,1,3
+TKT-00806,2026-02-05,feature_request,medium,API rate limit increase request,8.1,28.9,1,3
+TKT-01066,2026-02-05,billing,high,Downgrade not applied to my bill,1.2,6.7,1,3
+TKT-01397,2026-02-05,login_bug,medium,Password reset link expires immediately,5.4,12.5,1,3
+TKT-00045,2026-02-06,billing,medium,Requesting annual plan discount,11.0,7.4,1,3
+TKT-00238,2026-02-06,how_to,medium,How to set up usage alerts?,14.8,5.1,1,4
+TKT-00903,2026-02-06,integration,high,Jira two-way sync has stalled,2.5,21.8,1,4
+TKT-01168,2026-02-06,feature_request,urgent,SAML support for enterprise plan,0.9,19.4,1,3
+TKT-00168,2026-02-07,integration,high,Webhook retries create duplicate events,1.7,24.5,1,4
+TKT-00313,2026-02-07,billing,urgent,Refund for order #7681 not received,0.5,3.8,1,3
+TKT-00347,2026-02-07,login_bug,high,SSO redirect loop after password change,1.5,6.5,1,4
+TKT-00388,2026-02-07,how_to,medium,How do usage-based charges work?,4.1,8.6,1,4
+TKT-01137,2026-02-07,billing,high,Double charged on invoice #96370,2.5,9.8,1,5
+TKT-00086,2026-02-08,login_bug,high,Password reset link expires immediately,1.9,13.7,1,4
+TKT-00356,2026-02-09,billing,medium,Refund for order #52919 not received,6.6,30.2,1,4
+TKT-00601,2026-02-09,login_bug,high,Two-factor codes rejected on mobile,3.2,6.3,1,4
+TKT-00759,2026-02-09,billing,medium,Failed payment — card declined but subscription active,4.6,10.8,1,4
+TKT-01312,2026-02-09,login_bug,medium,Login page infinite loading spinner,4.8,11.6,1,4
+TKT-01366,2026-02-09,login_bug,urgent,Google sign-in fails with 500 error,1.1,9.5,1,4
+TKT-00008,2026-02-10,feature_request,low,SAML support for enterprise plan,19.3,46.8,1,4
+TKT-00546,2026-02-10,integration,medium,Slack integration not posting alerts,5.8,54.9,1,2
+TKT-01184,2026-02-10,billing,medium,Update credit card details fails,5.9,7.7,1,4
+TKT-01264,2026-02-11,billing,low,Refund for order #57804 not received,17.1,12.0,0,
+TKT-00056,2026-02-12,login_bug,medium,Account locked after 2FA attempts,17.8,16.9,1,4
+TKT-00705,2026-02-12,how_to,medium,Where can I find audit logs?,8.2,6.6,1,5
+TKT-00938,2026-02-12,feature_request,low,Calendar sync for deadlines,21.8,82.6,1,4
+TKT-01222,2026-02-12,login_bug,medium,Account locked after 2FA attempts,4.0,22.5,1,4
+TKT-01449,2026-02-12,feature_request,high,Add CSV export for dashboards,1.4,34.7,0,
+TKT-01465,2026-02-13,integration,medium,Jira two-way sync has stalled,14.6,53.1,1,4
+TKT-00210,2026-02-14,feature_request,low,Custom fields in reports,54.5,62.1,0,
+TKT-00732,2026-02-14,login_bug,high,Login page infinite loading spinner,3.2,10.4,1,4
+TKT-00908,2026-02-14,billing,high,Refund for order #96936 not received,2.1,8.8,1,3
+TKT-01121,2026-02-14,login_bug,high,Two-factor codes rejected on mobile,3.4,5.7,1,3
+TKT-00214,2026-02-15,how_to,medium,Where can I find audit logs?,4.8,5.3,1,4
+TKT-00336,2026-02-16,login_bug,high,Google sign-in fails with 500 error,2.2,6.9,1,5
+TKT-00517,2026-02-16,login_bug,medium,403 error on login from new device,7.7,14.8,1,4
+TKT-00548,2026-02-16,billing,high,Invoice VAT number is incorrect,0.8,7.0,1,4
+TKT-00572,2026-02-16,integration,high,Shopify order import fails nightly,1.0,31.8,1,3
+TKT-00574,2026-02-16,feature_request,low,Webhook signing secret rotation UI,28.7,84.7,1,4
+TKT-01185,2026-02-16,login_bug,high,Magic link opens a blank page,2.6,9.6,1,3
+TKT-00407,2026-02-17,login_bug,high,Google sign-in fails with 500 error,1.1,12.2,1,4
+TKT-00703,2026-02-17,how_to,low,How do usage-based charges work?,21.0,8.3,1,5
+TKT-01228,2026-02-17,login_bug,high,Cannot log in after workspace merge,3.3,8.7,1,4
+TKT-00212,2026-02-18,billing,urgent,Double charged on invoice #98600,0.4,6.4,1,3
+TKT-00454,2026-02-18,billing,high,Cancel subscription and refund prorated amount,2.1,3.3,1,4
+TKT-00693,2026-02-18,how_to,low,How do usage-based charges work?,39.8,4.7,0,
+TKT-01178,2026-02-18,login_bug,urgent,403 error on login from new device,1.0,8.5,1,4
+TKT-00073,2026-02-19,how_to,low,How to archive old projects?,26.9,5.7,1,4
+TKT-00617,2026-02-19,billing,low,Invoice VAT number is incorrect,67.5,12.9,1,3
+TKT-00800,2026-02-19,login_bug,medium,Google sign-in fails with 500 error,10.0,27.5,1,4
+TKT-00003,2026-02-20,feature_request,medium,Custom fields in reports,5.5,79.6,1,4
+TKT-00727,2026-02-20,login_bug,high,Cannot log in after workspace merge,2.3,8.8,1,3
+TKT-01405,2026-02-20,how_to,low,Where do I manage API keys?,24.6,8.2,1,5
+TKT-00130,2026-02-21,login_bug,high,Session expires every few minutes,1.8,10.0,1,3
+TKT-00426,2026-02-21,billing,urgent,Downgrade not applied to my bill,0.3,2.4,1,4
+TKT-00560,2026-02-21,billing,low,Unexpected overage charges this month,30.7,12.8,1,3
+TKT-00578,2026-02-21,feature_request,medium,Webhook signing secret rotation UI,14.6,45.2,1,3
+TKT-00596,2026-02-21,login_bug,urgent,Login page infinite loading spinner,0.7,7.6,1,3
+TKT-00632,2026-02-21,feature_request,low,Calendar sync for deadlines,27.9,53.7,0,
+TKT-00686,2026-02-21,billing,urgent,Cancel subscription and refund prorated amount,1.8,4.9,1,5
+TKT-01061,2026-02-21,integration,medium,HubSpot mapping ignores custom fields,6.0,46.2,1,4
+TKT-01099,2026-02-21,how_to,low,Reset dashboard filters to default,46.2,3.9,1,5
+TKT-01379,2026-02-21,feature_request,low,Custom fields in reports,14.1,160.3,0,
+TKT-00109,2026-02-22,how_to,low,How do I invite teammates?,11.8,4.9,1,5
+TKT-00501,2026-02-22,integration,medium,API returns CORS errors from dashboard,6.7,44.9,1,3
+TKT-00091,2026-02-23,login_bug,high,Two-factor codes rejected on mobile,0.7,18.1,1,5
+TKT-00293,2026-02-23,login_bug,high,Account locked after 2FA attempts,0.8,12.0,1,3
+TKT-00420,2026-02-23,billing,medium,Refund for order #19793 not received,6.4,13.3,1,4
+TKT-00588,2026-02-23,how_to,high,How do usage-based charges work?,1.3,2.6,1,5
+TKT-01067,2026-02-23,integration,medium,Slack integration not posting alerts,3.5,53.4,1,3
+TKT-01386,2026-02-23,login_bug,high,Login page infinite loading spinner,1.3,5.1,1,4
+TKT-00494,2026-02-24,how_to,urgent,How do I invite teammates?,0.3,2.0,1,4
+TKT-00558,2026-02-24,how_to,low,Reset dashboard filters to default,32.8,2.4,1,5
+TKT-01024,2026-02-24,how_to,medium,How to set up usage alerts?,4.7,8.5,1,5
+TKT-01109,2026-02-24,login_bug,high,Account locked after 2FA attempts,1.8,16.1,1,4
+TKT-00329,2026-02-25,how_to,high,Where can I find audit logs?,1.1,2.4,1,5
+TKT-00364,2026-02-25,login_bug,urgent,SSO redirect loop after password change,0.6,9.3,1,3
+TKT-00381,2026-02-25,feature_request,low,API rate limit increase request,44.4,49.3,0,
+TKT-00947,2026-02-25,how_to,medium,How to change the account email?,8.5,7.8,1,4
+TKT-00956,2026-02-25,feature_request,medium,Webhook signing secret rotation UI,4.5,77.1,1,3
+TKT-01164,2026-02-25,billing,medium,Refund for order #45311 not received,3.4,8.4,1,4
+TKT-01330,2026-02-26,integration,medium,Salesforce sync drops contact records,9.0,53.3,1,3
+TKT-00233,2026-02-27,feature_request,medium,API rate limit increase request,7.8,23.9,1,4
+TKT-00311,2026-02-27,login_bug,low,Cannot log in after workspace merge,35.5,27.6,1,3
+TKT-01326,2026-02-27,login_bug,high,403 error on login from new device,2.1,17.3,1,4
+TKT-01408,2026-02-27,how_to,high,Where do I manage API keys?,1.4,3.3,0,
+TKT-00163,2026-02-28,feature_request,medium,Calendar sync for deadlines,8.5,64.9,1,3
+TKT-00498,2026-02-28,how_to,high,Export data to Excel,1.3,2.6,1,4
+TKT-00842,2026-02-28,how_to,medium,Where do I manage API keys?,5.3,3.2,1,5
+TKT-00957,2026-02-28,login_bug,urgent,Account locked after 2FA attempts,0.5,4.9,1,3
+TKT-01483,2026-02-28,billing,high,Cancel subscription and refund prorated amount,1.5,7.1,1,3
+TKT-00514,2026-03-01,how_to,low,Where do I manage API keys?,10.7,6.4,1,5
+TKT-00598,2026-03-01,billing,medium,Cancel subscription and refund prorated amount,9.8,12.3,1,3
+TKT-00668,2026-03-01,how_to,medium,How to archive old projects?,5.0,3.5,1,4
+TKT-01096,2026-03-01,billing,urgent,Update credit card details fails,0.7,5.4,1,3
+TKT-01125,2026-03-01,integration,low,Jira two-way sync has stalled,23.1,56.8,1,3
+TKT-01153,2026-03-01,how_to,low,How to archive old projects?,27.2,7.4,1,5
+TKT-01160,2026-03-01,how_to,medium,How to change the account email?,5.0,5.8,1,5
+TKT-01259,2026-03-01,feature_request,high,Webhook signing secret rotation UI,1.8,29.7,0,
+TKT-00027,2026-03-02,billing,medium,Invoice PDF download broken,4.2,6.4,1,4
+TKT-00367,2026-03-02,login_bug,low,Account locked after 2FA attempts,30.0,18.0,1,4
+TKT-01389,2026-03-02,login_bug,urgent,Login page infinite loading spinner,0.9,5.5,1,4
+TKT-00136,2026-03-03,integration,medium,Jira two-way sync has stalled,6.5,16.8,1,4
+TKT-00577,2026-03-03,billing,low,Pricing tier discrepancy on renewal,24.3,10.3,0,
+TKT-00736,2026-03-03,how_to,medium,Where can I find audit logs?,22.4,2.4,1,5
+TKT-00883,2026-03-03,feature_request,medium,Audit log retention longer than 90 days,3.5,49.0,0,
+TKT-00074,2026-03-04,integration,low,OAuth token refresh fails silently,29.7,91.9,1,4
+TKT-00450,2026-03-04,billing,medium,Double charged on invoice #7466,3.0,6.8,1,5
+TKT-00557,2026-03-04,login_bug,high,403 error on login from new device,1.8,7.9,1,4
+TKT-01370,2026-03-04,login_bug,high,Login page infinite loading spinner,1.3,10.0,1,3
+TKT-00256,2026-03-05,billing,high,Invoice VAT number is incorrect,1.7,8.3,0,
+TKT-00488,2026-03-05,login_bug,high,Cannot log in after workspace merge,1.4,9.3,1,3
+TKT-00797,2026-03-05,billing,medium,Downgrade not applied to my bill,6.8,15.8,1,3
+TKT-00822,2026-03-05,billing,low,Requesting annual plan discount,13.4,24.4,1,4
+TKT-00896,2026-03-05,billing,medium,Requesting annual plan discount,7.2,10.7,1,4
+TKT-01117,2026-03-05,login_bug,urgent,403 error on login from new device,1.1,4.8,1,4
+TKT-01343,2026-03-05,billing,low,Charged after cancellation on 2026-01-19,30.4,14.1,1,4
+TKT-01430,2026-03-05,feature_request,low,Calendar sync for deadlines,18.7,68.5,1,4
+TKT-00417,2026-03-06,feature_request,low,API rate limit increase request,22.0,68.4,1,3
+TKT-01231,2026-03-06,feature_request,low,Webhook signing secret rotation UI,8.3,52.6,1,3
+TKT-01337,2026-03-06,feature_request,medium,Slack notifications for failed jobs,12.6,67.7,1,3
+TKT-00972,2026-03-07,login_bug,low,Session expires every few minutes,33.3,9.2,1,4
+TKT-01198,2026-03-07,login_bug,high,SSO redirect loop after password change,2.5,9.8,1,4
+TKT-01344,2026-03-07,integration,high,HubSpot mapping ignores custom fields,2.3,46.1,1,3
+TKT-01411,2026-03-07,feature_request,low,Slack notifications for failed jobs,20.2,107.7,0,
+TKT-01429,2026-03-07,integration,high,Salesforce sync drops contact records,3.1,48.7,1,4
+TKT-00111,2026-03-08,billing,low,Downgrade not applied to my bill,38.0,13.0,1,4
+TKT-00393,2026-03-08,billing,medium,Cancel subscription and refund prorated amount,4.6,7.6,1,4
+TKT-00789,2026-03-08,integration,medium,Slack integration not posting alerts,17.0,32.4,1,5
+TKT-01044,2026-03-08,billing,low,Pricing tier discrepancy on renewal,15.2,10.2,1,3
+TKT-01226,2026-03-08,billing,urgent,Cancel subscription and refund prorated amount,0.8,7.3,1,4
+TKT-00408,2026-03-09,how_to,high,Where do I manage API keys?,1.4,1.5,1,5
+TKT-01123,2026-03-09,integration,high,Shopify order import fails nightly,1.5,51.9,1,5
+TKT-01243,2026-03-09,integration,urgent,Stripe webhook signature mismatch,0.4,20.6,1,4
+TKT-00219,2026-03-10,login_bug,high,Cannot reset password — email never arrives,1.5,13.9,1,4
+TKT-00303,2026-03-10,how_to,medium,Reset dashboard filters to default,7.7,6.1,1,5
+TKT-00310,2026-03-10,how_to,medium,How to archive old projects?,7.2,1.9,1,5
+TKT-00337,2026-03-10,billing,urgent,Unexpected overage charges this month,0.3,2.0,1,3
+TKT-00785,2026-03-10,login_bug,medium,Google sign-in fails with 500 error,12.5,13.0,1,3
+TKT-00882,2026-03-10,billing,urgent,Cancel subscription and refund prorated amount,0.7,3.5,1,3
+TKT-01090,2026-03-10,how_to,low,How to set up usage alerts?,53.0,4.4,1,5
+TKT-01342,2026-03-10,login_bug,urgent,Account locked after 2FA attempts,0.6,3.7,1,4
+TKT-00611,2026-03-11,integration,high,Stripe webhook signature mismatch,1.9,29.2,1,4
+TKT-01446,2026-03-11,how_to,low,How to set up usage alerts?,14.0,3.6,1,4
+TKT-00859,2026-03-12,billing,medium,Invoice VAT number is incorrect,11.0,4.2,1,4
+TKT-01220,2026-03-13,feature_request,medium,Webhook signing secret rotation UI,5.2,71.0,1,4
+TKT-01304,2026-03-13,how_to,medium,Reset dashboard filters to default,6.2,3.3,1,4
+TKT-01310,2026-03-13,feature_request,low,Add CSV export for dashboards,17.6,42.6,1,4
+TKT-01482,2026-03-13,billing,low,Cancel subscription and refund prorated amount,33.3,17.5,1,3
+TKT-00422,2026-03-14,login_bug,high,Magic link opens a blank page,5.1,7.9,1,4
+TKT-00642,2026-03-14,how_to,medium,Reset dashboard filters to default,6.7,4.9,1,5
+TKT-00195,2026-03-15,login_bug,medium,Google sign-in fails with 500 error,12.5,21.2,1,4
+TKT-00205,2026-03-15,integration,urgent,Salesforce sync drops contact records,0.5,12.1,1,4
+TKT-00222,2026-03-15,billing,urgent,Requesting annual plan discount,0.4,4.7,1,4
+TKT-01156,2026-03-15,billing,low,Pricing tier discrepancy on renewal,25.1,13.5,1,3
+TKT-01248,2026-03-15,feature_request,medium,API rate limit increase request,11.6,74.0,1,2
+TKT-00251,2026-03-16,login_bug,high,Cannot log in after workspace merge,3.3,13.8,1,4
+TKT-00534,2026-03-16,integration,high,OAuth token refresh fails silently,1.2,33.7,1,4
+TKT-00825,2026-03-16,feature_request,low,SAML support for enterprise plan,15.1,38.9,1,4
+TKT-00910,2026-03-16,feature_request,low,Add CSV export for dashboards,23.3,45.3,0,
+TKT-01194,2026-03-16,billing,medium,Refund for order #51310 not received,7.9,12.6,0,
+TKT-01260,2026-03-16,billing,medium,Cancel subscription and refund prorated amount,10.5,6.1,1,3
+TKT-01400,2026-03-16,feature_request,low,Custom fields in reports,27.9,66.4,1,3
+TKT-01434,2026-03-16,billing,medium,Unexpected overage charges this month,3.2,6.8,1,4
+TKT-01435,2026-03-16,billing,medium,Cancel subscription and refund prorated amount,7.1,4.9,1,4
+TKT-00290,2026-03-17,integration,medium,Shopify order import fails nightly,6.8,83.2,1,2
+TKT-00480,2026-03-17,integration,urgent,Salesforce sync drops contact records,1.0,29.0,1,5
+TKT-00730,2026-03-17,billing,medium,Invoice VAT number is incorrect,13.9,8.1,1,4
+TKT-00958,2026-03-17,login_bug,high,Login page infinite loading spinner,1.1,4.0,1,2
+TKT-00988,2026-03-17,integration,medium,Webhook retries create duplicate events,11.7,32.3,1,4
+TKT-01025,2026-03-17,how_to,medium,Set up two-factor authentication,3.2,4.7,1,4
+TKT-00013,2026-03-18,login_bug,medium,Password reset link expires immediately,17.8,14.3,1,3
+TKT-00286,2026-03-18,billing,medium,Cancel subscription and refund prorated amount,4.9,11.5,1,4
+TKT-00982,2026-03-18,login_bug,high,Cannot reset password — email never arrives,1.6,12.7,1,4
+TKT-00020,2026-03-19,login_bug,medium,Session expires every few minutes,6.8,13.8,1,5
+TKT-00288,2026-03-19,how_to,low,How to archive old projects?,25.3,6.3,1,4
+TKT-00549,2026-03-19,login_bug,urgent,Magic link opens a blank page,0.9,7.8,1,3
+TKT-00839,2026-03-19,how_to,medium,Where do I manage API keys?,10.2,4.0,1,4
+TKT-00975,2026-03-19,login_bug,urgent,SSO redirect loop after password change,0.6,7.1,1,4
+TKT-00990,2026-03-19,login_bug,urgent,Session expires every few minutes,0.5,3.3,1,3
+TKT-01060,2026-03-19,billing,low,Charged after cancellation on 2025-10-29,21.5,10.3,1,5
+TKT-01078,2026-03-19,integration,medium,Stripe webhook signature mismatch,8.0,62.9,1,3
+TKT-01068,2026-03-20,integration,high,Shopify order import fails nightly,2.6,44.9,1,3
+TKT-01143,2026-03-20,login_bug,medium,SSO redirect loop after password change,8.5,21.7,1,4
+TKT-01229,2026-03-20,how_to,low,Export data to Excel,22.8,4.7,1,5
+TKT-01349,2026-03-20,billing,high,Update credit card details fails,1.7,7.0,1,3
+TKT-01406,2026-03-20,billing,low,Invoice VAT number is incorrect,31.2,30.0,1,4
+TKT-00153,2026-03-21,how_to,low,How to change the account email?,44.8,6.3,1,5
+TKT-00540,2026-03-21,login_bug,medium,Account locked after 2FA attempts,18.6,11.6,1,4
+TKT-00774,2026-03-21,feature_request,high,Dark mode support,1.4,27.9,0,
+TKT-00795,2026-03-21,billing,medium,Cancel subscription and refund prorated amount,12.7,6.2,1,4
+TKT-00966,2026-03-21,login_bug,urgent,Account locked after 2FA attempts,0.8,9.9,1,4
+TKT-01087,2026-03-21,feature_request,urgent,SAML support for enterprise plan,0.5,18.0,0,
+TKT-01441,2026-03-21,how_to,low,How to change the account email?,22.0,4.6,1,5
+TKT-00424,2026-03-22,feature_request,high,Calendar sync for deadlines,2.3,57.3,1,4
+TKT-01131,2026-03-22,billing,low,Downgrade not applied to my bill,28.3,18.1,1,4
+TKT-01290,2026-03-22,login_bug,medium,Session expires every few minutes,6.8,19.4,1,3
+TKT-01388,2026-03-22,billing,urgent,Unexpected overage charges this month,0.5,3.4,1,3
+TKT-00043,2026-03-23,login_bug,medium,Magic link opens a blank page,9.4,12.0,0,
+TKT-00173,2026-03-23,how_to,urgent,Where can I find audit logs?,0.5,1.1,1,4
+TKT-00175,2026-03-23,login_bug,medium,Two-factor codes rejected on mobile,5.3,15.4,1,4
+TKT-00200,2026-03-23,billing,medium,Unexpected overage charges this month,4.2,6.2,1,4
+TKT-00319,2026-03-23,integration,urgent,Jira two-way sync has stalled,0.6,18.9,1,4
+TKT-00369,2026-03-23,feature_request,low,Webhook signing secret rotation UI,18.7,85.9,1,5
+TKT-00715,2026-03-23,how_to,medium,Set up two-factor authentication,3.2,8.4,1,5
+TKT-00729,2026-03-23,feature_request,low,Slack notifications for failed jobs,33.0,77.5,1,5
+TKT-00943,2026-03-23,login_bug,high,Cannot log in after workspace merge,1.0,15.5,1,4
+TKT-00213,2026-03-24,billing,urgent,Double charged on invoice #66292,0.5,5.2,1,3
+TKT-00416,2026-03-24,how_to,low,Export data to Excel,23.3,6.9,1,5
+TKT-00907,2026-03-24,login_bug,low,Two-factor codes rejected on mobile,18.6,7.6,0,
+TKT-00992,2026-03-24,integration,high,HubSpot mapping ignores custom fields,3.6,44.9,1,3
+TKT-01142,2026-03-24,billing,urgent,Refund for order #40724 not received,0.3,3.3,1,3
+TKT-01352,2026-03-24,login_bug,medium,Session expires every few minutes,11.5,27.2,1,4
+TKT-01495,2026-03-24,login_bug,high,Session expires every few minutes,2.1,8.8,1,3
+TKT-00059,2026-03-25,billing,medium,Charged after cancellation on 2025-10-09,5.5,10.3,1,4
+TKT-00618,2026-03-25,login_bug,high,403 error on login from new device,1.0,7.1,1,3
+TKT-01193,2026-03-25,how_to,low,How to archive old projects?,20.4,8.1,1,4
+TKT-01368,2026-03-25,login_bug,urgent,Google sign-in fails with 500 error,0.9,5.2,1,4
+TKT-00044,2026-03-26,login_bug,medium,Account locked after 2FA attempts,4.7,11.6,1,3
+TKT-00323,2026-03-26,billing,high,Requesting annual plan discount,0.8,5.2,1,4
+TKT-00987,2026-03-26,billing,medium,Unexpected overage charges this month,7.9,13.7,1,3
+TKT-01170,2026-03-26,how_to,medium,Reset dashboard filters to default,4.2,6.7,0,
+TKT-01177,2026-03-26,billing,high,Invoice VAT number is incorrect,2.3,4.8,1,3
+TKT-01460,2026-03-26,login_bug,high,403 error on login from new device,1.3,11.9,1,4
+TKT-00469,2026-03-27,feature_request,low,Audit log retention longer than 90 days,25.5,64.4,1,3
+TKT-00928,2026-03-27,login_bug,urgent,Cannot log in after workspace merge,0.5,5.4,1,3
+TKT-01118,2026-03-27,login_bug,high,Cannot log in after workspace merge,1.9,5.3,1,3
+TKT-01413,2026-03-27,how_to,medium,Export data to Excel,19.0,3.1,1,4
+TKT-00289,2026-03-28,how_to,low,How to change the account email?,22.0,4.4,1,5
+TKT-00376,2026-03-28,feature_request,low,Webhook signing secret rotation UI,9.3,72.9,0,
+TKT-00826,2026-03-28,how_to,high,How to archive old projects?,2.0,1.9,1,4
+TKT-00869,2026-03-28,billing,low,Failed payment — card declined but subscription active,22.1,22.9,1,5
+TKT-01026,2026-03-28,login_bug,high,Cannot log in after workspace merge,3.0,11.2,1,4
+TKT-01438,2026-03-28,feature_request,low,Calendar sync for deadlines,31.0,45.3,0,
+TKT-00245,2026-03-29,how_to,medium,Where can I find audit logs?,8.2,8.9,1,4
+TKT-00505,2026-03-29,billing,low,Invoice VAT number is incorrect,45.2,8.3,1,5
+TKT-01147,2026-03-29,login_bug,high,Session expires every few minutes,1.1,12.8,1,5
+TKT-00215,2026-03-30,billing,medium,Update credit card details fails,15.8,8.8,1,3
+TKT-00612,2026-03-30,feature_request,medium,Custom fields in reports,10.2,55.0,1,4
+TKT-00963,2026-03-30,login_bug,high,Two-factor codes rejected on mobile,2.3,20.6,1,3
+TKT-01036,2026-03-31,integration,low,Zapier webhook returns 401,17.5,45.2,1,2
+TKT-01073,2026-03-31,billing,low,Requesting annual plan discount,25.7,9.0,1,3
+TKT-01238,2026-03-31,integration,high,HubSpot mapping ignores custom fields,2.0,56.8,1,3
+TKT-00142,2026-04-01,billing,medium,Requesting annual plan discount,16.7,10.4,1,4
+TKT-00148,2026-04-01,feature_request,medium,Add CSV export for dashboards,4.9,40.9,1,3
+TKT-00605,2026-04-01,how_to,low,How do usage-based charges work?,47.4,6.6,1,3
+TKT-01378,2026-04-01,how_to,low,How to archive old projects?,19.9,3.8,1,5
+TKT-00234,2026-04-02,billing,urgent,Refund for order #72691 not received,2.1,10.2,1,4
+TKT-00261,2026-04-02,billing,high,Invoice PDF download broken,4.8,11.5,1,5
+TKT-00326,2026-04-02,how_to,medium,How to change the account email?,5.7,1.7,1,5
+TKT-00346,2026-04-02,how_to,high,Export data to Excel,4.2,3.6,1,5
+TKT-01135,2026-04-02,feature_request,medium,Slack notifications for failed jobs,11.3,49.4,1,3
+TKT-01176,2026-04-02,login_bug,high,Cannot log in after workspace merge,1.9,10.6,1,4
+TKT-01258,2026-04-02,login_bug,high,Account locked after 2FA attempts,2.1,7.6,1,4
+TKT-00147,2026-04-03,billing,medium,Invoice PDF download broken,16.1,10.0,1,4
+TKT-00750,2026-04-03,billing,low,Unexpected overage charges this month,34.6,16.7,1,5
+TKT-00058,2026-04-04,feature_request,medium,SAML support for enterprise plan,13.4,44.6,0,
+TKT-00067,2026-04-04,feature_request,low,Bulk edit for user roles,27.0,91.0,1,2
+TKT-00188,2026-04-04,how_to,low,Set up two-factor authentication,71.1,4.2,1,3
+TKT-00315,2026-04-04,feature_request,medium,Slack notifications for failed jobs,11.7,40.6,1,3
+TKT-00368,2026-04-04,billing,high,Refund for order #96125 not received,2.7,7.4,1,4
+TKT-00640,2026-04-04,how_to,high,Reset dashboard filters to default,3.9,2.9,1,5
+TKT-00731,2026-04-04,billing,medium,Refund for order #54288 not received,17.1,7.7,1,3
+TKT-00915,2026-04-04,feature_request,high,SAML support for enterprise plan,2.8,65.3,0,
+TKT-00456,2026-04-05,billing,low,Invoice VAT number is incorrect,16.1,16.0,0,
+TKT-00724,2026-04-05,how_to,low,Set up two-factor authentication,26.6,4.1,0,
+TKT-00489,2026-04-06,login_bug,urgent,Password reset link expires immediately,0.7,5.4,1,5
+TKT-00809,2026-04-06,login_bug,high,403 error on login from new device,1.4,10.9,1,3
+TKT-00820,2026-04-06,integration,urgent,HubSpot mapping ignores custom fields,1.7,10.1,1,3
+TKT-00847,2026-04-06,feature_request,urgent,Webhook signing secret rotation UI,0.7,10.4,1,4
+TKT-01093,2026-04-06,login_bug,high,Cannot log in after workspace merge,4.7,9.0,1,4
+TKT-01101,2026-04-06,login_bug,medium,Session expires every few minutes,7.7,29.9,1,5
+TKT-00009,2026-04-07,billing,medium,Double charged on invoice #70407,11.8,16.4,1,4
+TKT-01010,2026-04-07,integration,medium,Zapier webhook returns 401,5.6,41.7,1,4
+TKT-00037,2026-04-08,how_to,medium,Reset dashboard filters to default,9.3,4.3,1,5
+TKT-01233,2026-04-08,integration,high,Shopify order import fails nightly,4.1,39.7,1,4
+TKT-00160,2026-04-09,billing,urgent,Refund for order #48442 not received,0.6,4.4,1,3
+TKT-00257,2026-04-09,billing,medium,Invoice VAT number is incorrect,13.8,7.4,1,4
+TKT-00437,2026-04-09,how_to,high,How do usage-based charges work?,3.8,3.1,1,5
+TKT-00512,2026-04-09,integration,urgent,OAuth token refresh fails silently,1.4,16.3,1,3
+TKT-00592,2026-04-09,billing,medium,Double charged on invoice #52233,7.5,12.5,1,3
+TKT-00610,2026-04-09,how_to,medium,How to set up usage alerts?,16.0,4.7,1,5
+TKT-00651,2026-04-09,how_to,low,How to set up usage alerts?,27.8,3.1,1,5
+TKT-00810,2026-04-09,feature_request,high,SAML support for enterprise plan,4.2,26.7,1,5
+TKT-00834,2026-04-09,billing,high,Invoice VAT number is incorrect,2.2,11.2,1,4
+TKT-01013,2026-04-09,billing,low,Invoice VAT number is incorrect,22.7,10.7,1,4
+TKT-01167,2026-04-09,billing,high,Pricing tier discrepancy on renewal,3.7,8.2,1,3
+TKT-01230,2026-04-09,feature_request,medium,Custom fields in reports,9.1,56.9,1,4
+TKT-00473,2026-04-10,how_to,medium,Set up two-factor authentication,10.1,8.7,1,4
+TKT-01092,2026-04-10,how_to,low,Where do I manage API keys?,33.4,3.0,0,
+TKT-01094,2026-04-10,how_to,low,Where do I manage API keys?,35.6,3.0,1,5
+TKT-01316,2026-04-10,billing,low,Refund for order #67837 not received,21.8,16.5,1,4
+TKT-00107,2026-04-11,how_to,low,How to archive old projects?,25.8,5.0,1,5
+TKT-00599,2026-04-11,login_bug,medium,Two-factor codes rejected on mobile,8.8,15.7,1,3
+TKT-00716,2026-04-11,billing,high,Failed payment — card declined but subscription active,1.8,11.9,1,4
+TKT-00857,2026-04-11,login_bug,medium,403 error on login from new device,11.4,20.6,1,4
+TKT-01288,2026-04-11,login_bug,high,Magic link opens a blank page,2.9,11.9,1,4
+TKT-00296,2026-04-12,billing,medium,Pricing tier discrepancy on renewal,17.7,12.5,1,4
+TKT-00316,2026-04-12,login_bug,medium,Cannot log in after workspace merge,6.1,12.8,1,3
+TKT-00740,2026-04-12,billing,urgent,Double charged on invoice #78770,0.7,4.4,1,3
+TKT-00777,2026-04-12,feature_request,medium,Custom fields in reports,18.0,55.1,0,
+TKT-00562,2026-04-13,how_to,low,How to set up usage alerts?,104.9,5.3,1,5
+TKT-00570,2026-04-13,billing,medium,Requesting annual plan discount,6.5,3.9,1,4
+TKT-01236,2026-04-13,billing,high,Failed payment — card declined but subscription active,6.1,5.8,1,3
+TKT-01409,2026-04-13,integration,high,Slack integration not posting alerts,2.0,31.5,1,3
+TKT-00331,2026-04-14,login_bug,medium,Google sign-in fails with 500 error,17.3,18.7,1,4
+TKT-00741,2026-04-14,login_bug,medium,Account locked after 2FA attempts,9.8,19.3,1,3
+TKT-00989,2026-04-14,feature_request,low,Audit log retention longer than 90 days,13.2,55.9,1,4
+TKT-01174,2026-04-14,billing,medium,Requesting annual plan discount,12.6,11.4,1,3
+TKT-00051,2026-04-15,login_bug,urgent,Two-factor codes rejected on mobile,1.0,12.5,1,3
+TKT-01414,2026-04-16,login_bug,medium,Cannot log in after workspace merge,11.1,8.0,1,3
+TKT-01420,2026-04-16,login_bug,low,Magic link opens a blank page,37.0,34.5,1,4
+TKT-00218,2026-04-17,feature_request,medium,Audit log retention longer than 90 days,8.4,35.3,0,
+TKT-00350,2026-04-17,how_to,low,How to archive old projects?,55.0,3.5,1,3
+TKT-01377,2026-04-17,login_bug,urgent,Cannot reset password — email never arrives,0.4,7.5,1,3
+TKT-00380,2026-04-18,billing,medium,Requesting annual plan discount,14.6,7.3,1,4
+TKT-00828,2026-04-19,login_bug,low,Cannot reset password — email never arrives,23.4,15.5,0,
+TKT-00873,2026-04-19,billing,high,Update credit card details fails,2.7,9.0,1,4
+TKT-01146,2026-04-19,how_to,high,Export data to Excel,3.3,4.6,1,5
+TKT-01455,2026-04-19,login_bug,medium,Two-factor codes rejected on mobile,13.7,16.6,1,3
+TKT-00281,2026-04-20,billing,low,Pricing tier discrepancy on renewal,60.0,11.4,1,4
+TKT-00995,2026-04-20,login_bug,medium,Login page infinite loading spinner,11.7,8.7,1,4
+TKT-01039,2026-04-20,billing,urgent,Update credit card details fails,1.1,6.0,1,3
+TKT-01181,2026-04-20,how_to,high,How do usage-based charges work?,2.3,2.9,1,5
+TKT-00301,2026-04-21,login_bug,medium,Password reset link expires immediately,6.2,16.9,1,4
+TKT-00600,2026-04-21,billing,medium,Invoice PDF download broken,10.8,12.3,1,3
+TKT-00836,2026-04-21,integration,medium,Shopify order import fails nightly,10.5,35.6,1,4
+TKT-01354,2026-04-21,billing,medium,Cancel subscription and refund prorated amount,14.3,23.6,1,2
+TKT-00352,2026-04-22,login_bug,high,Google sign-in fails with 500 error,1.7,13.3,1,4
+TKT-00884,2026-04-22,how_to,low,How to archive old projects?,51.8,7.4,1,4
+TKT-01250,2026-04-22,integration,urgent,API returns CORS errors from dashboard,1.0,20.9,1,4
+TKT-00464,2026-04-23,billing,medium,Refund for order #46854 not received,16.2,9.2,1,4
+TKT-00722,2026-04-23,billing,low,Update credit card details fails,30.9,15.3,1,3
+TKT-01011,2026-04-23,login_bug,high,Session expires every few minutes,2.0,9.7,1,4
+TKT-01334,2026-04-23,integration,high,Jira two-way sync has stalled,10.0,18.7,1,5
+TKT-01489,2026-04-23,how_to,medium,How to archive old projects?,17.4,5.4,1,5
+TKT-00078,2026-04-24,how_to,low,Where do I manage API keys?,72.2,5.0,0,
+TKT-00491,2026-04-24,login_bug,high,Cannot log in after workspace merge,3.4,6.6,1,4
+TKT-00951,2026-04-24,login_bug,high,Google sign-in fails with 500 error,3.0,15.3,1,4
+TKT-01381,2026-04-24,how_to,low,Reset dashboard filters to default,66.6,4.7,1,5
+TKT-00167,2026-04-25,billing,high,Downgrade not applied to my bill,3.9,4.6,1,4
+TKT-00232,2026-04-25,how_to,medium,Reset dashboard filters to default,10.2,2.6,1,5
+TKT-00354,2026-04-25,integration,high,HubSpot mapping ignores custom fields,4.5,42.1,1,3
+TKT-00487,2026-04-25,login_bug,medium,Account locked after 2FA attempts,11.2,11.6,1,5
+TKT-00580,2026-04-25,integration,urgent,Slack integration not posting alerts,1.1,53.4,1,3
+TKT-00817,2026-04-25,feature_request,low,Webhook signing secret rotation UI,16.5,86.8,1,4
+TKT-01190,2026-04-25,login_bug,low,Password reset link expires immediately,28.9,8.0,1,5
+TKT-00265,2026-04-26,login_bug,medium,Login page infinite loading spinner,8.6,9.9,1,3
+TKT-00597,2026-04-26,login_bug,medium,Cannot reset password — email never arrives,9.8,11.9,1,4
+TKT-00757,2026-04-26,login_bug,urgent,SSO redirect loop after password change,0.9,6.2,1,3
+TKT-01018,2026-04-26,feature_request,low,Webhook signing secret rotation UI,37.4,50.8,0,
+TKT-01136,2026-04-26,how_to,medium,Set up two-factor authentication,5.0,8.6,1,5
+TKT-01427,2026-04-26,login_bug,high,Password reset link expires immediately,2.2,9.0,1,4
+TKT-00090,2026-04-27,feature_request,medium,Audit log retention longer than 90 days,14.3,97.0,1,4
+TKT-00244,2026-04-27,billing,medium,Downgrade not applied to my bill,10.2,10.0,1,4
+TKT-00255,2026-04-27,login_bug,medium,Account locked after 2FA attempts,14.2,10.7,1,3
+TKT-00297,2026-04-27,feature_request,medium,Webhook signing secret rotation UI,11.5,62.4,1,3
+TKT-00510,2026-04-27,billing,urgent,Cancel subscription and refund prorated amount,0.6,6.5,1,2
+TKT-00552,2026-04-27,feature_request,low,Bulk edit for user roles,37.8,71.8,0,
+TKT-00985,2026-04-27,how_to,medium,Where can I find audit logs?,13.5,6.4,1,5
+TKT-01426,2026-04-27,login_bug,high,Cannot log in after workspace merge,3.9,14.1,1,4
+TKT-01487,2026-04-27,billing,high,Update credit card details fails,1.5,12.7,1,3
+TKT-00121,2026-04-28,billing,medium,Invoice PDF download broken,7.2,17.0,1,5
+TKT-00351,2026-04-28,billing,low,Charged after cancellation on 2026-04-30,57.9,18.3,1,4
+TKT-00389,2026-04-28,login_bug,low,403 error on login from new device,88.2,12.0,1,4
+TKT-01328,2026-04-28,billing,medium,Double charged on invoice #60190,8.8,7.3,1,4
+TKT-01432,2026-04-28,feature_request,low,Slack notifications for failed jobs,22.1,55.5,0,
+TKT-00361,2026-04-29,login_bug,medium,Login page infinite loading spinner,29.4,33.9,1,3
+TKT-00536,2026-04-29,login_bug,high,Session expires every few minutes,5.6,10.6,1,4
+TKT-00787,2026-04-29,billing,low,Update credit card details fails,52.3,21.6,1,3
+TKT-01100,2026-04-29,login_bug,urgent,Session expires every few minutes,1.0,7.1,1,4
+TKT-01447,2026-04-29,billing,medium,Requesting annual plan discount,5.2,10.3,1,4
+TKT-00116,2026-04-30,billing,medium,Double charged on invoice #76792,18.8,9.3,1,5
+TKT-00370,2026-04-30,login_bug,medium,Magic link opens a blank page,25.1,18.8,1,3
+TKT-00442,2026-04-30,feature_request,low,API rate limit increase request,33.1,58.0,1,3
+TKT-00449,2026-04-30,how_to,high,Where do I manage API keys?,3.1,4.6,1,4
+TKT-00608,2026-04-30,how_to,high,Reset dashboard filters to default,2.4,2.8,1,5
+TKT-00733,2026-04-30,login_bug,medium,Account locked after 2FA attempts,7.8,13.4,1,3
+TKT-01027,2026-04-30,how_to,medium,How to archive old projects?,18.2,3.7,1,5
+TKT-00206,2026-05-01,how_to,low,How to set up usage alerts?,73.3,5.9,0,
+TKT-00691,2026-05-01,billing,medium,Invoice PDF download broken,15.8,11.8,1,3
+TKT-00888,2026-05-01,billing,high,Invoice VAT number is incorrect,1.0,5.5,1,4
+TKT-01340,2026-05-01,feature_request,medium,Webhook signing secret rotation UI,14.4,14.8,0,
+TKT-00134,2026-05-02,integration,urgent,HubSpot mapping ignores custom fields,1.2,12.8,1,4
+TKT-00445,2026-05-02,billing,medium,Charged after cancellation on 2026-04-14,15.4,15.6,1,4
+TKT-00586,2026-05-02,feature_request,low,SAML support for enterprise plan,69.5,68.3,0,
+TKT-00708,2026-05-02,billing,low,Pricing tier discrepancy on renewal,50.1,17.8,1,3
+TKT-01371,2026-05-02,how_to,low,How to change the account email?,39.4,6.3,1,5
+TKT-01491,2026-05-02,how_to,low,How to set up usage alerts?,29.7,5.5,1,5
+TKT-00349,2026-05-03,billing,low,Unexpected overage charges this month,56.9,8.9,1,3
+TKT-00918,2026-05-03,billing,high,Cancel subscription and refund prorated amount,1.2,4.2,1,4
+TKT-00927,2026-05-03,billing,high,Downgrade not applied to my bill,1.4,10.2,1,5
+TKT-01183,2026-05-03,login_bug,medium,Two-factor codes rejected on mobile,20.9,20.8,1,4
+TKT-00113,2026-05-04,login_bug,low,Session expires every few minutes,47.7,20.4,1,3
+TKT-00526,2026-05-04,how_to,low,Reset dashboard filters to default,10.8,5.1,1,4
+TKT-00998,2026-05-04,billing,high,Unexpected overage charges this month,1.8,6.7,1,3
+TKT-01021,2026-05-04,how_to,medium,Export data to Excel,28.1,2.4,1,4
+TKT-01119,2026-05-04,billing,medium,Double charged on invoice #2434,7.3,6.3,1,5
+TKT-01200,2026-05-04,how_to,low,Where do I manage API keys?,41.0,5.6,1,4
+TKT-00122,2026-05-05,billing,medium,Charged after cancellation on 2025-11-04,7.6,10.4,1,4
+TKT-00486,2026-05-05,billing,low,Invoice VAT number is incorrect,27.6,21.1,0,
+TKT-00793,2026-05-05,billing,low,Update credit card details fails,23.0,12.9,0,
+TKT-01475,2026-05-05,how_to,medium,How to change the account email?,5.6,3.4,1,5
+TKT-00144,2026-05-06,integration,high,Salesforce sync drops contact records,6.0,38.3,1,4
+TKT-00554,2026-05-06,billing,low,Downgrade not applied to my bill,29.8,14.9,1,3
+TKT-00556,2026-05-06,how_to,low,How to change the account email?,65.1,7.9,1,5
+TKT-00904,2026-05-06,billing,medium,Downgrade not applied to my bill,5.8,14.4,1,3
+TKT-01467,2026-05-06,billing,medium,Charged after cancellation on 2026-05-12,10.7,6.1,1,4
+TKT-00172,2026-05-07,billing,medium,Unexpected overage charges this month,8.1,12.5,1,4
+TKT-00798,2026-05-07,billing,high,Invoice VAT number is incorrect,3.3,11.7,1,4
+TKT-00811,2026-05-07,how_to,low,How to archive old projects?,31.5,14.3,1,5
+TKT-00835,2026-05-07,billing,medium,Downgrade not applied to my bill,10.8,13.9,1,5
+TKT-00584,2026-05-08,login_bug,high,SSO redirect loop after password change,2.5,9.8,1,3
+TKT-00670,2026-05-08,feature_request,low,Calendar sync for deadlines,51.6,44.2,0,
+TKT-00697,2026-05-08,billing,urgent,Failed payment — card declined but subscription active,1.1,4.9,1,3
+TKT-00714,2026-05-08,billing,medium,Invoice PDF download broken,18.3,5.0,1,4
+TKT-00198,2026-05-09,login_bug,high,Login page infinite loading spinner,1.2,14.3,1,4
+TKT-00664,2026-05-09,how_to,medium,Where can I find audit logs?,30.5,2.3,1,5
+TKT-00932,2026-05-09,billing,medium,Failed payment — card declined but subscription active,6.2,7.5,1,3
+TKT-01055,2026-05-09,how_to,low,Where do I manage API keys?,84.4,6.3,0,
+TKT-01124,2026-05-09,billing,urgent,Double charged on invoice #96383,0.8,3.4,1,4
+TKT-01341,2026-05-09,billing,medium,Invoice PDF download broken,13.2,9.4,1,3
+TKT-00028,2026-05-10,integration,high,Salesforce sync drops contact records,1.3,47.9,1,3
+TKT-00171,2026-05-10,login_bug,medium,Google sign-in fails with 500 error,6.9,18.5,1,4
+TKT-00277,2026-05-11,feature_request,low,Bulk edit for user roles,29.0,77.3,1,4
+TKT-00385,2026-05-11,billing,medium,Requesting annual plan discount,19.1,11.6,1,4
+TKT-00685,2026-05-11,billing,high,Invoice VAT number is incorrect,3.0,10.9,1,4
+TKT-01309,2026-05-11,billing,urgent,Unexpected overage charges this month,1.6,5.2,1,3
+TKT-00185,2026-05-12,billing,high,Requesting annual plan discount,3.0,13.5,1,3
+TKT-00390,2026-05-12,billing,urgent,Double charged on invoice #94623,0.7,2.5,1,2
+TKT-00764,2026-05-12,login_bug,urgent,Cannot reset password — email never arrives,0.7,7.5,0,
+TKT-01244,2026-05-12,how_to,low,How to change the account email?,55.0,6.2,1,4
+TKT-00267,2026-05-13,login_bug,high,Cannot reset password — email never arrives,4.4,8.3,1,4
+TKT-00447,2026-05-13,billing,high,Requesting annual plan discount,1.7,8.4,1,4
+TKT-00805,2026-05-13,billing,low,Double charged on invoice #91995,18.7,13.2,1,3
+TKT-01161,2026-05-13,feature_request,low,Bulk edit for user roles,27.2,57.2,1,2
+TKT-01396,2026-05-13,how_to,low,How to set up usage alerts?,57.2,10.4,1,3
+TKT-00083,2026-05-14,integration,urgent,Zapier webhook returns 401,1.8,41.1,1,4
+TKT-00246,2026-05-14,login_bug,medium,Login page infinite loading spinner,9.1,7.5,1,3
+TKT-00566,2026-05-14,billing,high,Pricing tier discrepancy on renewal,7.3,7.4,1,3
+TKT-00024,2026-05-15,login_bug,urgent,Google sign-in fails with 500 error,0.9,4.6,1,4
+TKT-00125,2026-05-15,billing,medium,Update credit card details fails,8.9,10.6,1,4
+TKT-00159,2026-05-15,integration,high,OAuth token refresh fails silently,2.5,16.0,1,4
+TKT-00646,2026-05-15,login_bug,low,Google sign-in fails with 500 error,34.2,18.5,1,3
+TKT-00967,2026-05-15,how_to,high,How do usage-based charges work?,1.6,3.6,1,5
+TKT-01046,2026-05-15,feature_request,low,Custom fields in reports,58.9,72.8,1,3
+TKT-01384,2026-05-15,billing,medium,Double charged on invoice #40152,4.9,6.8,1,3
+TKT-00081,2026-05-16,how_to,low,Set up two-factor authentication,54.3,4.4,1,5
+TKT-00375,2026-05-16,billing,medium,Charged after cancellation on 2026-09-11,17.7,5.2,1,3
+TKT-00421,2026-05-16,login_bug,medium,Cannot log in after workspace merge,13.1,17.0,1,3
+TKT-00649,2026-05-16,billing,medium,Invoice VAT number is incorrect,13.5,4.3,1,4
+TKT-01038,2026-05-16,billing,medium,Update credit card details fails,12.9,5.5,1,3
+TKT-01488,2026-05-16,integration,high,Jira two-way sync has stalled,2.3,28.5,1,4
+TKT-01492,2026-05-16,login_bug,medium,Two-factor codes rejected on mobile,10.1,13.3,1,3
+TKT-00849,2026-05-17,how_to,medium,Reset dashboard filters to default,11.9,7.9,1,5
+TKT-01203,2026-05-17,feature_request,high,SAML support for enterprise plan,3.4,30.3,1,4
+TKT-01208,2026-05-17,billing,medium,Failed payment — card declined but subscription active,6.8,14.4,1,3
+TKT-01476,2026-05-17,login_bug,medium,Two-factor codes rejected on mobile,6.7,32.1,1,3
+TKT-00129,2026-05-18,billing,medium,Pricing tier discrepancy on renewal,9.3,5.7,1,4
+TKT-00676,2026-05-18,login_bug,urgent,403 error on login from new device,0.8,13.3,1,2
+TKT-00745,2026-05-18,login_bug,urgent,403 error on login from new device,0.9,7.3,1,3
+TKT-00876,2026-05-18,login_bug,urgent,Login page infinite loading spinner,0.9,4.7,1,5
+TKT-01107,2026-05-18,login_bug,medium,Two-factor codes rejected on mobile,9.6,12.9,0,
+TKT-00228,2026-05-19,billing,high,Refund for order #36760 not received,2.5,9.7,0,
+TKT-01070,2026-05-19,login_bug,medium,Session expires every few minutes,5.3,13.5,1,4
+TKT-00131,2026-05-20,login_bug,urgent,Google sign-in fails with 500 error,1.2,4.4,1,3
+TKT-00458,2026-05-20,login_bug,medium,Google sign-in fails with 500 error,6.8,10.5,1,3
+TKT-00465,2026-05-20,billing,medium,Requesting annual plan discount,14.6,6.3,1,4
+TKT-00807,2026-05-20,integration,high,Slack integration not posting alerts,2.9,27.3,1,4
+TKT-01209,2026-05-20,integration,high,Stripe webhook signature mismatch,2.6,13.3,1,5
+TKT-00965,2026-05-21,how_to,urgent,Set up two-factor authentication,0.5,1.4,1,4
+TKT-01112,2026-05-21,billing,medium,Double charged on invoice #36510,14.0,22.4,1,4
+TKT-00441,2026-05-22,how_to,low,Where do I manage API keys?,41.6,3.7,1,5
+TKT-00462,2026-05-22,billing,medium,Charged after cancellation on 2026-06-06,8.8,11.7,1,4
+TKT-00860,2026-05-22,feature_request,low,Add CSV export for dashboards,32.8,95.3,1,3
+TKT-00906,2026-05-22,login_bug,medium,Google sign-in fails with 500 error,8.2,23.3,1,3
+TKT-01089,2026-05-22,how_to,low,Where do I manage API keys?,36.0,3.3,1,4
+TKT-00225,2026-05-23,login_bug,high,Login page infinite loading spinner,2.5,10.0,1,4
+TKT-00343,2026-05-23,feature_request,medium,API rate limit increase request,6.6,81.7,1,3
+TKT-00595,2026-05-23,login_bug,medium,Session expires every few minutes,11.3,16.2,1,4
+TKT-01031,2026-05-23,billing,medium,Refund for order #43149 not received,7.7,6.5,1,3
+TKT-01080,2026-05-23,feature_request,low,Slack notifications for failed jobs,15.3,82.4,1,3
+TKT-01339,2026-05-23,integration,urgent,Shopify order import fails nightly,0.4,11.4,1,3
+TKT-00117,2026-05-24,how_to,medium,Export data to Excel,15.3,3.8,1,5
+TKT-00120,2026-05-24,login_bug,medium,403 error on login from new device,13.1,23.9,1,3
+TKT-00524,2026-05-24,how_to,low,Where do I manage API keys?,43.6,2.1,1,5
+TKT-01268,2026-05-24,billing,medium,Requesting annual plan discount,11.3,16.3,1,4
+TKT-00004,2026-05-25,login_bug,high,Cannot reset password — email never arrives,4.5,11.1,1,3
+TKT-00973,2026-05-25,login_bug,medium,Login page infinite loading spinner,5.9,10.4,1,3
+TKT-01428,2026-05-25,feature_request,low,Webhook signing secret rotation UI,37.9,60.3,0,
+TKT-00520,2026-05-26,how_to,medium,Export data to Excel,13.1,6.0,1,4
+TKT-01030,2026-05-26,how_to,urgent,Where do I manage API keys?,1.4,1.7,1,4
+TKT-01152,2026-05-26,integration,urgent,Zapier webhook returns 401,2.3,24.9,1,3
+TKT-01261,2026-05-26,integration,high,Salesforce sync drops contact records,2.5,68.7,1,3
+TKT-00132,2026-05-27,billing,medium,Refund for order #10023 not received,8.3,4.9,1,3
+TKT-00492,2026-05-27,login_bug,urgent,Password reset link expires immediately,1.0,2.9,1,4
+TKT-00533,2026-05-27,login_bug,urgent,Session expires every few minutes,1.0,9.1,0,
+TKT-00626,2026-05-27,integration,medium,OAuth token refresh fails silently,14.2,58.1,1,3
+TKT-00878,2026-05-27,login_bug,high,SSO redirect loop after password change,5.1,7.7,1,3
+TKT-01163,2026-05-27,login_bug,urgent,Login page infinite loading spinner,0.9,5.7,1,3
+TKT-00276,2026-05-29,integration,high,Jira two-way sync has stalled,2.5,42.0,1,3
+TKT-00443,2026-05-29,billing,medium,Cancel subscription and refund prorated amount,7.5,8.9,1,4
+TKT-00638,2026-05-29,billing,low,Invoice PDF download broken,39.5,15.3,1,3
+TKT-01074,2026-05-29,billing,urgent,Downgrade not applied to my bill,0.7,3.0,1,3
+TKT-00154,2026-05-30,feature_request,low,SAML support for enterprise plan,21.8,80.0,1,3
+TKT-00404,2026-05-30,login_bug,high,Google sign-in fails with 500 error,4.0,10.6,1,3
+TKT-00507,2026-05-30,feature_request,low,Custom fields in reports,38.5,68.0,1,5
+TKT-00625,2026-05-30,feature_request,medium,API rate limit increase request,10.1,34.8,0,
+TKT-01058,2026-05-30,integration,high,Zapier webhook returns 401,1.9,23.5,1,4
+TKT-01138,2026-05-30,billing,high,Refund for order #60654 not received,2.4,6.3,1,4
+TKT-01201,2026-05-30,integration,high,Webhook retries create duplicate events,3.1,43.7,1,4
+TKT-01327,2026-05-30,billing,medium,Requesting annual plan discount,11.1,18.4,1,4
+TKT-01075,2026-05-31,billing,high,Charged after cancellation on 2026-09-27,1.4,10.8,1,4
+TKT-00669,2026-06-01,feature_request,high,Add CSV export for dashboards,7.7,39.4,1,4
+TKT-00855,2026-06-01,billing,medium,Refund for order #39657 not received,18.8,15.7,1,3
+TKT-00924,2026-06-01,billing,urgent,Update credit card details fails,1.1,4.2,1,4
+TKT-01269,2026-06-01,integration,medium,Slack integration not posting alerts,16.4,28.5,1,3
+TKT-01357,2026-06-01,feature_request,medium,Slack notifications for failed jobs,5.3,54.2,1,4
+TKT-00193,2026-06-02,feature_request,high,Custom fields in reports,2.5,34.6,1,3
+TKT-00324,2026-06-02,billing,urgent,Pricing tier discrepancy on renewal,1.4,4.1,1,3
+TKT-00403,2026-06-02,how_to,low,How do usage-based charges work?,51.8,5.1,1,5
+TKT-01003,2026-06-02,billing,medium,Requesting annual plan discount,14.6,10.2,1,4
+TKT-01016,2026-06-02,how_to,low,How do I invite teammates?,48.0,5.2,0,
+TKT-01110,2026-06-02,billing,medium,Requesting annual plan discount,8.1,8.6,1,3
+TKT-00041,2026-06-03,feature_request,high,Webhook signing secret rotation UI,4.2,40.9,1,4
+TKT-00694,2026-06-03,login_bug,urgent,Cannot reset password — email never arrives,0.9,9.2,1,5
+TKT-01088,2026-06-03,feature_request,high,Calendar sync for deadlines,1.7,28.0,0,
+TKT-01116,2026-06-03,login_bug,low,Cannot log in after workspace merge,39.0,34.6,1,4
+TKT-01433,2026-06-03,billing,medium,Invoice VAT number is incorrect,7.6,13.1,1,4
+TKT-00854,2026-06-04,integration,high,Shopify order import fails nightly,3.0,18.3,1,4
+TKT-01251,2026-06-04,billing,medium,Downgrade not applied to my bill,7.5,12.1,1,4
+TKT-01299,2026-06-04,billing,urgent,Requesting annual plan discount,1.3,6.5,1,3
+TKT-00054,2026-06-05,feature_request,medium,API rate limit increase request,9.5,26.1,1,4
+TKT-00231,2026-06-05,login_bug,high,Cannot log in after workspace merge,3.7,10.9,1,3
+TKT-00579,2026-06-05,integration,high,API returns CORS errors from dashboard,1.8,20.8,1,3
+TKT-00658,2026-06-05,billing,urgent,Pricing tier discrepancy on renewal,2.5,4.5,1,3
+TKT-00700,2026-06-05,billing,low,Requesting annual plan discount,42.9,16.1,1,3
+TKT-00880,2026-06-05,billing,medium,Refund for order #68303 not received,26.4,9.4,1,3
+TKT-00945,2026-06-05,how_to,low,How to archive old projects?,41.2,10.2,1,4
+TKT-01001,2026-06-05,login_bug,high,Cannot log in after workspace merge,1.2,8.5,1,5
+TKT-01122,2026-06-05,billing,medium,Update credit card details fails,11.0,10.0,1,4
+TKT-01478,2026-06-05,feature_request,low,Slack notifications for failed jobs,52.9,66.6,0,
+TKT-00900,2026-06-06,billing,high,Requesting annual plan discount,3.5,8.3,1,4
+TKT-00687,2026-06-07,billing,low,Invoice VAT number is incorrect,33.2,20.5,0,
+TKT-00725,2026-06-07,feature_request,low,Slack notifications for failed jobs,89.8,38.7,0,
+TKT-01051,2026-06-07,integration,high,Jira two-way sync has stalled,0.7,46.1,1,4
+TKT-01056,2026-06-07,billing,medium,Invoice VAT number is incorrect,10.8,15.0,1,4
+TKT-01095,2026-06-07,integration,urgent,OAuth token refresh fails silently,0.5,14.2,1,4
+TKT-01141,2026-06-07,billing,medium,Downgrade not applied to my bill,7.6,8.6,1,4
+TKT-01157,2026-06-07,feature_request,low,Calendar sync for deadlines,13.0,27.1,1,4
+TKT-00194,2026-06-08,how_to,low,Set up two-factor authentication,34.5,3.2,1,5
+TKT-00796,2026-06-08,how_to,low,How to set up usage alerts?,61.2,5.2,1,5
+TKT-01211,2026-06-08,login_bug,high,SSO redirect loop after password change,1.3,12.2,1,5
+TKT-01373,2026-06-08,billing,low,Unexpected overage charges this month,28.6,11.6,1,3
+TKT-00241,2026-06-09,how_to,low,How do I invite teammates?,40.9,5.0,1,5
+TKT-00545,2026-06-09,billing,high,Cancel subscription and refund prorated amount,3.7,4.8,0,
+TKT-01234,2026-06-09,feature_request,low,Bulk edit for user roles,48.6,53.3,0,
+TKT-00170,2026-06-10,login_bug,high,403 error on login from new device,1.0,10.0,1,3
+TKT-00544,2026-06-10,integration,high,OAuth token refresh fails silently,2.5,31.5,1,5
+TKT-00616,2026-06-10,billing,high,Failed payment — card declined but subscription active,2.1,3.4,1,4
+TKT-00624,2026-06-10,how_to,low,Set up two-factor authentication,92.3,6.7,1,5
+TKT-00645,2026-06-10,feature_request,medium,Audit log retention longer than 90 days,9.4,34.3,1,3
+TKT-00029,2026-06-11,billing,low,Invoice PDF download broken,22.6,14.1,1,5
+TKT-00872,2026-06-11,how_to,low,How do I invite teammates?,16.2,6.6,1,4
+TKT-01008,2026-06-11,billing,high,Unexpected overage charges this month,2.2,7.7,1,4
+TKT-01210,2026-06-11,how_to,low,How do usage-based charges work?,111.6,3.9,1,5
+TKT-01372,2026-06-11,how_to,low,How to set up usage alerts?,33.8,7.4,1,4
+TKT-00325,2026-06-12,integration,high,OAuth token refresh fails silently,1.6,22.7,1,4
+TKT-00862,2026-06-12,feature_request,medium,Custom fields in reports,10.3,55.2,0,
+TKT-01108,2026-06-12,login_bug,medium,Account locked after 2FA attempts,17.1,9.5,1,3
+TKT-01240,2026-06-12,billing,low,Refund for order #51779 not received,27.7,8.5,1,4
+TKT-01257,2026-06-12,billing,medium,Requesting annual plan discount,7.0,9.0,1,4
+TKT-00747,2026-06-13,how_to,high,How to archive old projects?,4.0,1.6,1,4
+TKT-00772,2026-06-13,billing,high,Double charged on invoice #84959,6.7,5.9,1,3
+TKT-00864,2026-06-13,login_bug,medium,Cannot log in after workspace merge,4.2,16.5,1,4
+TKT-00944,2026-06-13,login_bug,medium,Two-factor codes rejected on mobile,5.5,24.1,1,4
+TKT-00158,2026-06-14,integration,urgent,Shopify order import fails nightly,0.6,23.8,1,4
+TKT-00192,2026-06-14,feature_request,medium,Audit log retention longer than 90 days,16.1,52.5,1,3
+TKT-00528,2026-06-14,how_to,low,Where can I find audit logs?,37.0,9.2,1,4
+TKT-00737,2026-06-14,billing,medium,Pricing tier discrepancy on renewal,6.8,7.6,1,3
+TKT-00760,2026-06-14,how_to,medium,Set up two-factor authentication,6.6,3.8,1,5
+TKT-00837,2026-06-14,billing,medium,Unexpected overage charges this month,4.9,5.0,1,4
+TKT-00840,2026-06-14,billing,low,Requesting annual plan discount,25.8,8.1,1,4
+TKT-00683,2026-06-15,integration,high,Webhook retries create duplicate events,4.7,50.2,1,3
+TKT-00866,2026-06-15,login_bug,high,Password reset link expires immediately,2.5,11.8,1,3
+TKT-00901,2026-06-15,integration,high,OAuth token refresh fails silently,3.0,67.2,1,3
+TKT-00935,2026-06-15,billing,low,Cancel subscription and refund prorated amount,17.9,18.7,1,4
+TKT-00046,2026-06-17,how_to,medium,Reset dashboard filters to default,10.1,4.1,1,4
+TKT-00072,2026-06-17,billing,high,Refund for order #75459 not received,1.6,12.9,1,5
+TKT-00282,2026-06-17,integration,urgent,HubSpot mapping ignores custom fields,0.5,12.9,1,4
+TKT-00434,2026-06-17,login_bug,medium,Login page infinite loading spinner,5.8,26.3,1,4
+TKT-00033,2026-06-18,how_to,low,Export data to Excel,31.2,4.5,1,4
+TKT-00164,2026-06-18,integration,high,Zapier webhook returns 401,2.6,41.0,1,4
+TKT-00259,2026-06-18,billing,low,Charged after cancellation on 2026-02-11,35.8,23.8,1,3
+TKT-01338,2026-06-18,feature_request,low,Bulk edit for user roles,66.7,30.9,0,
+TKT-00002,2026-06-19,login_bug,medium,Session expires every few minutes,19.9,8.8,1,3
+TKT-00406,2026-06-19,billing,medium,Downgrade not applied to my bill,29.0,9.5,1,3
+TKT-01029,2026-06-19,billing,high,Downgrade not applied to my bill,4.2,7.8,1,4
+TKT-01187,2026-06-19,billing,high,Requesting annual plan discount,2.8,6.3,1,4
+TKT-00035,2026-06-20,how_to,low,How to archive old projects?,89.6,4.9,0,
+TKT-00851,2026-06-20,how_to,medium,Reset dashboard filters to default,12.8,5.4,1,5
+TKT-01180,2026-06-20,login_bug,medium,403 error on login from new device,12.2,13.9,1,4
+TKT-01417,2026-06-21,how_to,medium,Where do I manage API keys?,9.4,4.8,1,3
+TKT-00133,2026-06-22,feature_request,low,SAML support for enterprise plan,24.4,124.2,0,
+TKT-00630,2026-06-22,login_bug,low,Two-factor codes rejected on mobile,24.5,12.9,1,3
+TKT-00761,2026-06-22,login_bug,high,SSO redirect loop after password change,3.0,7.1,1,3
+TKT-01007,2026-06-22,how_to,medium,Export data to Excel,8.4,4.2,1,4
+TKT-00332,2026-06-23,billing,medium,Invoice PDF download broken,20.8,23.3,1,3
+TKT-00675,2026-06-23,feature_request,medium,Slack notifications for failed jobs,14.9,40.2,1,4
+TKT-00696,2026-06-23,billing,high,Double charged on invoice #94008,1.9,14.8,1,4
+TKT-01218,2026-06-23,login_bug,urgent,Account locked after 2FA attempts,1.2,5.6,1,4
+TKT-00048,2026-06-24,login_bug,medium,Magic link opens a blank page,7.8,14.4,1,3
+TKT-00309,2026-06-24,feature_request,low,Calendar sync for deadlines,35.4,55.0,0,
+TKT-00742,2026-06-24,how_to,low,How to change the account email?,59.5,7.4,1,5
+TKT-00902,2026-06-24,billing,high,Invoice VAT number is incorrect,2.9,9.5,1,4
+TKT-01298,2026-06-24,feature_request,low,Dark mode support,47.4,42.8,1,3
+TKT-00986,2026-06-25,how_to,low,How to archive old projects?,32.6,6.6,1,4
+TKT-01351,2026-06-25,billing,medium,Cancel subscription and refund prorated amount,12.1,9.8,1,4
+TKT-00344,2026-06-26,login_bug,medium,Session expires every few minutes,9.4,10.1,1,4
+TKT-00372,2026-06-26,how_to,medium,Where do I manage API keys?,8.9,2.3,1,4
+TKT-00453,2026-06-26,login_bug,high,Google sign-in fails with 500 error,2.7,15.2,1,5
+TKT-01005,2026-06-26,feature_request,low,Custom fields in reports,54.1,107.8,1,3
+TKT-01037,2026-06-26,how_to,urgent,Reset dashboard filters to default,1.1,2.6,1,4
+TKT-01237,2026-06-26,how_to,low,How do usage-based charges work?,32.4,3.2,1,5
+TKT-00283,2026-06-27,billing,medium,Cancel subscription and refund prorated amount,9.3,10.1,1,3
+TKT-01192,2026-06-27,login_bug,urgent,Cannot reset password — email never arrives,0.6,9.3,1,3
+TKT-01333,2026-06-27,login_bug,medium,Two-factor codes rejected on mobile,6.2,12.2,1,4
+TKT-00763,2026-06-28,login_bug,high,403 error on login from new device,1.8,14.4,1,4
+TKT-00853,2026-06-28,login_bug,high,Session expires every few minutes,2.1,16.0,1,3
+TKT-00980,2026-06-28,how_to,medium,Export data to Excel,10.3,3.0,1,4
+TKT-01374,2026-06-28,billing,low,Refund for order #18641 not received,14.3,12.1,1,3
+TKT-01394,2026-06-28,feature_request,medium,Audit log retention longer than 90 days,11.0,41.5,0,
+TKT-00182,2026-06-29,login_bug,high,403 error on login from new device,4.0,8.3,1,4
+TKT-00260,2026-06-29,billing,medium,Charged after cancellation on 2026-03-17,13.2,8.5,0,
+TKT-01202,2026-06-29,how_to,low,Where can I find audit logs?,74.4,6.1,1,5
+TKT-01392,2026-06-29,feature_request,medium,Bulk edit for user roles,17.2,42.6,1,5
+TKT-01493,2026-06-29,billing,medium,Downgrade not applied to my bill,9.5,5.9,1,3
+TKT-00541,2026-06-30,feature_request,low,Bulk edit for user roles,34.2,86.2,1,3
+TKT-00993,2026-06-30,how_to,medium,How to change the account email?,9.1,2.6,1,5
+TKT-01322,2026-06-30,how_to,medium,Where can I find audit logs?,10.3,3.4,1,4
+TKT-01325,2026-06-30,integration,medium,Salesforce sync drops contact records,6.3,54.4,1,4
+TKT-00263,2026-07-01,billing,high,Charged after cancellation on 2026-06-05,1.6,10.5,1,4
+TKT-00366,2026-07-01,login_bug,high,SSO redirect loop after password change,4.0,8.8,1,4
+TKT-00438,2026-07-01,integration,medium,Slack integration not posting alerts,15.5,23.8,1,4
+TKT-00302,2026-07-02,billing,urgent,Cancel subscription and refund prorated amount,0.4,4.9,1,4
+TKT-00583,2026-07-02,billing,medium,Downgrade not applied to my bill,5.0,8.5,1,4
+TKT-01296,2026-07-02,feature_request,urgent,Add CSV export for dashboards,1.0,33.7,1,3
+TKT-00594,2026-07-03,feature_request,low,Calendar sync for deadlines,44.6,35.7,1,3
+TKT-00778,2026-07-03,billing,medium,Requesting annual plan discount,12.5,13.6,1,3
+TKT-01173,2026-07-03,how_to,low,Set up two-factor authentication,76.7,8.1,0,
+TKT-01221,2026-07-03,how_to,low,How do I invite teammates?,54.1,6.6,1,5
+TKT-00236,2026-07-04,login_bug,low,Password reset link expires immediately,26.2,12.5,1,4
+TKT-00250,2026-07-04,feature_request,low,API rate limit increase request,48.5,71.0,1,3
+TKT-00264,2026-07-04,billing,high,Pricing tier discrepancy on renewal,2.7,15.6,0,
+TKT-00284,2026-07-04,how_to,high,Export data to Excel,2.8,7.1,0,
+TKT-00573,2026-07-04,billing,medium,Invoice PDF download broken,7.9,12.2,1,4
+TKT-01041,2026-07-04,billing,medium,Failed payment — card declined but subscription active,8.5,9.5,1,3
+TKT-01223,2026-07-04,billing,low,Charged after cancellation on 2026-09-28,61.6,25.3,1,3
+TKT-01317,2026-07-04,billing,medium,Requesting annual plan discount,16.1,15.1,1,3
+TKT-01353,2026-07-04,feature_request,low,Add CSV export for dashboards,19.4,67.6,1,3
+TKT-00137,2026-07-05,billing,high,Failed payment — card declined but subscription active,4.9,15.5,1,5
+TKT-00652,2026-07-05,billing,high,Failed payment — card declined but subscription active,3.4,7.5,1,4
+TKT-01415,2026-07-05,billing,medium,Pricing tier discrepancy on renewal,20.8,13.2,1,3
+TKT-00077,2026-07-06,integration,urgent,Salesforce sync drops contact records,1.5,29.0,1,3
+TKT-00881,2026-07-06,login_bug,medium,Magic link opens a blank page,11.0,23.1,1,4
+TKT-01043,2026-07-06,login_bug,urgent,Cannot reset password — email never arrives,0.6,5.0,1,4
+TKT-01062,2026-07-06,login_bug,high,403 error on login from new device,1.2,8.4,1,4
+TKT-01247,2026-07-06,how_to,low,How to archive old projects?,47.6,5.9,1,5
+TKT-01383,2026-07-06,billing,medium,Pricing tier discrepancy on renewal,6.4,7.0,1,4
+TKT-00639,2026-07-07,billing,high,Update credit card details fails,2.7,6.4,1,3
+TKT-00707,2026-07-07,billing,medium,Charged after cancellation on 2025-12-27,7.1,10.6,1,4
+TKT-01186,2026-07-07,login_bug,high,Magic link opens a blank page,2.9,7.7,0,
+TKT-01199,2026-07-07,how_to,low,Where do I manage API keys?,22.7,15.4,1,4
+TKT-01324,2026-07-07,how_to,low,Where can I find audit logs?,39.0,3.4,1,5
+TKT-01401,2026-07-07,integration,medium,Slack integration not posting alerts,31.9,36.2,1,3
+TKT-00409,2026-07-08,feature_request,medium,SAML support for enterprise plan,8.3,48.8,1,3
+TKT-00792,2026-07-08,integration,high,API returns CORS errors from dashboard,1.4,28.9,1,4
+TKT-01179,2026-07-08,login_bug,low,Cannot reset password — email never arrives,58.2,14.5,1,4
+TKT-01239,2026-07-08,how_to,medium,How to archive old projects?,8.7,5.1,1,5
+TKT-00101,2026-07-09,billing,high,Invoice PDF download broken,1.1,5.1,1,4
+TKT-00479,2026-07-09,login_bug,medium,Session expires every few minutes,36.3,8.7,1,3
+TKT-00919,2026-07-09,integration,high,Salesforce sync drops contact records,2.3,28.7,1,4
+TKT-00933,2026-07-09,how_to,medium,Reset dashboard filters to default,16.2,5.5,1,5
+TKT-00949,2026-07-09,login_bug,medium,403 error on login from new device,11.7,14.9,1,4
+TKT-01032,2026-07-09,integration,medium,Zapier webhook returns 401,24.0,29.5,1,4
+TKT-01105,2026-07-09,how_to,medium,How to change the account email?,5.3,3.2,1,5
+TKT-01479,2026-07-09,login_bug,urgent,Login page infinite loading spinner,1.8,8.6,1,4
+TKT-00644,2026-07-10,billing,medium,Failed payment — card declined but subscription active,23.8,14.8,1,3
+TKT-00031,2026-07-11,how_to,low,How do I invite teammates?,61.7,6.8,1,5
+TKT-00141,2026-07-11,feature_request,medium,Calendar sync for deadlines,33.2,52.8,0,
+TKT-00472,2026-07-11,feature_request,high,Add CSV export for dashboards,1.5,48.1,1,4
+TKT-00960,2026-07-11,login_bug,medium,Google sign-in fails with 500 error,11.0,20.5,1,5
+TKT-01084,2026-07-11,login_bug,urgent,Session expires every few minutes,1.6,8.5,1,5
+TKT-01148,2026-07-11,login_bug,urgent,Google sign-in fails with 500 error,0.5,5.9,1,3
+TKT-00196,2026-07-12,login_bug,high,Cannot reset password — email never arrives,2.5,11.6,1,4
+TKT-00016,2026-07-13,how_to,low,Where can I find audit logs?,27.3,4.1,1,5
+TKT-00262,2026-07-13,login_bug,high,Login page infinite loading spinner,2.7,10.2,1,5
+TKT-00920,2026-07-13,login_bug,medium,Google sign-in fails with 500 error,8.1,14.6,1,3
+TKT-00940,2026-07-13,billing,low,Cancel subscription and refund prorated amount,63.5,17.0,1,4
+TKT-01295,2026-07-13,integration,high,Jira two-way sync has stalled,3.3,39.1,1,4
+TKT-00543,2026-07-14,billing,urgent,Double charged on invoice #43689,0.7,5.1,1,4
+TKT-00575,2026-07-14,login_bug,medium,Cannot log in after workspace merge,20.8,17.7,1,4
+TKT-00660,2026-07-14,login_bug,medium,Cannot log in after workspace merge,8.0,19.1,1,3
+TKT-00371,2026-07-15,billing,medium,Pricing tier discrepancy on renewal,7.8,25.6,1,4
+TKT-00576,2026-07-16,billing,high,Charged after cancellation on 2026-09-24,5.2,8.3,1,3
+TKT-00766,2026-07-16,billing,medium,Charged after cancellation on 2026-03-25,8.0,14.5,1,4
+TKT-00012,2026-07-17,login_bug,high,SSO redirect loop after password change,5.0,10.1,1,5
+TKT-00140,2026-07-17,feature_request,medium,Custom fields in reports,4.7,73.4,1,3
+TKT-00550,2026-07-17,billing,medium,Double charged on invoice #32312,7.9,10.5,1,3
+TKT-00879,2026-07-17,how_to,medium,How to set up usage alerts?,18.3,1.4,1,5
+TKT-01494,2026-07-17,login_bug,urgent,SSO redirect loop after password change,0.5,8.2,1,3
+TKT-00005,2026-07-18,integration,high,HubSpot mapping ignores custom fields,4.0,20.9,1,4
+TKT-00026,2026-07-18,integration,high,OAuth token refresh fails silently,3.5,34.6,1,4
+TKT-00082,2026-07-18,login_bug,medium,Two-factor codes rejected on mobile,10.1,16.2,1,3
+TKT-00156,2026-07-18,feature_request,medium,Webhook signing secret rotation UI,25.6,42.2,0,
+TKT-00298,2026-07-18,how_to,low,How to change the account email?,32.3,6.6,1,5
+TKT-00522,2026-07-18,billing,medium,Downgrade not applied to my bill,5.1,8.9,1,3
+TKT-00718,2026-07-18,login_bug,high,SSO redirect loop after password change,3.0,8.3,1,4
+TKT-01196,2026-07-18,how_to,medium,Reset dashboard filters to default,10.1,3.4,1,5
+TKT-01278,2026-07-18,feature_request,medium,Calendar sync for deadlines,4.1,38.2,1,3
+TKT-01496,2026-07-18,billing,low,Unexpected overage charges this month,54.1,13.0,1,5
+TKT-01006,2026-07-19,billing,medium,Refund for order #74986 not received,8.8,12.4,1,4
+TKT-00423,2026-07-20,how_to,urgent,Set up two-factor authentication,1.8,1.1,1,5
+TKT-00678,2026-07-20,how_to,medium,Where can I find audit logs?,11.5,3.8,1,5
+TKT-00223,2026-07-21,feature_request,low,SAML support for enterprise plan,24.1,78.7,1,3
+TKT-00948,2026-07-21,login_bug,medium,Account locked after 2FA attempts,8.9,8.7,1,5
+TKT-00355,2026-07-22,how_to,medium,How to set up usage alerts?,9.9,2.0,1,5
+TKT-01385,2026-07-22,how_to,high,Reset dashboard filters to default,1.6,1.4,1,4
+TKT-00217,2026-07-23,feature_request,medium,Bulk edit for user roles,12.8,36.7,1,5
+TKT-00401,2026-07-23,billing,high,Update credit card details fails,2.0,11.1,1,3
+TKT-00452,2026-07-23,billing,medium,Unexpected overage charges this month,13.3,8.7,1,4
+TKT-00885,2026-07-23,feature_request,medium,Calendar sync for deadlines,20.7,27.9,1,4
+TKT-00848,2026-07-24,how_to,medium,Where can I find audit logs?,16.3,3.0,1,5
+TKT-00984,2026-07-24,how_to,medium,How to archive old projects?,14.4,9.9,1,5
+TKT-01484,2026-07-24,login_bug,low,Login page infinite loading spinner,117.3,26.4,1,3
+TKT-00274,2026-07-25,billing,medium,Invoice VAT number is incorrect,4.9,19.4,1,3
+TKT-00499,2026-07-25,login_bug,medium,Login page infinite loading spinner,13.5,15.4,1,3
+TKT-00539,2026-07-25,feature_request,medium,Add CSV export for dashboards,8.2,45.4,1,4
+TKT-00555,2026-07-25,login_bug,low,Two-factor codes rejected on mobile,52.6,22.1,1,3
+TKT-00619,2026-07-25,billing,medium,Invoice VAT number is incorrect,4.7,9.3,1,4
+TKT-00812,2026-07-25,integration,high,OAuth token refresh fails silently,1.5,45.7,1,3
+TKT-01033,2026-07-25,how_to,medium,How do usage-based charges work?,15.2,7.3,1,4
+TKT-01079,2026-07-25,integration,high,HubSpot mapping ignores custom fields,2.3,17.2,1,4
+TKT-01266,2026-07-25,billing,low,Unexpected overage charges this month,17.8,15.9,0,
+TKT-00275,2026-07-26,feature_request,low,Bulk edit for user roles,35.9,57.6,0,
+TKT-00415,2026-07-26,billing,high,Unexpected overage charges this month,2.1,6.3,1,4
+TKT-00709,2026-07-26,billing,high,Charged after cancellation on 2026-02-06,2.9,13.9,0,
+TKT-00358,2026-07-27,billing,low,Pricing tier discrepancy on renewal,63.3,5.6,1,4
+TKT-00752,2026-07-27,billing,medium,Cancel subscription and refund prorated amount,10.4,10.9,1,4
+TKT-01102,2026-07-27,login_bug,urgent,Cannot log in after workspace merge,0.3,5.6,1,3
+TKT-01166,2026-07-27,billing,medium,Invoice PDF download broken,6.9,13.3,1,3
+TKT-00093,2026-07-28,login_bug,medium,Cannot reset password — email never arrives,14.2,27.1,1,4
+TKT-00429,2026-07-28,billing,medium,Invoice VAT number is incorrect,6.2,12.0,1,3
+TKT-00921,2026-07-28,login_bug,medium,403 error on login from new device,9.4,19.2,1,4
+TKT-00954,2026-07-28,login_bug,medium,Two-factor codes rejected on mobile,37.8,33.3,1,4
+TKT-00312,2026-07-29,integration,high,Stripe webhook signature mismatch,3.5,14.9,1,4
+TKT-00513,2026-07-29,integration,urgent,Webhook retries create duplicate events,0.4,35.9,1,4
+TKT-00684,2026-07-29,login_bug,urgent,Google sign-in fails with 500 error,1.7,6.6,1,5
+TKT-00769,2026-07-29,how_to,low,How to change the account email?,16.6,4.3,1,5
+TKT-00784,2026-07-29,login_bug,high,Magic link opens a blank page,1.2,8.5,1,4
+TKT-01225,2026-07-29,how_to,medium,Export data to Excel,23.9,4.9,1,5
+TKT-01358,2026-07-29,billing,high,Double charged on invoice #57314,3.1,15.4,1,3
+TKT-01443,2026-07-29,billing,high,Downgrade not applied to my bill,2.8,15.7,1,4
+TKT-01451,2026-07-29,login_bug,high,403 error on login from new device,5.5,8.9,1,4
+TKT-00230,2026-07-30,feature_request,low,Slack notifications for failed jobs,77.6,45.2,1,4
+TKT-00400,2026-07-30,billing,medium,Unexpected overage charges this month,7.2,6.3,1,2
+TKT-00780,2026-07-30,billing,low,Failed payment — card declined but subscription active,54.3,10.1,1,3
+TKT-00856,2026-07-30,billing,medium,Pricing tier discrepancy on renewal,10.6,7.2,1,3
+TKT-00941,2026-07-30,how_to,low,How to set up usage alerts?,68.5,4.6,1,5
+TKT-01076,2026-07-30,billing,low,Pricing tier discrepancy on renewal,21.3,18.8,1,3
+TKT-00641,2026-07-31,billing,urgent,Requesting annual plan discount,1.1,11.7,1,2
+TKT-00843,2026-07-31,how_to,medium,Where can I find audit logs?,20.5,4.7,1,5
+TKT-00952,2026-07-31,login_bug,medium,SSO redirect loop after password change,8.8,12.3,1,3
+TKT-00034,2026-08-01,billing,high,Cancel subscription and refund prorated amount,2.6,6.7,1,4
+TKT-00089,2026-08-01,how_to,low,Where can I find audit logs?,16.5,10.7,0,
+TKT-00199,2026-08-01,login_bug,medium,SSO redirect loop after password change,13.1,20.2,1,4
+TKT-00909,2026-08-01,login_bug,medium,Password reset link expires immediately,25.7,15.6,1,4
+TKT-01318,2026-08-01,login_bug,high,Two-factor codes rejected on mobile,3.2,13.4,1,3
+TKT-01367,2026-08-01,login_bug,high,Cannot log in after workspace merge,1.4,24.6,1,3
+TKT-00088,2026-08-02,integration,urgent,Zapier webhook returns 401,1.1,42.6,1,4
+TKT-00252,2026-08-02,billing,medium,Downgrade not applied to my bill,7.4,8.9,1,5
+TKT-00463,2026-08-02,login_bug,high,Cannot reset password — email never arrives,2.7,16.4,1,5
+TKT-00753,2026-08-02,feature_request,medium,Dark mode support,5.7,25.2,1,4
+TKT-00827,2026-08-02,login_bug,high,Two-factor codes rejected on mobile,1.0,10.8,1,4
+TKT-00871,2026-08-02,login_bug,high,Cannot reset password — email never arrives,3.3,17.8,1,3
+TKT-00895,2026-08-02,login_bug,high,Session expires every few minutes,3.9,18.3,1,4
+TKT-01273,2026-08-02,feature_request,low,Audit log retention longer than 90 days,52.6,40.7,0,
+TKT-01307,2026-08-02,billing,high,Invoice VAT number is incorrect,2.1,6.3,1,2
+TKT-00060,2026-08-03,login_bug,high,SSO redirect loop after password change,3.6,21.9,1,4
+TKT-00413,2026-08-03,login_bug,low,Magic link opens a blank page,22.8,17.2,1,4
+TKT-01456,2026-08-03,billing,medium,Update credit card details fails,6.4,6.8,1,5
+TKT-00032,2026-08-04,login_bug,high,Password reset link expires immediately,3.0,16.5,1,3
+TKT-00099,2026-08-04,feature_request,urgent,SAML support for enterprise plan,1.1,26.9,1,4
+TKT-00162,2026-08-04,integration,high,Slack integration not posting alerts,1.9,14.1,1,4
+TKT-00819,2026-08-04,billing,medium,Invoice PDF download broken,7.8,17.1,1,2
+TKT-00870,2026-08-04,billing,medium,Failed payment — card declined but subscription active,18.1,4.9,1,4
+TKT-00897,2026-08-04,login_bug,medium,Magic link opens a blank page,15.3,20.6,1,4
+TKT-01286,2026-08-04,integration,high,Shopify order import fails nightly,2.3,51.3,1,3
+TKT-00166,2026-08-06,integration,urgent,Stripe webhook signature mismatch,1.2,16.7,0,
+TKT-00266,2026-08-06,login_bug,urgent,Cannot reset password — email never arrives,0.4,6.6,1,4
+TKT-00891,2026-08-06,how_to,low,How do I invite teammates?,37.9,7.3,1,5
+TKT-01000,2026-08-06,login_bug,medium,Cannot log in after workspace merge,16.5,8.1,1,5
+TKT-00247,2026-08-07,feature_request,low,SAML support for enterprise plan,28.2,67.6,1,4
+TKT-00396,2026-08-07,login_bug,high,Google sign-in fails with 500 error,1.1,7.5,1,4
+TKT-00629,2026-08-07,login_bug,medium,403 error on login from new device,10.1,16.1,1,4
+TKT-00794,2026-08-07,feature_request,medium,Custom fields in reports,6.1,75.6,1,2
+TKT-00850,2026-08-07,billing,medium,Charged after cancellation on 2026-04-27,9.5,5.9,1,5
+TKT-01086,2026-08-07,login_bug,high,Password reset link expires immediately,3.3,11.8,1,4
+TKT-01321,2026-08-07,billing,medium,Invoice PDF download broken,13.6,9.2,1,4
+TKT-01410,2026-08-07,billing,medium,Unexpected overage charges this month,18.0,14.0,1,4
+TKT-00207,2026-08-08,login_bug,medium,Google sign-in fails with 500 error,7.0,11.5,1,4
+TKT-00591,2026-08-08,billing,high,Charged after cancellation on 2026-01-04,3.5,8.9,1,4
+TKT-00748,2026-08-08,how_to,low,How to archive old projects?,31.6,3.3,1,5
+TKT-01416,2026-08-08,billing,high,Pricing tier discrepancy on renewal,1.8,3.6,1,3
+TKT-00270,2026-08-09,billing,low,Double charged on invoice #48595,18.4,20.4,1,4
+TKT-01439,2026-08-09,billing,medium,Downgrade not applied to my bill,21.4,13.1,0,
+TKT-00321,2026-08-10,login_bug,low,Magic link opens a blank page,48.7,19.4,1,3
+TKT-00542,2026-08-10,billing,high,Downgrade not applied to my bill,3.0,17.3,1,4
+TKT-00790,2026-08-10,billing,medium,Refund for order #76048 not received,8.9,13.3,1,3
+TKT-00063,2026-08-11,billing,medium,Refund for order #30115 not received,6.8,12.3,1,4
+TKT-00962,2026-08-11,feature_request,low,Calendar sync for deadlines,18.0,102.9,0,
+TKT-01252,2026-08-11,billing,medium,Pricing tier discrepancy on renewal,12.8,10.7,1,4
+TKT-01308,2026-08-11,how_to,medium,Export data to Excel,4.8,6.4,1,5
+TKT-00322,2026-08-12,login_bug,high,SSO redirect loop after password change,4.4,12.1,1,4
+TKT-00537,2026-08-12,billing,medium,Requesting annual plan discount,8.0,6.9,1,4
+TKT-00801,2026-08-12,billing,high,Failed payment — card declined but subscription active,2.8,8.4,1,4
+TKT-01091,2026-08-12,how_to,low,How to change the account email?,84.5,5.5,0,
+TKT-00294,2026-08-13,feature_request,low,Bulk edit for user roles,26.5,86.0,1,4
+TKT-00770,2026-08-13,login_bug,low,Two-factor codes rejected on mobile,40.4,12.1,1,4
+TKT-00976,2026-08-13,billing,high,Invoice VAT number is incorrect,2.0,7.4,1,3
+TKT-01048,2026-08-13,billing,urgent,Pricing tier discrepancy on renewal,0.6,2.7,1,4
+TKT-01115,2026-08-13,how_to,low,How do I invite teammates?,44.3,4.5,1,4
+TKT-01215,2026-08-13,login_bug,medium,403 error on login from new device,10.2,17.9,1,4
+TKT-00457,2026-08-14,feature_request,low,Bulk edit for user roles,19.1,80.9,1,4
+TKT-00746,2026-08-14,integration,high,OAuth token refresh fails silently,3.2,36.3,1,3
+TKT-00913,2026-08-14,integration,medium,Webhook retries create duplicate events,18.4,52.9,1,2
+TKT-01497,2026-08-14,integration,urgent,HubSpot mapping ignores custom fields,0.5,32.2,1,4
+TKT-00084,2026-08-15,integration,medium,Shopify order import fails nightly,18.4,83.8,1,4
+TKT-00582,2026-08-15,login_bug,medium,Session expires every few minutes,4.8,21.7,1,3
+TKT-00808,2026-08-15,how_to,medium,How do usage-based charges work?,23.6,3.9,1,5
+TKT-00969,2026-08-15,billing,low,Charged after cancellation on 2026-09-26,42.1,20.9,1,3
+TKT-01217,2026-08-15,integration,high,Slack integration not posting alerts,1.3,34.3,1,4
+TKT-01300,2026-08-15,feature_request,medium,Bulk edit for user roles,48.1,44.5,1,4
+TKT-01469,2026-08-15,login_bug,medium,Password reset link expires immediately,11.1,12.2,1,3
+TKT-00152,2026-08-16,login_bug,high,Login page infinite loading spinner,3.4,9.0,1,3
+TKT-00720,2026-08-16,how_to,high,How to change the account email?,2.1,4.4,1,4
+TKT-01081,2026-08-16,how_to,urgent,Reset dashboard filters to default,0.4,1.6,0,
+TKT-01129,2026-08-16,integration,urgent,Shopify order import fails nightly,1.0,16.5,1,5
+TKT-01398,2026-08-16,login_bug,medium,Login page infinite loading spinner,43.1,16.6,1,4
+TKT-01134,2026-08-17,feature_request,low,Add CSV export for dashboards,15.4,90.5,0,
+TKT-01355,2026-08-17,login_bug,high,Account locked after 2FA attempts,1.4,11.6,1,4
+TKT-01471,2026-08-17,feature_request,high,Slack notifications for failed jobs,2.6,65.8,1,3
+TKT-00397,2026-08-18,billing,medium,Refund for order #89630 not received,12.0,8.6,1,4
+TKT-00689,2026-08-18,login_bug,urgent,Password reset link expires immediately,1.2,4.0,1,4
+TKT-00934,2026-08-18,feature_request,low,Webhook signing secret rotation UI,36.0,41.9,1,3
+TKT-01329,2026-08-18,feature_request,high,SAML support for enterprise plan,2.4,40.3,1,4
+TKT-00360,2026-08-19,billing,medium,Pricing tier discrepancy on renewal,17.2,11.4,1,4
+TKT-00418,2026-08-19,billing,urgent,Invoice PDF download broken,1.3,4.9,1,3
+TKT-00665,2026-08-19,how_to,medium,How to change the account email?,10.5,7.0,1,4
+TKT-00677,2026-08-19,how_to,medium,Where do I manage API keys?,9.9,3.6,0,
+TKT-00706,2026-08-19,login_bug,medium,Google sign-in fails with 500 error,7.8,12.3,0,
+TKT-01212,2026-08-19,login_bug,medium,Cannot reset password — email never arrives,12.0,21.6,1,4
+TKT-01462,2026-08-20,billing,high,Requesting annual plan discount,1.5,4.7,1,3
+TKT-00030,2026-08-21,billing,medium,Invoice VAT number is incorrect,12.5,5.8,1,4
+TKT-00268,2026-08-21,login_bug,urgent,Login page infinite loading spinner,0.8,6.1,1,4
+TKT-00547,2026-08-21,login_bug,high,403 error on login from new device,1.5,6.6,1,4
+TKT-00755,2026-08-21,billing,high,Invoice VAT number is incorrect,4.2,9.8,1,5
+TKT-00762,2026-08-21,feature_request,low,Bulk edit for user roles,25.9,32.5,1,4
+TKT-00062,2026-08-22,login_bug,low,Cannot log in after workspace merge,35.3,14.5,0,
+TKT-00285,2026-08-22,integration,high,HubSpot mapping ignores custom fields,2.6,30.3,1,4
+TKT-00643,2026-08-22,login_bug,urgent,Magic link opens a blank page,1.0,8.6,1,4
+TKT-00997,2026-08-22,how_to,medium,How do I invite teammates?,9.7,2.6,1,4
+TKT-01023,2026-08-22,how_to,low,Where can I find audit logs?,23.1,9.0,0,
+TKT-01224,2026-08-22,login_bug,high,Cannot reset password — email never arrives,4.2,12.2,1,5
+TKT-01395,2026-08-22,how_to,low,How to set up usage alerts?,32.0,6.5,1,5
+TKT-01485,2026-08-22,feature_request,high,SAML support for enterprise plan,2.3,29.9,1,4
+TKT-00955,2026-08-23,login_bug,urgent,Cannot log in after workspace merge,1.1,5.2,1,4
+TKT-01071,2026-08-23,how_to,low,How to change the account email?,45.9,13.5,1,5
+TKT-00187,2026-08-24,how_to,low,Reset dashboard filters to default,26.6,4.3,1,5
+TKT-00379,2026-08-24,login_bug,high,403 error on login from new device,1.4,8.9,1,4
+TKT-00571,2026-08-24,login_bug,urgent,Google sign-in fails with 500 error,1.2,5.2,1,4
+TKT-00139,2026-08-25,integration,high,Salesforce sync drops contact records,2.3,26.4,1,4
+TKT-01206,2026-08-25,billing,medium,Refund for order #59981 not received,11.5,20.2,1,3
+TKT-00176,2026-08-26,login_bug,urgent,Google sign-in fails with 500 error,1.4,12.0,0,
+TKT-00307,2026-08-26,billing,medium,Invoice PDF download broken,8.9,9.2,0,
+TKT-00495,2026-08-26,feature_request,low,Bulk edit for user roles,17.8,111.0,1,1
+TKT-00607,2026-08-26,billing,medium,Refund for order #72639 not received,8.1,10.1,1,4
+TKT-01059,2026-08-26,feature_request,low,Webhook signing secret rotation UI,13.3,50.1,0,
+TKT-00565,2026-08-27,how_to,high,Set up two-factor authentication,3.1,1.8,1,4
+TKT-01158,2026-08-27,login_bug,medium,403 error on login from new device,4.4,11.5,1,4
+TKT-01214,2026-08-27,billing,medium,Downgrade not applied to my bill,11.5,6.8,1,3
+TKT-01418,2026-08-27,login_bug,high,Two-factor codes rejected on mobile,2.6,7.1,1,4
+TKT-00010,2026-08-28,login_bug,medium,Account locked after 2FA attempts,7.6,27.5,1,2
+TKT-00273,2026-08-28,billing,low,Failed payment — card declined but subscription active,57.9,14.5,1,2
+TKT-00431,2026-08-28,how_to,medium,Reset dashboard filters to default,14.9,4.4,1,4
+TKT-00905,2026-08-28,integration,high,Salesforce sync drops contact records,3.2,30.9,0,
+TKT-00939,2026-08-28,billing,urgent,Pricing tier discrepancy on renewal,1.0,8.0,1,3
+TKT-00047,2026-08-29,how_to,urgent,Reset dashboard filters to default,1.4,1.7,1,4
+TKT-00049,2026-08-29,login_bug,high,Google sign-in fails with 500 error,2.2,7.7,1,4
+TKT-00124,2026-08-29,login_bug,medium,Google sign-in fails with 500 error,9.3,16.2,1,4
+TKT-00589,2026-08-29,login_bug,urgent,Login page infinite loading spinner,1.4,9.9,1,3
+TKT-00734,2026-08-29,login_bug,medium,Session expires every few minutes,23.5,21.7,1,4
+TKT-01128,2026-08-29,login_bug,high,Password reset link expires immediately,1.9,8.8,1,3
+TKT-00410,2026-08-30,feature_request,high,SAML support for enterprise plan,2.4,16.3,1,5
+TKT-00484,2026-08-30,login_bug,high,Account locked after 2FA attempts,1.4,39.4,1,3
+TKT-00815,2026-08-30,login_bug,medium,Session expires every few minutes,7.8,16.6,1,5
+TKT-00614,2026-08-31,how_to,low,Where do I manage API keys?,41.8,6.3,1,5
+TKT-01359,2026-08-31,integration,urgent,Salesforce sync drops contact records,0.7,29.8,1,3
+TKT-00087,2026-09-01,billing,urgent,Invoice VAT number is incorrect,1.3,5.8,1,3
+TKT-00221,2026-09-01,billing,low,Failed payment — card declined but subscription active,16.0,18.1,1,3
+TKT-00378,2026-09-01,feature_request,medium,Bulk edit for user roles,10.2,59.5,1,3
+TKT-00455,2026-09-01,how_to,medium,Set up two-factor authentication,6.6,2.0,1,5
+TKT-00695,2026-09-01,login_bug,medium,Account locked after 2FA attempts,9.7,15.5,1,4
+TKT-00749,2026-09-01,billing,medium,Failed payment — card declined but subscription active,7.8,27.6,1,4
+TKT-00925,2026-09-01,integration,low,HubSpot mapping ignores custom fields,46.8,70.6,1,4
+TKT-01445,2026-09-01,billing,high,Refund for order #85488 not received,3.5,6.6,1,4
+TKT-00079,2026-09-02,feature_request,medium,Slack notifications for failed jobs,5.6,40.3,0,
+TKT-00110,2026-09-02,how_to,low,Where can I find audit logs?,62.3,4.2,0,
+TKT-00320,2026-09-02,login_bug,low,Cannot log in after workspace merge,17.8,27.6,1,4
+TKT-00485,2026-09-02,how_to,high,Export data to Excel,2.1,4.8,1,5
+TKT-00515,2026-09-02,login_bug,medium,Cannot reset password — email never arrives,12.4,15.7,1,5
+TKT-00647,2026-09-02,billing,low,Failed payment — card declined but subscription active,30.7,13.1,1,4
+TKT-00829,2026-09-02,login_bug,high,Account locked after 2FA attempts,2.3,12.8,1,4
+TKT-01097,2026-09-02,login_bug,medium,Account locked after 2FA attempts,12.1,12.3,1,3
+TKT-01098,2026-09-02,billing,medium,Update credit card details fails,11.2,10.3,0,
+TKT-00430,2026-09-03,login_bug,high,Google sign-in fails with 500 error,2.9,19.9,1,3
+TKT-00721,2026-09-03,billing,high,Failed payment — card declined but subscription active,2.0,6.3,1,4
+TKT-01480,2026-09-03,login_bug,low,Cannot reset password — email never arrives,48.6,23.7,1,4
+TKT-00688,2026-09-04,feature_request,low,Dark mode support,77.5,62.7,0,
+TKT-00779,2026-09-04,billing,high,Downgrade not applied to my bill,4.5,5.3,1,4
+TKT-00831,2026-09-04,billing,high,Downgrade not applied to my bill,4.0,8.7,1,3
+TKT-01282,2026-09-04,feature_request,low,Add CSV export for dashboards,32.0,53.8,1,4
+TKT-01345,2026-09-04,login_bug,high,Cannot log in after workspace merge,1.8,12.6,1,5
+TKT-00018,2026-09-05,billing,low,Refund for order #63540 not received,32.3,18.1,1,3
+TKT-00112,2026-09-05,billing,medium,Charged after cancellation on 2026-07-10,16.3,10.9,1,3
+TKT-00330,2026-09-05,billing,medium,Double charged on invoice #93417,9.6,11.0,1,3
+TKT-00519,2026-09-05,login_bug,high,Session expires every few minutes,2.1,9.6,1,4
+TKT-00765,2026-09-05,how_to,low,How to archive old projects?,51.6,8.6,1,5
+TKT-00786,2026-09-05,how_to,medium,How do I invite teammates?,18.3,9.0,1,4
+TKT-00852,2026-09-05,billing,low,Cancel subscription and refund prorated amount,77.0,6.0,1,3
+TKT-01287,2026-09-05,billing,medium,Pricing tier discrepancy on renewal,9.4,9.6,1,3
+TKT-00226,2026-09-06,billing,medium,Invoice VAT number is incorrect,7.5,17.2,1,4
+TKT-00877,2026-09-06,integration,high,Stripe webhook signature mismatch,2.7,18.4,1,4
+TKT-00970,2026-09-06,how_to,high,How to change the account email?,2.7,1.9,1,5
+TKT-00474,2026-09-07,how_to,low,Where do I manage API keys?,37.3,4.0,1,4
+TKT-00912,2026-09-07,feature_request,low,Dark mode support,10.4,56.0,0,
+TKT-01162,2026-09-07,feature_request,urgent,Calendar sync for deadlines,1.5,19.7,1,4
+TKT-01419,2026-09-07,integration,medium,Jira two-way sync has stalled,15.4,62.9,1,4
+TKT-00287,2026-09-08,billing,medium,Update credit card details fails,6.5,7.9,1,5
+TKT-00470,2026-09-08,login_bug,urgent,403 error on login from new device,1.2,5.3,1,2
+TKT-00813,2026-09-08,login_bug,medium,Google sign-in fails with 500 error,10.5,10.5,1,4
+TKT-00875,2026-09-08,feature_request,high,SAML support for enterprise plan,2.8,37.6,0,
+TKT-00971,2026-09-08,login_bug,medium,Cannot reset password — email never arrives,5.6,11.1,1,3
+TKT-01191,2026-09-08,how_to,low,Reset dashboard filters to default,21.2,9.4,1,3
+TKT-00022,2026-09-09,how_to,medium,How to set up usage alerts?,5.6,2.8,1,5
+TKT-00208,2026-09-09,billing,high,Downgrade not applied to my bill,2.9,7.7,1,3
+TKT-01015,2026-09-09,login_bug,high,Two-factor codes rejected on mobile,6.6,9.5,1,4
+TKT-01172,2026-09-09,billing,low,Refund for order #25059 not received,51.3,23.6,1,3
+TKT-00180,2026-09-10,billing,high,Charged after cancellation on 2026-03-08,3.6,12.9,1,3
+TKT-00527,2026-09-10,feature_request,medium,Slack notifications for failed jobs,23.4,70.3,1,3
+TKT-00911,2026-09-10,how_to,low,Export data to Excel,48.6,6.4,1,5
+TKT-01423,2026-09-10,login_bug,low,Account locked after 2FA attempts,85.1,33.6,1,3
+TKT-01444,2026-09-10,billing,high,Pricing tier discrepancy on renewal,3.6,6.0,1,5
+TKT-00278,2026-09-11,feature_request,high,API rate limit increase request,1.8,19.2,0,
+TKT-00701,2026-09-11,integration,medium,OAuth token refresh fails silently,10.9,32.0,1,3
+TKT-00890,2026-09-11,how_to,medium,How do usage-based charges work?,15.6,1.8,1,4
+TKT-00977,2026-09-11,billing,medium,Downgrade not applied to my bill,6.9,11.1,1,3
+TKT-00220,2026-09-12,login_bug,medium,Google sign-in fails with 500 error,7.4,10.0,1,4
+TKT-00398,2026-09-12,integration,high,Stripe webhook signature mismatch,3.0,86.6,0,
+TKT-00412,2026-09-12,billing,medium,Charged after cancellation on 2025-10-24,10.5,10.9,1,3
+TKT-00768,2026-09-12,integration,urgent,Zapier webhook returns 401,0.9,30.8,1,4
+TKT-01276,2026-09-12,feature_request,medium,Slack notifications for failed jobs,9.5,83.7,0,
+TKT-00019,2026-09-13,feature_request,high,Add CSV export for dashboards,3.7,23.4,0,
+TKT-00174,2026-09-13,login_bug,high,Magic link opens a blank page,1.4,5.4,1,4
+TKT-00384,2026-09-13,billing,medium,Update credit card details fails,24.1,5.6,1,3
+TKT-00567,2026-09-13,login_bug,urgent,Google sign-in fails with 500 error,1.1,12.9,1,2
+TKT-00719,2026-09-13,how_to,medium,How do usage-based charges work?,17.2,2.8,1,4
+TKT-01291,2026-09-13,login_bug,high,Cannot log in after workspace merge,1.5,5.0,1,4
+TKT-01303,2026-09-13,feature_request,medium,Slack notifications for failed jobs,7.0,41.4,0,
+TKT-01380,2026-09-13,feature_request,medium,SAML support for enterprise plan,23.3,54.9,1,3
+TKT-01463,2026-09-13,billing,low,Refund for order #62682 not received,45.6,22.4,1,4
+TKT-00076,2026-09-14,billing,medium,Downgrade not applied to my bill,26.2,13.6,1,3
+TKT-00209,2026-09-14,billing,low,Failed payment — card declined but subscription active,35.1,9.5,1,4
+TKT-00531,2026-09-14,billing,high,Invoice VAT number is incorrect,3.1,7.8,1,4
+TKT-00775,2026-09-14,integration,medium,HubSpot mapping ignores custom fields,9.6,29.9,1,4
+TKT-00844,2026-09-14,login_bug,high,Login page infinite loading spinner,3.2,23.2,1,4
+TKT-00950,2026-09-14,how_to,low,Export data to Excel,39.5,4.6,1,5
+TKT-01232,2026-09-14,how_to,low,Reset dashboard filters to default,6.5,8.0,0,
+TKT-01361,2026-09-14,integration,high,API returns CORS errors from dashboard,3.2,22.7,1,4
+TKT-00178,2026-09-15,login_bug,high,Two-factor codes rejected on mobile,3.3,8.8,1,3
+TKT-00391,2026-09-15,how_to,low,How to change the account email?,31.3,9.5,1,4
+TKT-00633,2026-09-15,how_to,low,How do I invite teammates?,33.6,7.1,1,4
+TKT-00656,2026-09-15,billing,high,Requesting annual plan discount,2.7,9.9,1,3
+TKT-00830,2026-09-15,integration,high,API returns CORS errors from dashboard,2.0,42.6,1,3
+TKT-01490,2026-09-15,login_bug,high,Google sign-in fails with 500 error,4.1,6.4,1,3
+TKT-01461,2026-09-16,feature_request,medium,Webhook signing secret rotation UI,7.9,52.8,0,
+TKT-00335,2026-09-17,login_bug,urgent,Two-factor codes rejected on mobile,1.1,7.4,0,
+TKT-00659,2026-09-17,billing,medium,Update credit card details fails,8.7,11.3,0,
+TKT-01111,2026-09-17,login_bug,high,Magic link opens a blank page,2.8,5.5,1,3
+TKT-01155,2026-09-17,billing,medium,Failed payment — card declined but subscription active,10.8,9.3,0,
+TKT-01219,2026-09-17,feature_request,high,Webhook signing secret rotation UI,1.9,32.1,1,4
+TKT-01235,2026-09-17,login_bug,medium,Login page infinite loading spinner,7.7,21.7,0,
+TKT-01249,2026-09-17,feature_request,low,Bulk edit for user roles,24.5,24.3,0,
+TKT-01270,2026-09-17,billing,medium,Requesting annual plan discount,13.4,10.0,0,
+TKT-00096,2026-09-18,feature_request,low,Add CSV export for dashboards,52.0,72.4,0,
+TKT-00481,2026-09-18,integration,high,API returns CORS errors from dashboard,1.6,40.1,1,4
+TKT-01477,2026-09-18,billing,medium,Refund for order #61961 not received,7.3,7.8,1,3
+TKT-00050,2026-09-19,feature_request,high,Calendar sync for deadlines,2.1,47.3,1,3
+TKT-00065,2026-09-19,billing,medium,Failed payment — card declined but subscription active,5.7,8.7,0,
+TKT-00119,2026-09-19,billing,urgent,Refund for order #50885 not received,0.3,2.8,0,
+TKT-00181,2026-09-19,feature_request,high,SAML support for enterprise plan,2.0,34.6,0,
+TKT-00382,2026-09-19,login_bug,high,Magic link opens a blank page,2.6,11.4,0,
+TKT-00723,2026-09-19,feature_request,medium,Custom fields in reports,8.8,41.7,0,
+TKT-00743,2026-09-19,billing,medium,Double charged on invoice #34095,8.1,8.2,1,3
+TKT-01253,2026-09-19,feature_request,high,Slack notifications for failed jobs,2.1,56.9,1,4
+TKT-01369,2026-09-19,billing,urgent,Charged after cancellation on 2026-03-01,1.0,3.4,0,
+TKT-00363,2026-09-20,billing,high,Invoice VAT number is incorrect,5.8,3.7,1,3
+TKT-00889,2026-09-20,how_to,medium,Set up two-factor authentication,6.7,3.5,0,
+TKT-00942,2026-09-20,login_bug,medium,Login page infinite loading spinner,12.1,18.0,1,4
+TKT-01319,2026-09-20,billing,high,Invoice PDF download broken,4.5,4.9,0,
+TKT-01347,2026-09-20,how_to,low,Reset dashboard filters to default,95.5,3.7,1,4
+TKT-00563,2026-09-21,login_bug,urgent,SSO redirect loop after password change,0.4,7.4,1,4
+TKT-01332,2026-09-21,integration,medium,Zapier webhook returns 401,16.0,32.5,0,
+TKT-00631,2026-09-22,how_to,low,How to archive old projects?,20.7,9.4,1,5
+TKT-01049,2026-09-22,integration,high,Webhook retries create duplicate events,3.8,76.4,0,
+TKT-00053,2026-09-23,billing,urgent,Invoice PDF download broken,1.0,4.4,0,
+TKT-00328,2026-09-23,billing,medium,Charged after cancellation on 2025-12-17,7.3,14.8,0,
+TKT-01083,2026-09-23,how_to,low,Reset dashboard filters to default,32.3,6.8,1,5
+TKT-00161,2026-09-24,billing,medium,Charged after cancellation on 2026-08-05,7.7,8.6,1,4
+TKT-00280,2026-09-24,billing,urgent,Requesting annual plan discount,0.5,6.2,0,
+TKT-00471,2026-09-24,feature_request,high,Calendar sync for deadlines,1.8,11.3,1,4
+TKT-00525,2026-09-24,billing,high,Invoice PDF download broken,2.8,6.1,0,
+TKT-00615,2026-09-24,billing,medium,Invoice VAT number is incorrect,5.6,10.1,1,3
+TKT-00838,2026-09-24,feature_request,medium,Bulk edit for user roles,10.3,27.8,1,3
+TKT-01063,2026-09-24,login_bug,high,Password reset link expires immediately,4.4,6.0,0,
+TKT-01171,2026-09-24,how_to,medium,Where do I manage API keys?,19.9,3.4,1,4
+TKT-00023,2026-09-25,how_to,medium,Where do I manage API keys?,12.7,3.2,1,4
+TKT-00613,2026-09-25,billing,low,Cancel subscription and refund prorated amount,41.0,16.1,1,3
+TKT-00663,2026-09-25,billing,high,Refund for order #79073 not received,2.3,5.7,1,3
+TKT-01306,2026-09-25,billing,low,Refund for order #4967 not received,33.6,14.1,1,3
+TKT-01082,2026-09-26,login_bug,high,Cannot reset password — email never arrives,4.0,10.5,0,
+TKT-00014,2026-09-27,billing,medium,Double charged on invoice #54705,11.2,6.1,0,
+TKT-00216,2026-09-27,billing,high,Invoice VAT number is incorrect,1.5,4.7,0,
+TKT-00744,2026-09-27,how_to,low,Export data to Excel,27.0,1.8,1,5
+TKT-01028,2026-09-27,login_bug,medium,Account locked after 2FA attempts,10.7,12.3,0,
+TKT-01255,2026-09-27,billing,medium,Charged after cancellation on 2026-03-05,6.8,8.2,1,4
+TKT-00149,2026-09-28,billing,medium,Invoice PDF download broken,6.0,16.5,1,4
+TKT-01054,2026-09-28,how_to,low,How to set up usage alerts?,61.8,4.6,1,5
+TKT-01120,2026-09-28,login_bug,high,Account locked after 2FA attempts,4.2,7.0,0,
+TKT-01207,2026-09-28,billing,medium,Unexpected overage charges this month,11.0,16.0,1,4
+TKT-00127,2026-09-29,billing,low,Failed payment — card declined but subscription active,40.1,13.6,0,
+TKT-00433,2026-09-29,billing,medium,Pricing tier discrepancy on renewal,12.6,15.5,0,
+TKT-00603,2026-09-29,how_to,low,Set up two-factor authentication,20.4,3.5,1,5
+TKT-00865,2026-09-29,how_to,low,Export data to Excel,72.1,4.5,1,5
+TKT-01053,2026-09-29,feature_request,medium,Dark mode support,6.0,36.9,0,
+TKT-01256,2026-09-29,feature_request,low,Add CSV export for dashboards,42.4,54.6,1,4
+TKT-01376,2026-09-29,billing,medium,Invoice PDF download broken,9.7,28.4,1,4

@@ -1,0 +1,13 @@
+order_id,channel,spend,conversions,notes
+1,paid,120.5,4,ok
+2,organic,,7,missing spend
+3,paid,80,,
+4,organic,60.25,2,late
+5,,40,1,missing channel
+6,paid,300,9,fine
+7,referral,55,2,ok
+8,organic,0,0,zero spend
+9,paid,145.75,6,ok
+10,referral,,3,missing spend
+11,organic,95.5,5,ok
+12,paid,210,8,ok

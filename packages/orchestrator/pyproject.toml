@@ -1,0 +1,36 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "agentforge-orchestrator"
+version = "0.1.0"
+description = "AgentForge orchestration engine: planner -> specialist AI agents (researcher/analyst/forecaster/critic) -> critic revision loop, with pinned event streaming and token/cost accounting."
+readme = "NOTES.md"
+requires-python = ">=3.11"
+license = { text = "MIT" }
+authors = [{ name = "AgentForge Team (ForgeHacks Online 2026)" }]
+keywords = ["agents", "orchestration", "llm", "planner", "critic", "agentforge"]
+dependencies = [
+    "httpx>=0.27",
+    "pydantic>=2.5",
+]
+
+[project.optional-dependencies]
+dev = ["pytest>=8.0"]
+report = ["fpdf2>=2.7", "markdown>=3.5"]
+
+[tool.setuptools.packages.find]
+# src layout per docs/INTERFACES.md: the import package `orchestrator` lives
+# directly under packages/orchestrator/. Subpackages present in the tree
+# (agents, examples, report by Agent 6, templates by Agent 8) are picked up
+# automatically by the `orchestrator*` include pattern.
+where = ["."]
+include = ["orchestrator*"]
+exclude = [
+    "orchestrator.report.tests",
+    "orchestrator.report.tests.*",
+]
+
+[tool.setuptools.package-data]
+orchestrator = ["py.typed", "examples/data/*.csv"]

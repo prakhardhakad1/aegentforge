@@ -1,0 +1,739 @@
+{
+  "run": {
+    "id": "5c1e8a2f-93b4-4d17-ae55-6f0c2b9d8e41",
+    "mission_id": "m-7d3f2a01-5c6b-4e29-9a18-0b7c4d5e6f70",
+    "status": "succeeded",
+    "created_at": "2026-10-05T14:00:00Z",
+    "finished_at": "2026-10-05T14:06:12Z",
+    "mode": "demo",
+    "template_id": "market_research_team",
+    "error": null,
+    "error_stage": null
+  },
+  "mission": {
+    "id": "m-7d3f2a01-5c6b-4e29-9a18-0b7c4d5e6f70",
+    "goal": "Assess whether there is demand for a subscription meal-planning app in mid-size US cities and recommend a launch position.",
+    "template_id": "market_research_team",
+    "dataset_id": "ds-sample-01",
+    "created_at": "2026-10-05T13:58:41Z"
+  },
+  "events": [
+    {
+      "type": "run_started",
+      "run_id": "5c1e8a2f-93b4-4d17-ae55-6f0c2b9d8e41",
+      "seq": 1,
+      "ts": "2026-10-05T14:00:01Z",
+      "agent": null,
+      "payload": {
+        "mode": "demo",
+        "template_id": "market_research_team"
+      }
+    },
+    {
+      "type": "plan_created",
+      "run_id": "5c1e8a2f-93b4-4d17-ae55-6f0c2b9d8e41",
+      "seq": 2,
+      "ts": "2026-10-05T14:00:02Z",
+      "agent": "planner",
+      "payload": {
+        "subtasks": [
+          {
+            "id": "st1",
+            "title": "Frame the research questions and plan",
+            "agent": "planner",
+            "depends_on": [],
+            "status": "completed"
+          },
+          {
+            "id": "st2",
+            "title": "Gather market and competitor context",
+            "agent": "researcher",
+            "depends_on": [
+              "st1"
+            ],
+            "status": "completed"
+          },
+          {
+            "id": "st3",
+            "title": "Profile the dataset and extract trends",
+            "agent": "analyst",
+            "depends_on": [
+              "st1"
+            ],
+            "status": "completed"
+          },
+          {
+            "id": "st4",
+            "title": "Project demand trend for the next period",
+            "agent": "forecaster",
+            "depends_on": [
+              "st3"
+            ],
+            "status": "completed"
+          },
+          {
+            "id": "st5",
+            "title": "Stress-test claims and rank recommendations",
+            "agent": "critic",
+            "depends_on": [
+              "st2",
+              "st3",
+              "st4"
+            ],
+            "status": "completed"
+          }
+        ]
+      }
+    },
+    {
+      "type": "token_update",
+      "run_id": "5c1e8a2f-93b4-4d17-ae55-6f0c2b9d8e41",
+      "seq": 3,
+      "ts": "2026-10-05T14:00:03Z",
+      "agent": "planner",
+      "payload": {
+        "agent": "planner",
+        "input_tokens": 910,
+        "output_tokens": 240,
+        "cost_usd": 0.0001265,
+        "run_total_usd": 0.0001265
+      }
+    },
+    {
+      "type": "agent_started",
+      "run_id": "5c1e8a2f-93b4-4d17-ae55-6f0c2b9d8e41",
+      "seq": 4,
+      "ts": "2026-10-05T14:00:04Z",
+      "agent": "planner",
+      "payload": {
+        "subtask_id": "st1",
+        "title": "Frame the research questions and plan"
+      }
+    },
+    {
+      "type": "thought_summary",
+      "run_id": "5c1e8a2f-93b4-4d17-ae55-6f0c2b9d8e41",
+      "seq": 5,
+      "ts": "2026-10-05T14:00:05Z",
+      "agent": "planner",
+      "payload": {
+        "subtask_id": "st1",
+        "summary": "Working on: frame the research questions and plan — staying within the dataset and verified sources."
+      }
+    },
+    {
+      "type": "tool_call",
+      "run_id": "5c1e8a2f-93b4-4d17-ae55-6f0c2b9d8e41",
+      "seq": 6,
+      "ts": "2026-10-05T14:00:06Z",
+      "agent": "planner",
+      "payload": {
+        "subtask_id": "st1",
+        "tool": "llm_complete",
+        "args_summary": "summarize context",
+        "ok": true
+      }
+    },
+    {
+      "type": "tool_result",
+      "run_id": "5c1e8a2f-93b4-4d17-ae55-6f0c2b9d8e41",
+      "seq": 7,
+      "ts": "2026-10-05T14:00:07Z",
+      "agent": "planner",
+      "payload": {
+        "subtask_id": "st1",
+        "tool": "llm_complete",
+        "args_summary": "ok",
+        "ok": true
+      }
+    },
+    {
+      "type": "token_update",
+      "run_id": "5c1e8a2f-93b4-4d17-ae55-6f0c2b9d8e41",
+      "seq": 8,
+      "ts": "2026-10-05T14:00:08Z",
+      "agent": "planner",
+      "payload": {
+        "agent": "planner",
+        "input_tokens": 1240,
+        "output_tokens": 380,
+        "cost_usd": 0.0001782,
+        "run_total_usd": 0.0003047
+      }
+    },
+    {
+      "type": "step_completed",
+      "run_id": "5c1e8a2f-93b4-4d17-ae55-6f0c2b9d8e41",
+      "seq": 9,
+      "ts": "2026-10-05T14:00:09Z",
+      "agent": "planner",
+      "payload": {
+        "subtask_id": "st1"
+      }
+    },
+    {
+      "type": "agent_finished",
+      "run_id": "5c1e8a2f-93b4-4d17-ae55-6f0c2b9d8e41",
+      "seq": 10,
+      "ts": "2026-10-05T14:00:10Z",
+      "agent": "planner",
+      "payload": {
+        "subtask_id": "st1"
+      }
+    },
+    {
+      "type": "agent_started",
+      "run_id": "5c1e8a2f-93b4-4d17-ae55-6f0c2b9d8e41",
+      "seq": 11,
+      "ts": "2026-10-05T14:00:11Z",
+      "agent": "researcher",
+      "payload": {
+        "subtask_id": "st2",
+        "title": "Gather market and competitor context"
+      }
+    },
+    {
+      "type": "thought_summary",
+      "run_id": "5c1e8a2f-93b4-4d17-ae55-6f0c2b9d8e41",
+      "seq": 12,
+      "ts": "2026-10-05T14:00:12Z",
+      "agent": "researcher",
+      "payload": {
+        "subtask_id": "st2",
+        "summary": "Working on: gather market and competitor context — staying within the dataset and verified sources."
+      }
+    },
+    {
+      "type": "tool_call",
+      "run_id": "5c1e8a2f-93b4-4d17-ae55-6f0c2b9d8e41",
+      "seq": 13,
+      "ts": "2026-10-05T14:00:13Z",
+      "agent": "researcher",
+      "payload": {
+        "subtask_id": "st2",
+        "tool": "llm_complete",
+        "args_summary": "summarize context",
+        "ok": true
+      }
+    },
+    {
+      "type": "tool_result",
+      "run_id": "5c1e8a2f-93b4-4d17-ae55-6f0c2b9d8e41",
+      "seq": 14,
+      "ts": "2026-10-05T14:00:14Z",
+      "agent": "researcher",
+      "payload": {
+        "subtask_id": "st2",
+        "tool": "llm_complete",
+        "args_summary": "ok",
+        "ok": true
+      }
+    },
+    {
+      "type": "token_update",
+      "run_id": "5c1e8a2f-93b4-4d17-ae55-6f0c2b9d8e41",
+      "seq": 15,
+      "ts": "2026-10-05T14:00:15Z",
+      "agent": "researcher",
+      "payload": {
+        "agent": "researcher",
+        "input_tokens": 1240,
+        "output_tokens": 380,
+        "cost_usd": 0.0001782,
+        "run_total_usd": 0.0004829
+      }
+    },
+    {
+      "type": "step_completed",
+      "run_id": "5c1e8a2f-93b4-4d17-ae55-6f0c2b9d8e41",
+      "seq": 16,
+      "ts": "2026-10-05T14:00:16Z",
+      "agent": "researcher",
+      "payload": {
+        "subtask_id": "st2"
+      }
+    },
+    {
+      "type": "agent_finished",
+      "run_id": "5c1e8a2f-93b4-4d17-ae55-6f0c2b9d8e41",
+      "seq": 17,
+      "ts": "2026-10-05T14:00:17Z",
+      "agent": "researcher",
+      "payload": {
+        "subtask_id": "st2"
+      }
+    },
+    {
+      "type": "agent_started",
+      "run_id": "5c1e8a2f-93b4-4d17-ae55-6f0c2b9d8e41",
+      "seq": 18,
+      "ts": "2026-10-05T14:00:18Z",
+      "agent": "analyst",
+      "payload": {
+        "subtask_id": "st3",
+        "title": "Profile the dataset and extract trends"
+      }
+    },
+    {
+      "type": "thought_summary",
+      "run_id": "5c1e8a2f-93b4-4d17-ae55-6f0c2b9d8e41",
+      "seq": 19,
+      "ts": "2026-10-05T14:00:19Z",
+      "agent": "analyst",
+      "payload": {
+        "subtask_id": "st3",
+        "summary": "Working on: profile the dataset and extract trends — staying within the dataset and verified sources."
+      }
+    },
+    {
+      "type": "tool_call",
+      "run_id": "5c1e8a2f-93b4-4d17-ae55-6f0c2b9d8e41",
+      "seq": 20,
+      "ts": "2026-10-05T14:00:20Z",
+      "agent": "analyst",
+      "payload": {
+        "subtask_id": "st3",
+        "tool": "csv_analyzer",
+        "args_summary": "profile columns, dtypes, trends",
+        "ok": true
+      }
+    },
+    {
+      "type": "tool_result",
+      "run_id": "5c1e8a2f-93b4-4d17-ae55-6f0c2b9d8e41",
+      "seq": 21,
+      "ts": "2026-10-05T14:00:21Z",
+      "agent": "analyst",
+      "payload": {
+        "subtask_id": "st3",
+        "tool": "csv_analyzer",
+        "args_summary": "ok",
+        "ok": true
+      }
+    },
+    {
+      "type": "artifact_created",
+      "run_id": "5c1e8a2f-93b4-4d17-ae55-6f0c2b9d8e41",
+      "seq": 22,
+      "ts": "2026-10-05T14:00:22Z",
+      "agent": "analyst",
+      "payload": {
+        "subtask_id": "st3",
+        "artifact_id": "art-mkt-1",
+        "kind": "table",
+        "name": "monthly_signups_trend",
+        "summary": "Monthly signups and MoM growth from the sample CSV"
+      }
+    },
+    {
+      "type": "artifact_created",
+      "run_id": "5c1e8a2f-93b4-4d17-ae55-6f0c2b9d8e41",
+      "seq": 23,
+      "ts": "2026-10-05T14:00:23Z",
+      "agent": "analyst",
+      "payload": {
+        "subtask_id": "st3",
+        "artifact_id": "art-mkt-2",
+        "kind": "chart",
+        "name": "signups_by_city_size",
+        "summary": "Bar chart: signups by city size tier"
+      }
+    },
+    {
+      "type": "token_update",
+      "run_id": "5c1e8a2f-93b4-4d17-ae55-6f0c2b9d8e41",
+      "seq": 24,
+      "ts": "2026-10-05T14:00:24Z",
+      "agent": "analyst",
+      "payload": {
+        "agent": "analyst",
+        "input_tokens": 1240,
+        "output_tokens": 380,
+        "cost_usd": 0.0001782,
+        "run_total_usd": 0.0006611
+      }
+    },
+    {
+      "type": "step_completed",
+      "run_id": "5c1e8a2f-93b4-4d17-ae55-6f0c2b9d8e41",
+      "seq": 25,
+      "ts": "2026-10-05T14:00:25Z",
+      "agent": "analyst",
+      "payload": {
+        "subtask_id": "st3"
+      }
+    },
+    {
+      "type": "agent_finished",
+      "run_id": "5c1e8a2f-93b4-4d17-ae55-6f0c2b9d8e41",
+      "seq": 26,
+      "ts": "2026-10-05T14:00:26Z",
+      "agent": "analyst",
+      "payload": {
+        "subtask_id": "st3"
+      }
+    },
+    {
+      "type": "agent_started",
+      "run_id": "5c1e8a2f-93b4-4d17-ae55-6f0c2b9d8e41",
+      "seq": 27,
+      "ts": "2026-10-05T14:00:27Z",
+      "agent": "forecaster",
+      "payload": {
+        "subtask_id": "st4",
+        "title": "Project demand trend for the next period"
+      }
+    },
+    {
+      "type": "thought_summary",
+      "run_id": "5c1e8a2f-93b4-4d17-ae55-6f0c2b9d8e41",
+      "seq": 28,
+      "ts": "2026-10-05T14:00:28Z",
+      "agent": "forecaster",
+      "payload": {
+        "subtask_id": "st4",
+        "summary": "Working on: project demand trend for the next period — staying within the dataset and verified sources."
+      }
+    },
+    {
+      "type": "tool_call",
+      "run_id": "5c1e8a2f-93b4-4d17-ae55-6f0c2b9d8e41",
+      "seq": 29,
+      "ts": "2026-10-05T14:00:29Z",
+      "agent": "forecaster",
+      "payload": {
+        "subtask_id": "st4",
+        "tool": "llm_complete",
+        "args_summary": "summarize context",
+        "ok": true
+      }
+    },
+    {
+      "type": "tool_result",
+      "run_id": "5c1e8a2f-93b4-4d17-ae55-6f0c2b9d8e41",
+      "seq": 30,
+      "ts": "2026-10-05T14:00:30Z",
+      "agent": "forecaster",
+      "payload": {
+        "subtask_id": "st4",
+        "tool": "llm_complete",
+        "args_summary": "ok",
+        "ok": true
+      }
+    },
+    {
+      "type": "artifact_created",
+      "run_id": "5c1e8a2f-93b4-4d17-ae55-6f0c2b9d8e41",
+      "seq": 31,
+      "ts": "2026-10-05T14:00:31Z",
+      "agent": "forecaster",
+      "payload": {
+        "subtask_id": "st4",
+        "artifact_id": "art-mkt-3",
+        "kind": "prediction",
+        "name": "demand_forecast",
+        "summary": "Linear-trend projection of signups for the next 2 periods (confidence 0.62)"
+      }
+    },
+    {
+      "type": "token_update",
+      "run_id": "5c1e8a2f-93b4-4d17-ae55-6f0c2b9d8e41",
+      "seq": 32,
+      "ts": "2026-10-05T14:00:32Z",
+      "agent": "forecaster",
+      "payload": {
+        "agent": "forecaster",
+        "input_tokens": 1240,
+        "output_tokens": 380,
+        "cost_usd": 0.0001782,
+        "run_total_usd": 0.0008393
+      }
+    },
+    {
+      "type": "step_completed",
+      "run_id": "5c1e8a2f-93b4-4d17-ae55-6f0c2b9d8e41",
+      "seq": 33,
+      "ts": "2026-10-05T14:00:33Z",
+      "agent": "forecaster",
+      "payload": {
+        "subtask_id": "st4"
+      }
+    },
+    {
+      "type": "agent_finished",
+      "run_id": "5c1e8a2f-93b4-4d17-ae55-6f0c2b9d8e41",
+      "seq": 34,
+      "ts": "2026-10-05T14:00:34Z",
+      "agent": "forecaster",
+      "payload": {
+        "subtask_id": "st4"
+      }
+    },
+    {
+      "type": "agent_started",
+      "run_id": "5c1e8a2f-93b4-4d17-ae55-6f0c2b9d8e41",
+      "seq": 35,
+      "ts": "2026-10-05T14:00:35Z",
+      "agent": "critic",
+      "payload": {
+        "subtask_id": "st5",
+        "title": "Stress-test claims and rank recommendations"
+      }
+    },
+    {
+      "type": "thought_summary",
+      "run_id": "5c1e8a2f-93b4-4d17-ae55-6f0c2b9d8e41",
+      "seq": 36,
+      "ts": "2026-10-05T14:00:36Z",
+      "agent": "critic",
+      "payload": {
+        "subtask_id": "st5",
+        "summary": "Working on: stress-test claims and rank recommendations — staying within the dataset and verified sources."
+      }
+    },
+    {
+      "type": "tool_call",
+      "run_id": "5c1e8a2f-93b4-4d17-ae55-6f0c2b9d8e41",
+      "seq": 37,
+      "ts": "2026-10-05T14:00:37Z",
+      "agent": "critic",
+      "payload": {
+        "subtask_id": "st5",
+        "tool": "llm_complete",
+        "args_summary": "summarize context",
+        "ok": true
+      }
+    },
+    {
+      "type": "tool_result",
+      "run_id": "5c1e8a2f-93b4-4d17-ae55-6f0c2b9d8e41",
+      "seq": 38,
+      "ts": "2026-10-05T14:00:38Z",
+      "agent": "critic",
+      "payload": {
+        "subtask_id": "st5",
+        "tool": "llm_complete",
+        "args_summary": "ok",
+        "ok": true
+      }
+    },
+    {
+      "type": "token_update",
+      "run_id": "5c1e8a2f-93b4-4d17-ae55-6f0c2b9d8e41",
+      "seq": 39,
+      "ts": "2026-10-05T14:00:39Z",
+      "agent": "critic",
+      "payload": {
+        "agent": "critic",
+        "input_tokens": 1240,
+        "output_tokens": 380,
+        "cost_usd": 0.0001782,
+        "run_total_usd": 0.0010175
+      }
+    },
+    {
+      "type": "step_completed",
+      "run_id": "5c1e8a2f-93b4-4d17-ae55-6f0c2b9d8e41",
+      "seq": 40,
+      "ts": "2026-10-05T14:00:40Z",
+      "agent": "critic",
+      "payload": {
+        "subtask_id": "st5"
+      }
+    },
+    {
+      "type": "agent_finished",
+      "run_id": "5c1e8a2f-93b4-4d17-ae55-6f0c2b9d8e41",
+      "seq": 41,
+      "ts": "2026-10-05T14:00:41Z",
+      "agent": "critic",
+      "payload": {
+        "subtask_id": "st5"
+      }
+    },
+    {
+      "type": "run_finished",
+      "run_id": "5c1e8a2f-93b4-4d17-ae55-6f0c2b9d8e41",
+      "seq": 42,
+      "ts": "2026-10-05T14:00:42Z",
+      "agent": null,
+      "payload": {
+        "report_ready": true
+      }
+    }
+  ],
+  "artifacts": [
+    {
+      "id": "art-mkt-1",
+      "run_id": "5c1e8a2f-93b4-4d17-ae55-6f0c2b9d8e41",
+      "subtask_id": "st3",
+      "kind": "table",
+      "name": "monthly_signups_trend",
+      "summary": "Monthly signups and MoM growth from the sample CSV",
+      "path": null,
+      "payload": {
+        "columns": [
+          "month",
+          "signups",
+          "mom_growth_pct"
+        ]
+      },
+      "created_at": "2026-10-05T14:02:10Z"
+    },
+    {
+      "id": "art-mkt-2",
+      "run_id": "5c1e8a2f-93b4-4d17-ae55-6f0c2b9d8e41",
+      "subtask_id": "st3",
+      "kind": "chart",
+      "name": "signups_by_city_size",
+      "summary": "Bar chart: signups by city size tier",
+      "path": null,
+      "payload": {
+        "chart": {
+          "id": "chart_1",
+          "kind": "bar",
+          "title": "Signups by city size"
+        }
+      },
+      "created_at": "2026-10-05T14:02:48Z"
+    },
+    {
+      "id": "art-mkt-3",
+      "run_id": "5c1e8a2f-93b4-4d17-ae55-6f0c2b9d8e41",
+      "subtask_id": "st4",
+      "kind": "prediction",
+      "name": "demand_forecast",
+      "summary": "Linear-trend projection of signups for the next 2 periods (confidence 0.62)",
+      "path": null,
+      "payload": {
+        "confidence": 0.62
+      },
+      "created_at": "2026-10-05T14:03:55Z"
+    }
+  ],
+  "token_usage": {
+    "per_agent": {
+      "planner": {
+        "input_tokens": 910,
+        "output_tokens": 240,
+        "cost_usd": 0.0001265
+      },
+      "researcher": {
+        "input_tokens": 1240,
+        "output_tokens": 380,
+        "cost_usd": 0.0001782
+      },
+      "analyst": {
+        "input_tokens": 1610,
+        "output_tokens": 520,
+        "cost_usd": 0.0002343
+      },
+      "forecaster": {
+        "input_tokens": 1180,
+        "output_tokens": 310,
+        "cost_usd": 0.0001639
+      },
+      "critic": {
+        "input_tokens": 1520,
+        "output_tokens": 460,
+        "cost_usd": 0.0002178
+      }
+    },
+    "totals": {
+      "input_tokens": 6460,
+      "output_tokens": 1910,
+      "cost_usd": 0.0009207
+    }
+  },
+  "report": {
+    "title": "Demand Assessment — Subscription Meal-Planning App (Mid-Size US Cities)",
+    "mission": "Assess whether there is demand for a subscription meal-planning app in mid-size US cities and recommend a launch position.",
+    "style": "market_research",
+    "executive_summary": "Sample-data trends show steady signup growth concentrated in mid-size cities, with weeknight dinner planning as the dominant stated use case. Demand signals are moderate, not proven: the dataset is small and the forecast carries wide uncertainty.",
+    "insights": [
+      {
+        "title": "Mid-size cities drive the majority of sample signups",
+        "detail": "City-size tier breakdown shows the mid-size tier leading.",
+        "evidence": [
+          "signups_by_city_size table",
+          "sample CSV rows 1-240"
+        ],
+        "strength": "medium"
+      },
+      {
+        "title": "Signups grow month over month in the sample window",
+        "detail": "MoM growth is positive across all six sample months.",
+        "evidence": [
+          "monthly_signups_trend table"
+        ],
+        "strength": "medium"
+      },
+      {
+        "title": "Competitor set is fragmented",
+        "detail": "Researcher found no single dominant incumbent in the stated niche (web sources, unverified beyond top results).",
+        "evidence": [
+          "researcher summary"
+        ],
+        "strength": "low"
+      }
+    ],
+    "charts": [
+      {
+        "id": "chart_1",
+        "kind": "bar",
+        "title": "Signups by city size",
+        "x_label": "City size tier",
+        "y_label": "Signups",
+        "data": [
+          {
+            "label": "small",
+            "x": 1,
+            "y": 410
+          },
+          {
+            "label": "mid",
+            "x": 2,
+            "y": 980
+          },
+          {
+            "label": "large",
+            "x": 3,
+            "y": 760
+          }
+        ],
+        "notes": "Sample data; illustrative."
+      }
+    ],
+    "predictions": [
+      {
+        "claim": "Signups continue a modest upward trend next period",
+        "confidence": 0.62,
+        "basis": "Linear trend over six sample months"
+      }
+    ],
+    "recommendations": [
+      {
+        "title": "Pilot in two mid-size metros",
+        "action": "Run a 6-week paid pilot targeting the mid-size tier.",
+        "expected_impact": "Validates demand signal before broader spend",
+        "effort": "M",
+        "priority": 1
+      },
+      {
+        "title": "Sharpen weeknight-dinner positioning",
+        "action": "Test messaging around weeknight dinner planning in landing copy.",
+        "expected_impact": "Higher signup conversion from stated intent",
+        "effort": "S",
+        "priority": 2
+      },
+      {
+        "title": "Grow the sample before scaling forecasts",
+        "action": "Collect another 2-3 months of data to tighten the forecast interval.",
+        "expected_impact": "Reduces forecast uncertainty for the launch decision",
+        "effort": "S",
+        "priority": 3
+      }
+    ],
+    "appendix": "Generated in demo mode with deterministic sample data (LLM_MODE=mock)."
+  }
+}

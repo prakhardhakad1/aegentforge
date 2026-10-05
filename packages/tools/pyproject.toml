@@ -1,0 +1,29 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "agentforge-tools"
+version = "0.1.0"
+description = "AgentForge tool layer: sandboxed code execution, workspace file tools, CSV analysis, chart rendering, and web search for specialist AI agents."
+readme = "NOTES.md"
+requires-python = ">=3.11"
+license = { text = "MIT" }
+authors = [{ name = "AgentForge Team (ForgeHacks Online 2026)" }]
+keywords = ["agents", "tools", "sandbox", "csv", "charts", "agentforge"]
+dependencies = [
+    "pandas>=2.0",
+    "matplotlib>=3.8",
+    "pydantic>=2.5",
+    "httpx>=0.27",
+]
+
+[project.optional-dependencies]
+dev = ["pytest>=8.0"]
+
+[tool.setuptools]
+# src layout: the import package lives directly under packages/tools/
+packages = ["agentforge_tools"]
+
+[tool.setuptools.package-data]
+agentforge_tools = ["py.typed"]
