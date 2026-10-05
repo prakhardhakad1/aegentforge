@@ -36,7 +36,7 @@ mode (say so on screen — `docs/launch/` copy already discloses it).
 
 ### 4. Push the repo to GitHub (public)
 ```bash
-cd ~/workspace/forgehacks-agentforge/agentforge
+cd /d/projects/agentforge
 git remote add origin https://github.com/prakhardhakad1/agentforge.git
 git push -u origin main
 ```
